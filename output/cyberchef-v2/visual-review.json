@@ -1,0 +1,31 @@
+{
+  "sha256": "c1fbba52259e4c523d78bd5c58cca9a2974e262f5f34f4f269dc0c61677e81d4",
+  "reviewedAt": "2026-11-09T16:26:51.497859+00:00",
+  "reviewer": "assistant encoded-frame visual inspection",
+  "status": "passed-with-notes",
+  "inspected": [
+    "first frame",
+    "1s",
+    "3s",
+    "5s resolved transformation",
+    "tool introduction",
+    "10.5s pasted input",
+    "14.8s real recipe operation",
+    "result reveal",
+    "both educational beats",
+    "CTA",
+    "final frame"
+  ],
+  "findings": [
+    "First frame has a large visible encoded subject; no startup loading frames.",
+    "Fictional illustration resolves to the example, then actual official app footage supplies the evidence.",
+    "Pixel-aligned input/recipe range corrected an empty-field timing error. A highlight that crossed text was removed from the input shot.",
+    "Main captions and titles remain readable in sampled frames; 9 browser geometry samples passed bounds/overlap checks.",
+    "Original v1 SHA-256 remains unchanged."
+  ],
+  "limits": [
+    "Representative frames do not establish every-frame aesthetic quality.",
+    "Audio-input audition is unsupported; perceptual music/voice review remains pending.",
+    "Low-resolution mobile recording landmarks remain ambiguous; mobile variant is preview-tested, not approved for a full production release."
+  ]
+}

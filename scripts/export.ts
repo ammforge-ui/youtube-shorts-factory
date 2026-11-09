@@ -40,6 +40,8 @@ run("tar", [
   "assets",
   "data/test-topic.json",
   "data/research-candidates.json",
+  "data/cyberchef-v2.json",
+  "data/preview-v2.json",
   "docs",
   "public/fonts",
 ]);

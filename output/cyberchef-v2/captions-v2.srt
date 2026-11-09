@@ -1,0 +1,83 @@
+1
+00:00:00,000 --> 00:00:02,000
+This strange text says something
+
+2
+00:00:02,000 --> 00:00:02,600
+simple.
+
+3
+00:00:02,600 --> 00:00:04,040
+Meet me on Mars.
+
+4
+00:00:04,040 --> 00:00:05,230
+It is just a fictional
+
+5
+00:00:05,230 --> 00:00:05,970
+message.
+
+6
+00:00:05,970 --> 00:00:06,900
+Here is how to read
+
+7
+00:00:06,900 --> 00:00:08,130
+it with CyberChef,
+
+8
+00:00:08,130 --> 00:00:09,820
+a free browser toolbox.
+
+9
+00:00:09,820 --> 00:00:11,480
+Paste the encoded text
+
+10
+00:00:11,480 --> 00:00:12,350
+into Input.
+
+11
+00:00:12,350 --> 00:00:14,230
+Find From Base64,
+
+12
+00:00:14,230 --> 00:00:14,850
+and add it to
+
+13
+00:00:14,850 --> 00:00:15,710
+the recipe.
+
+14
+00:00:15,710 --> 00:00:17,750
+Auto Bake reveals the original
+
+15
+00:00:17,750 --> 00:00:18,520
+message.
+
+16
+00:00:18,520 --> 00:00:20,380
+No password was cracked.
+
+17
+00:00:20,380 --> 00:00:22,390
+Base64 is encoding,
+
+18
+00:00:22,390 --> 00:00:23,390
+not encryption.
+
+19
+00:00:23,390 --> 00:00:24,930
+It changes the format,
+
+20
+00:00:24,930 --> 00:00:26,360
+but adds no secrecy.
+
+21
+00:00:26,360 --> 00:00:27,960
+Save this tool for later.

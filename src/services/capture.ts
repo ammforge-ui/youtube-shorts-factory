@@ -3,7 +3,10 @@ import fs from "node:fs";
 import path from "node:path";
 import { createServer } from "node:http";
 import { json, run } from "./system";
-export async function capture(out: string) {
+export async function capture(
+  out: string,
+  options: { message?: string; premium?: boolean } = {},
+) {
   const root = process.env.CYBERCHEF_DIR || "/workspace/tools/cyberchef";
   const server = createServer((req, res) => {
     const p = path.join(
@@ -40,8 +43,10 @@ export async function capture(out: string) {
   const evidence: any = {
     version: "11.5.0",
     mode: "official release served locally",
-    input: Buffer.from("Build something useful.").toString("base64"),
-    expected: "Build something useful.",
+    input: Buffer.from(options.message || "Build something useful.").toString(
+      "base64",
+    ),
+    expected: options.message || "Build something useful.",
     captures: [],
   };
   try {
@@ -78,23 +83,59 @@ export async function capture(out: string) {
           content:
             ".cm-content {font-size:28px !important;line-height:1.5 !important;}",
         });
+      if (options.premium)
+        await page.addStyleTag({
+          content:
+            ".cm-content{font-size:20px !important;line-height:1.4 !important;}",
+        });
       await page.waitForTimeout(800);
       const readyAt = (Date.now() - recordStarted) / 1000;
+      const coordinateScale =
+        (page.viewportSize()?.width || 1000) /
+        (await page.evaluate(() => window.innerWidth));
+      const toPixels = (r: any) =>
+        r
+          ? {
+              x: r.x * coordinateScale,
+              y: r.y * coordinateScale,
+              width: r.width * coordinateScale,
+              height: r.height * coordinateScale,
+            }
+          : null;
+      const timeline: Record<string, number> = { ready: readyAt };
+      const targets: Record<string, unknown> = {};
+      for (const [key, selector] of Object.entries({
+        input: "#input-text",
+        output: "#output-text",
+        search: "#search",
+        recipe: "#recipe",
+      })) {
+        const box = await page.locator(selector).first().boundingBox();
+        if (box) targets[key] = toPixels(box);
+      }
       await page.screenshot({ path: `${out}/${name}-before.png` });
+      timeline.input = (Date.now() - recordStarted) / 1000;
       await page.locator("#input-text .cm-content").click();
-      await page.keyboard.type(evidence.input, { delay: 75 });
+      if (options.premium) {
+        await page.waitForTimeout(250);
+        await page.keyboard.insertText(evidence.input);
+      } else await page.keyboard.type(evidence.input, { delay: 75 });
       await page.waitForTimeout(1200);
       await page.screenshot({ path: `${out}/${name}-input.png` });
-      await page.getByText("From Base64", { exact: true }).first().dblclick();
+      timeline.select = (Date.now() - recordStarted) / 1000;
+      const operation = page.getByText("From Base64", { exact: true }).first();
+      targets.operation = toPixels(await operation.boundingBox());
+      await operation.dblclick();
       await page.mouse.move(10, 25);
       await page.waitForFunction(
-        () =>
+        (expected: string) =>
           document
             .querySelector("#output-text")
-            ?.textContent?.includes("Build something useful."),
-        {},
+            ?.textContent?.includes(expected),
+        evidence.expected,
         { timeout: 30000 },
       );
+      timeline.result = (Date.now() - recordStarted) / 1000;
       await page.mouse.move(10, 25);
       await page.waitForTimeout(600);
       await page.screenshot({ path: `${out}/${name}-result.png` });
@@ -120,11 +161,35 @@ export async function capture(out: string) {
         "yuv420p",
         `${out}/${name}.mp4`,
       ]);
+      let landmarks;
+      if (options.premium) {
+        const metadataFile = `${out}/${name}-capture-geometry.json`;
+        json(metadataFile, { targets, coordinateScale });
+        landmarks = JSON.parse(
+          run("python", [
+            "scripts/align-recording.py",
+            `${out}/${name}.mp4`,
+            `${out}/${name}-input.png`,
+            `${out}/${name}-result.png`,
+            metadataFile,
+          ]),
+        );
+      }
       evidence.captures.push({
         name,
         actual,
         errors,
         readyAt,
+        landmarks,
+        timeline,
+        targets,
+        coordinateScale,
+        editorFontPx: options.premium
+          ? 20 * coordinateScale
+          : (mobile ? 28 : 14) * coordinateScale,
+        viewport: mobile
+          ? { width: 480, height: 850 }
+          : { width: 1000, height: 1050 },
         recording: `${name}.mp4`,
       });
     }

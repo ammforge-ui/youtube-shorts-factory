@@ -1,0 +1,6 @@
+{
+  "sampleRate": 48000,
+  "correlationEncodedToIntendedMix": 0.9998627606761487,
+  "passed": true,
+  "method": "Decoded AAC compared against the actual premux music+voice+effects mix; >0.98 correlation required."
+}

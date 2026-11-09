@@ -1,0 +1,116 @@
+{
+  "bpm": 116,
+  "composition": "Original two-bar B-minor/Gmaj7/Dmaj7/Aadd9 progression; plucked arpeggio, warm pad, bass, kick, snare and hats; seeded synthesis.",
+  "license": {
+    "source": "src/directors/AudioDirector.ts",
+    "type": "Original procedural composition and effects; no external recordings or samples",
+    "allowedUsage": "YouTube publishing and automated production; no attribution required",
+    "restrictions": "No claim of exclusive rights to generated musical patterns"
+  },
+  "narration": {
+    "meanDb": -17.6,
+    "peakDb": -1.9,
+    "silenceLog": []
+  },
+  "music": {
+    "meanDb": -24.8,
+    "peakDb": -5,
+    "silenceLog": []
+  },
+  "duckedMusic": {
+    "meanDb": -34,
+    "peakDb": -9.8,
+    "silenceLog": [
+      "[silencedetect @ 0x7fdf6c0829c0] silence_start: 20.526792",
+      "[silencedetect @ 0x7fdf6c0829c0] silence_end: 20.689708 | silence_duration: 0.162917"
+    ]
+  },
+  "effects": {
+    "meanDb": -48.8,
+    "peakDb": -20,
+    "silenceLog": [
+      "[silencedetect @ 0x7f13480829c0] silence_start: 0.1185",
+      "[silencedetect @ 0x7f13480829c0] silence_end: 2.600062 | silence_duration: 2.481562",
+      "[silencedetect @ 0x7f13480829c0] silence_start: 2.752208",
+      "[silencedetect @ 0x7f13480829c0] silence_end: 5.967375 | silence_duration: 3.215167",
+      "[silencedetect @ 0x7f13480829c0] silence_start: 6.188771",
+      "[silencedetect @ 0x7f13480829c0] silence_end: 10.166667 | silence_duration: 3.977896",
+      "[silencedetect @ 0x7f13480829c0] silence_start: 10.547917",
+      "[silencedetect @ 0x7f13480829c0] silence_end: 13.066667 | silence_duration: 2.51875",
+      "[silencedetect @ 0x7f13480829c0] silence_start: 13.091687",
+      "[silencedetect @ 0x7f13480829c0] silence_end: 15.701146 | silence_duration: 2.609458",
+      "[silencedetect @ 0x7f13480829c0] silence_start: 16.222396",
+      "[silencedetect @ 0x7f13480829c0] silence_end: 18.533375 | silence_duration: 2.310979",
+      "[silencedetect @ 0x7f13480829c0] silence_start: 18.614771",
+      "[silencedetect @ 0x7f13480829c0] silence_end: 26.367854 | silence_duration: 7.753083",
+      "[silencedetect @ 0x7f13480829c0] silence_start: 26.845167",
+      "[silencedetect @ 0x7f13480829c0] silence_end: 27.819771 | silence_duration: 0.974604"
+    ]
+  },
+  "mix": {
+    "meanDb": -20.4,
+    "peakDb": -3.9,
+    "silenceLog": [
+      "[silencedetect @ 0x7fd9cc0829c0] silence_start: 28.17025",
+      "[silencedetect @ 0x7fd9cc0829c0] silence_end: 28.366667 | silence_duration: 0.196417"
+    ]
+  },
+  "events": [
+    {
+      "event": "encoded_arrival",
+      "frame": 0,
+      "sound": "digital_pop",
+      "intensity": 0.6
+    },
+    {
+      "event": "decoding_illustration",
+      "frame": 78,
+      "sound": "light_glitch",
+      "intensity": 0.35
+    },
+    {
+      "event": "interface",
+      "frame": 179,
+      "sound": "soft_whoosh",
+      "intensity": 0.35
+    },
+    {
+      "event": "input",
+      "frame": 305,
+      "sound": "keyboard",
+      "intensity": 0.3
+    },
+    {
+      "event": "select",
+      "frame": 392,
+      "sound": "ui_click",
+      "intensity": 0.5
+    },
+    {
+      "event": "result",
+      "frame": 471,
+      "sound": "digital_reveal",
+      "intensity": 0.6
+    },
+    {
+      "event": "distinction",
+      "frame": 556,
+      "sound": "text_accent",
+      "intensity": 0.35
+    },
+    {
+      "event": "ending",
+      "frame": 791,
+      "sound": "ending",
+      "intensity": 0.5
+    }
+  ],
+  "ducking": {
+    "threshold": 0.035,
+    "ratio": 3,
+    "attackMs": 20,
+    "releaseMs": 230,
+    "method": "Actual narration sidechain compressor"
+  },
+  "perceptualReview": "Not yet auditioned by a human; objective stem/level checks do not establish musical taste."
+}

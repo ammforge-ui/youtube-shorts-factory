@@ -1,0 +1,51 @@
+{
+  "kind": "Editorial heuristics; not a prediction of retention or virality",
+  "thresholds": {
+    "maxHookSeconds": 2.8,
+    "maxFirstDemoSeconds": 12,
+    "maxPayoffSeconds": 23,
+    "maxCtaSeconds": 2.6,
+    "minLayoutVariety": 5,
+    "maxHeldShotSeconds": 6,
+    "minInterfaceTextPx": 32,
+    "captionMaxWords": 6,
+    "maxEndingSilenceSeconds": 0.3,
+    "subjectiveReviewRequired": true
+  },
+  "checks": {
+    "firstFrameSubject": true,
+    "hookWithinThreshold": true,
+    "firstUsefulDemo": true,
+    "payoffTiming": true,
+    "shortEnding": true,
+    "layoutVariety": true,
+    "noCrossSentenceCaptions": true,
+    "captionDensity": true,
+    "captionSafeArea": true,
+    "estimatedInterfaceReadability": true
+  },
+  "passed": true,
+  "measurements": {
+    "firstDemoSeconds": 9.833333333333334,
+    "payoffSeconds": 15.7,
+    "ctaSeconds": 2,
+    "layoutCount": 7,
+    "layoutTypes": [
+      "cipher",
+      "transform",
+      "browser",
+      "detail",
+      "result",
+      "explainer",
+      "ending"
+    ],
+    "estimatedMinimumInterfaceTextPx": 42.857142857142854,
+    "phraseCount": 21,
+    "longestCaptionWords": 5
+  },
+  "warnings": [],
+  "recommendations": [
+    "Compare future audience retention using YouTube Analytics.",
+    "Have a listener review the neural voice, musical taste and mix on phone speakers."
+  ]
+}

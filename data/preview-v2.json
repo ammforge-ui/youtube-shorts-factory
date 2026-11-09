@@ -1,0 +1,2975 @@
+{
+  "discovery": {
+    "id": "cyberchef-base64-v2",
+    "template": "discovery",
+    "product": "CyberChef",
+    "url": "gchq.github.io/CyberChef",
+    "localCopy": true,
+    "duration": 28.366666666666667,
+    "narration": "This strange text says something simple. Meet me on Mars. It is just a fictional message. Here is how to read it with CyberChef, a free browser toolbox. Paste the encoded text into Input. Find From Base64, and add it to the recipe. Auto Bake reveals the original message. No password was cracked. Base64 is encoding, not encryption. It changes the format, but adds no secrecy. Save this tool for later.",
+    "audio": "media/cyberchef-v2/mix.wav",
+    "words": [
+      {
+        "text": "This",
+        "start": 0,
+        "end": 0.21
+      },
+      {
+        "text": "strange",
+        "start": 0.21,
+        "end": 0.66
+      },
+      {
+        "text": "text",
+        "start": 0.66,
+        "end": 1.07
+      },
+      {
+        "text": "says",
+        "start": 1.07,
+        "end": 1.46
+      },
+      {
+        "text": "something",
+        "start": 1.46,
+        "end": 2
+      },
+      {
+        "text": "simple.",
+        "start": 2,
+        "end": 2.6
+      },
+      {
+        "text": "Meet",
+        "start": 2.6,
+        "end": 2.86
+      },
+      {
+        "text": "me",
+        "start": 2.86,
+        "end": 3.05
+      },
+      {
+        "text": "on",
+        "start": 3.05,
+        "end": 3.22
+      },
+      {
+        "text": "Mars.",
+        "start": 3.22,
+        "end": 4.04
+      },
+      {
+        "text": "It",
+        "start": 4.04,
+        "end": 4.16
+      },
+      {
+        "text": "is",
+        "start": 4.16,
+        "end": 4.37
+      },
+      {
+        "text": "just",
+        "start": 4.37,
+        "end": 4.69
+      },
+      {
+        "text": "a",
+        "start": 4.69,
+        "end": 4.73
+      },
+      {
+        "text": "fictional",
+        "start": 4.73,
+        "end": 5.23
+      },
+      {
+        "text": "message.",
+        "start": 5.23,
+        "end": 5.97
+      },
+      {
+        "text": "Here",
+        "start": 5.97,
+        "end": 6.26
+      },
+      {
+        "text": "is",
+        "start": 6.26,
+        "end": 6.4
+      },
+      {
+        "text": "how",
+        "start": 6.4,
+        "end": 6.51
+      },
+      {
+        "text": "to",
+        "start": 6.51,
+        "end": 6.66
+      },
+      {
+        "text": "read",
+        "start": 6.66,
+        "end": 6.9
+      },
+      {
+        "text": "it",
+        "start": 6.9,
+        "end": 7.08
+      },
+      {
+        "text": "with",
+        "start": 7.08,
+        "end": 7.21
+      },
+      {
+        "text": "CyberChef,",
+        "start": 7.21,
+        "end": 8.13
+      },
+      {
+        "text": "a",
+        "start": 8.13,
+        "end": 8.22
+      },
+      {
+        "text": "free",
+        "start": 8.22,
+        "end": 8.57
+      },
+      {
+        "text": "browser",
+        "start": 8.57,
+        "end": 9.06
+      },
+      {
+        "text": "toolbox.",
+        "start": 9.06,
+        "end": 9.82
+      },
+      {
+        "text": "Paste",
+        "start": 9.82,
+        "end": 10.44
+      },
+      {
+        "text": "the",
+        "start": 10.44,
+        "end": 10.6
+      },
+      {
+        "text": "encoded",
+        "start": 10.6,
+        "end": 11.1
+      },
+      {
+        "text": "text",
+        "start": 11.1,
+        "end": 11.48
+      },
+      {
+        "text": "into",
+        "start": 11.48,
+        "end": 11.73
+      },
+      {
+        "text": "Input.",
+        "start": 11.73,
+        "end": 12.35
+      },
+      {
+        "text": "Find",
+        "start": 12.35,
+        "end": 12.65
+      },
+      {
+        "text": "From",
+        "start": 12.65,
+        "end": 12.87
+      },
+      {
+        "text": "Base64,",
+        "start": 12.87,
+        "end": 14.23
+      },
+      {
+        "text": "and",
+        "start": 14.23,
+        "end": 14.42
+      },
+      {
+        "text": "add",
+        "start": 14.42,
+        "end": 14.61
+      },
+      {
+        "text": "it",
+        "start": 14.61,
+        "end": 14.73
+      },
+      {
+        "text": "to",
+        "start": 14.73,
+        "end": 14.85
+      },
+      {
+        "text": "the",
+        "start": 14.85,
+        "end": 14.94
+      },
+      {
+        "text": "recipe.",
+        "start": 14.94,
+        "end": 15.71
+      },
+      {
+        "text": "Auto",
+        "start": 15.71,
+        "end": 16.05
+      },
+      {
+        "text": "Bake",
+        "start": 16.05,
+        "end": 16.44
+      },
+      {
+        "text": "reveals",
+        "start": 16.44,
+        "end": 17.14
+      },
+      {
+        "text": "the",
+        "start": 17.14,
+        "end": 17.33
+      },
+      {
+        "text": "original",
+        "start": 17.33,
+        "end": 17.75
+      },
+      {
+        "text": "message.",
+        "start": 17.75,
+        "end": 18.52
+      },
+      {
+        "text": "No",
+        "start": 18.52,
+        "end": 18.73
+      },
+      {
+        "text": "password",
+        "start": 18.73,
+        "end": 19.46
+      },
+      {
+        "text": "was",
+        "start": 19.46,
+        "end": 19.66
+      },
+      {
+        "text": "cracked.",
+        "start": 19.66,
+        "end": 20.38
+      },
+      {
+        "text": "Base64",
+        "start": 20.38,
+        "end": 21.55
+      },
+      {
+        "text": "is",
+        "start": 21.55,
+        "end": 21.71
+      },
+      {
+        "text": "encoding,",
+        "start": 21.71,
+        "end": 22.39
+      },
+      {
+        "text": "not",
+        "start": 22.39,
+        "end": 22.7
+      },
+      {
+        "text": "encryption.",
+        "start": 22.7,
+        "end": 23.39
+      },
+      {
+        "text": "It",
+        "start": 23.39,
+        "end": 23.55
+      },
+      {
+        "text": "changes",
+        "start": 23.55,
+        "end": 24.14
+      },
+      {
+        "text": "the",
+        "start": 24.14,
+        "end": 24.21
+      },
+      {
+        "text": "format,",
+        "start": 24.21,
+        "end": 24.93
+      },
+      {
+        "text": "but",
+        "start": 24.93,
+        "end": 25.05
+      },
+      {
+        "text": "adds",
+        "start": 25.05,
+        "end": 25.38
+      },
+      {
+        "text": "no",
+        "start": 25.38,
+        "end": 25.53
+      },
+      {
+        "text": "secrecy.",
+        "start": 25.53,
+        "end": 26.36
+      },
+      {
+        "text": "Save",
+        "start": 26.36,
+        "end": 26.69
+      },
+      {
+        "text": "this",
+        "start": 26.69,
+        "end": 26.9
+      },
+      {
+        "text": "tool",
+        "start": 26.9,
+        "end": 27.18
+      },
+      {
+        "text": "for",
+        "start": 27.18,
+        "end": 27.4
+      },
+      {
+        "text": "later.",
+        "start": 27.4,
+        "end": 27.96
+      }
+    ],
+    "scenes": [
+      {
+        "title": "What does this say?",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.6,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 8.48,
+        "direction": {
+          "purpose": "hook",
+          "layout": "cipher",
+          "narration": "This strange text says something simple.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 86,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 86,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 86,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 136,
+              "click": false
+            }
+          ],
+          "typography": "hook",
+          "captionPlacement": "bottom",
+          "transition": "cut",
+          "musicIntensity": 0.8,
+          "tone": "curious",
+          "motion": "text-pop"
+        }
+      },
+      {
+        "title": "Meet me on Mars.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 3.3666666666666667,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "curiosity",
+          "layout": "transform",
+          "narration": "Meet me on Mars. It is just a fictional message.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "mask",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "masked-reveal"
+        }
+      },
+      {
+        "title": "CyberChef",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 3.866666666666667,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 5.062,
+        "direction": {
+          "purpose": "intro",
+          "layout": "browser",
+          "narration": "Here is how to read it with CyberChef, a free browser toolbox.",
+          "asset": "media/cyberchef-v2/desktop-input.png",
+          "mediaType": "image",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 0,
+                "y": 0,
+                "width": 1000,
+                "height": 1050
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 86,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 86,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 136,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "scale",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "browser-card"
+        }
+      },
+      {
+        "title": "Paste the text.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.533333333333333,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 8.48,
+        "direction": {
+          "purpose": "demonstration",
+          "layout": "detail",
+          "narration": "Paste the encoded text into Input.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 86,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 86,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 86,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 136,
+              "click": true
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "slide",
+          "musicIntensity": 0.5,
+          "tone": "clear",
+          "motion": "zoom-in"
+        }
+      },
+      {
+        "title": "From Base64",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 3.333333333333332,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 7.800000000000001,
+        "direction": {
+          "purpose": "demonstration",
+          "layout": "detail",
+          "narration": "Find From Base64, and add it to the recipe.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 0,
+                "y": 200,
+                "width": 240,
+                "height": 150
+              }
+            },
+            {
+              "frame": 28,
+              "target": {
+                "x": 0,
+                "y": 200,
+                "width": 240,
+                "height": 150
+              }
+            },
+            {
+              "frame": 50,
+              "target": {
+                "x": 244,
+                "y": 30,
+                "width": 302,
+                "height": 290
+              }
+            }
+          ],
+          "focus": {
+            "x": 244,
+            "y": 30,
+            "width": 302,
+            "height": 290
+          },
+          "cursor": [
+            {
+              "frame": 21,
+              "x": 70,
+              "y": 220,
+              "click": true
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "mask",
+          "musicIntensity": 0.5,
+          "tone": "clear",
+          "motion": "spotlight"
+        }
+      },
+      {
+        "title": "Meet me on Mars.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.8333333333333357,
+        "shot": "result",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "payoff",
+          "layout": "result",
+          "narration": "Auto Bake reveals the original message.",
+          "asset": "media/cyberchef-v2/desktop-result.png",
+          "mediaType": "image",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "top",
+          "transition": "scale",
+          "musicIntensity": 0.8,
+          "tone": "satisfying",
+          "motion": "result-emphasis"
+        }
+      },
+      {
+        "title": "ENCODING ≠ ENCRYPTION",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 4.866666666666664,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "takeaway",
+          "layout": "explainer",
+          "graphic": {
+            "heading": "ENCODING",
+            "contrast": "ENCRYPTION",
+            "subheading": "THE IMPORTANT DIFFERENCE",
+            "cards": [
+              {
+                "heading": "Encoding",
+                "body": "Changes the format.",
+                "detail": "No secrecy added."
+              },
+              {
+                "heading": "Encryption",
+                "body": "Protects with a key.",
+                "detail": "A different job."
+              }
+            ]
+          },
+          "narration": "No password was cracked. Base64 is encoding, not encryption.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "explainer",
+          "captionPlacement": "bottom",
+          "transition": "slide",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "split-screen"
+        }
+      },
+      {
+        "title": "Format. Not secrecy.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.9666666666666686,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "takeaway",
+          "layout": "explainer",
+          "graphic": {
+            "heading": "CHANGES THE FORMAT.",
+            "contrast": "ADDS NO SECRECY.",
+            "subheading": "FORMAT, NOT SECRECY",
+            "explanation": "Base64 can be decoded. It does not protect a secret.",
+            "cards": []
+          },
+          "narration": "It changes the format, but adds no secrecy.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "explainer",
+          "captionPlacement": "bottom",
+          "transition": "mask",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "kinetic"
+        }
+      },
+      {
+        "title": "Save this tool.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2,
+        "shot": "cta",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "cta",
+          "layout": "ending",
+          "narration": "Save this tool for later.",
+          "asset": "media/cyberchef-v2/desktop-result.png",
+          "mediaType": "image",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "scale",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "parallax"
+        }
+      }
+    ],
+    "creative": {
+      "version": 2,
+      "example": "Meet me on Mars.",
+      "encoded": "TWVldCBtZSBvbiBNYXJzLg==",
+      "bpm": 116,
+      "soundEvents": [
+        {
+          "event": "encoded_arrival",
+          "frame": 0,
+          "sound": "digital_pop",
+          "intensity": 0.6
+        },
+        {
+          "event": "decoding_illustration",
+          "frame": 78,
+          "sound": "light_glitch",
+          "intensity": 0.35
+        },
+        {
+          "event": "interface",
+          "frame": 179,
+          "sound": "soft_whoosh",
+          "intensity": 0.35
+        },
+        {
+          "event": "input",
+          "frame": 305,
+          "sound": "keyboard",
+          "intensity": 0.3
+        },
+        {
+          "event": "select",
+          "frame": 392,
+          "sound": "ui_click",
+          "intensity": 0.5
+        },
+        {
+          "event": "result",
+          "frame": 471,
+          "sound": "digital_reveal",
+          "intensity": 0.6
+        },
+        {
+          "event": "distinction",
+          "frame": 556,
+          "sound": "text_accent",
+          "intensity": 0.35
+        },
+        {
+          "event": "ending",
+          "frame": 791,
+          "sound": "ending",
+          "intensity": 0.5
+        }
+      ],
+      "brand": "THE TOOL FILES",
+      "musicAsset": "media/cyberchef-v2/music.wav"
+    }
+  },
+  "mobile": {
+    "id": "cyberchef-base64-v2",
+    "template": "mobile",
+    "product": "CyberChef",
+    "url": "gchq.github.io/CyberChef",
+    "localCopy": true,
+    "duration": 28.366666666666667,
+    "narration": "This strange text says something simple. Meet me on Mars. It is just a fictional message. Here is how to read it with CyberChef, a free browser toolbox. Paste the encoded text into Input. Find From Base64, and add it to the recipe. Auto Bake reveals the original message. No password was cracked. Base64 is encoding, not encryption. It changes the format, but adds no secrecy. Save this tool for later.",
+    "audio": "media/cyberchef-v2/mix.wav",
+    "words": [
+      {
+        "text": "This",
+        "start": 0,
+        "end": 0.21
+      },
+      {
+        "text": "strange",
+        "start": 0.21,
+        "end": 0.66
+      },
+      {
+        "text": "text",
+        "start": 0.66,
+        "end": 1.07
+      },
+      {
+        "text": "says",
+        "start": 1.07,
+        "end": 1.46
+      },
+      {
+        "text": "something",
+        "start": 1.46,
+        "end": 2
+      },
+      {
+        "text": "simple.",
+        "start": 2,
+        "end": 2.6
+      },
+      {
+        "text": "Meet",
+        "start": 2.6,
+        "end": 2.86
+      },
+      {
+        "text": "me",
+        "start": 2.86,
+        "end": 3.05
+      },
+      {
+        "text": "on",
+        "start": 3.05,
+        "end": 3.22
+      },
+      {
+        "text": "Mars.",
+        "start": 3.22,
+        "end": 4.04
+      },
+      {
+        "text": "It",
+        "start": 4.04,
+        "end": 4.16
+      },
+      {
+        "text": "is",
+        "start": 4.16,
+        "end": 4.37
+      },
+      {
+        "text": "just",
+        "start": 4.37,
+        "end": 4.69
+      },
+      {
+        "text": "a",
+        "start": 4.69,
+        "end": 4.73
+      },
+      {
+        "text": "fictional",
+        "start": 4.73,
+        "end": 5.23
+      },
+      {
+        "text": "message.",
+        "start": 5.23,
+        "end": 5.97
+      },
+      {
+        "text": "Here",
+        "start": 5.97,
+        "end": 6.26
+      },
+      {
+        "text": "is",
+        "start": 6.26,
+        "end": 6.4
+      },
+      {
+        "text": "how",
+        "start": 6.4,
+        "end": 6.51
+      },
+      {
+        "text": "to",
+        "start": 6.51,
+        "end": 6.66
+      },
+      {
+        "text": "read",
+        "start": 6.66,
+        "end": 6.9
+      },
+      {
+        "text": "it",
+        "start": 6.9,
+        "end": 7.08
+      },
+      {
+        "text": "with",
+        "start": 7.08,
+        "end": 7.21
+      },
+      {
+        "text": "CyberChef,",
+        "start": 7.21,
+        "end": 8.13
+      },
+      {
+        "text": "a",
+        "start": 8.13,
+        "end": 8.22
+      },
+      {
+        "text": "free",
+        "start": 8.22,
+        "end": 8.57
+      },
+      {
+        "text": "browser",
+        "start": 8.57,
+        "end": 9.06
+      },
+      {
+        "text": "toolbox.",
+        "start": 9.06,
+        "end": 9.82
+      },
+      {
+        "text": "Paste",
+        "start": 9.82,
+        "end": 10.44
+      },
+      {
+        "text": "the",
+        "start": 10.44,
+        "end": 10.6
+      },
+      {
+        "text": "encoded",
+        "start": 10.6,
+        "end": 11.1
+      },
+      {
+        "text": "text",
+        "start": 11.1,
+        "end": 11.48
+      },
+      {
+        "text": "into",
+        "start": 11.48,
+        "end": 11.73
+      },
+      {
+        "text": "Input.",
+        "start": 11.73,
+        "end": 12.35
+      },
+      {
+        "text": "Find",
+        "start": 12.35,
+        "end": 12.65
+      },
+      {
+        "text": "From",
+        "start": 12.65,
+        "end": 12.87
+      },
+      {
+        "text": "Base64,",
+        "start": 12.87,
+        "end": 14.23
+      },
+      {
+        "text": "and",
+        "start": 14.23,
+        "end": 14.42
+      },
+      {
+        "text": "add",
+        "start": 14.42,
+        "end": 14.61
+      },
+      {
+        "text": "it",
+        "start": 14.61,
+        "end": 14.73
+      },
+      {
+        "text": "to",
+        "start": 14.73,
+        "end": 14.85
+      },
+      {
+        "text": "the",
+        "start": 14.85,
+        "end": 14.94
+      },
+      {
+        "text": "recipe.",
+        "start": 14.94,
+        "end": 15.71
+      },
+      {
+        "text": "Auto",
+        "start": 15.71,
+        "end": 16.05
+      },
+      {
+        "text": "Bake",
+        "start": 16.05,
+        "end": 16.44
+      },
+      {
+        "text": "reveals",
+        "start": 16.44,
+        "end": 17.14
+      },
+      {
+        "text": "the",
+        "start": 17.14,
+        "end": 17.33
+      },
+      {
+        "text": "original",
+        "start": 17.33,
+        "end": 17.75
+      },
+      {
+        "text": "message.",
+        "start": 17.75,
+        "end": 18.52
+      },
+      {
+        "text": "No",
+        "start": 18.52,
+        "end": 18.73
+      },
+      {
+        "text": "password",
+        "start": 18.73,
+        "end": 19.46
+      },
+      {
+        "text": "was",
+        "start": 19.46,
+        "end": 19.66
+      },
+      {
+        "text": "cracked.",
+        "start": 19.66,
+        "end": 20.38
+      },
+      {
+        "text": "Base64",
+        "start": 20.38,
+        "end": 21.55
+      },
+      {
+        "text": "is",
+        "start": 21.55,
+        "end": 21.71
+      },
+      {
+        "text": "encoding,",
+        "start": 21.71,
+        "end": 22.39
+      },
+      {
+        "text": "not",
+        "start": 22.39,
+        "end": 22.7
+      },
+      {
+        "text": "encryption.",
+        "start": 22.7,
+        "end": 23.39
+      },
+      {
+        "text": "It",
+        "start": 23.39,
+        "end": 23.55
+      },
+      {
+        "text": "changes",
+        "start": 23.55,
+        "end": 24.14
+      },
+      {
+        "text": "the",
+        "start": 24.14,
+        "end": 24.21
+      },
+      {
+        "text": "format,",
+        "start": 24.21,
+        "end": 24.93
+      },
+      {
+        "text": "but",
+        "start": 24.93,
+        "end": 25.05
+      },
+      {
+        "text": "adds",
+        "start": 25.05,
+        "end": 25.38
+      },
+      {
+        "text": "no",
+        "start": 25.38,
+        "end": 25.53
+      },
+      {
+        "text": "secrecy.",
+        "start": 25.53,
+        "end": 26.36
+      },
+      {
+        "text": "Save",
+        "start": 26.36,
+        "end": 26.69
+      },
+      {
+        "text": "this",
+        "start": 26.69,
+        "end": 26.9
+      },
+      {
+        "text": "tool",
+        "start": 26.9,
+        "end": 27.18
+      },
+      {
+        "text": "for",
+        "start": 27.18,
+        "end": 27.4
+      },
+      {
+        "text": "later.",
+        "start": 27.4,
+        "end": 27.96
+      }
+    ],
+    "scenes": [
+      {
+        "title": "What does this say?",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.6,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/mobile.mp4",
+        "startFrom": 3.774,
+        "direction": {
+          "purpose": "hook",
+          "layout": "cipher",
+          "narration": "This strange text says something simple.",
+          "asset": "media/cyberchef-v2/mobile.mp4",
+          "mediaType": "video",
+          "sourceWidth": 480,
+          "sourceHeight": 850,
+          "sourceFontPx": 9.785932721712538,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 238.18198705084097,
+                "y": 46.16514134771598,
+                "width": 230.1651376146789,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 250.51226228019877,
+                "y": 46.16514134771598,
+                "width": 205.5045871559633,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 250.51226228019877,
+            "y": 46.16514134771598,
+            "width": 205.5045871559633,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 285.5122622801988,
+              "y": 96.16514134771597,
+              "click": false
+            }
+          ],
+          "typography": "hook",
+          "captionPlacement": "bottom",
+          "transition": "cut",
+          "musicIntensity": 0.8,
+          "tone": "curious",
+          "motion": "text-pop"
+        }
+      },
+      {
+        "title": "Meet me on Mars.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 3.3666666666666667,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/mobile.mp4",
+        "startFrom": 7.073,
+        "direction": {
+          "purpose": "curiosity",
+          "layout": "transform",
+          "narration": "Meet me on Mars. It is just a fictional message.",
+          "asset": "media/cyberchef-v2/mobile.mp4",
+          "mediaType": "video",
+          "sourceWidth": 480,
+          "sourceHeight": 850,
+          "sourceFontPx": 9.785932721712538,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 238.18198705084097,
+                "y": 464.2691430141437,
+                "width": 230.1651376146789,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 250.51226228019877,
+                "y": 464.2691430141437,
+                "width": 205.5045871559633,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 250.51226228019877,
+            "y": 464.2691430141437,
+            "width": 205.5045871559633,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 285.5122622801988,
+              "y": 514.2691430141438,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "mask",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "masked-reveal"
+        }
+      },
+      {
+        "title": "CyberChef",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 3.866666666666667,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/mobile.mp4",
+        "startFrom": 3.774,
+        "direction": {
+          "purpose": "intro",
+          "layout": "device",
+          "narration": "Here is how to read it with CyberChef, a free browser toolbox.",
+          "asset": "media/cyberchef-v2/mobile-input.png",
+          "mediaType": "image",
+          "sourceWidth": 480,
+          "sourceHeight": 850,
+          "sourceFontPx": 9.785932721712538,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 0,
+                "y": 0,
+                "width": 480,
+                "height": 850
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 250.51226228019877,
+                "y": 46.16514134771598,
+                "width": 205.5045871559633,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 250.51226228019877,
+            "y": 46.16514134771598,
+            "width": 205.5045871559633,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 285.5122622801988,
+              "y": 96.16514134771597,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "scale",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "browser-card"
+        }
+      },
+      {
+        "title": "Paste the text.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.533333333333333,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/mobile.mp4",
+        "startFrom": 3.774,
+        "direction": {
+          "purpose": "demonstration",
+          "layout": "device",
+          "narration": "Paste the encoded text into Input.",
+          "asset": "media/cyberchef-v2/mobile.mp4",
+          "mediaType": "video",
+          "sourceWidth": 480,
+          "sourceHeight": 850,
+          "sourceFontPx": 9.785932721712538,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 238.18198705084097,
+                "y": 46.16514134771598,
+                "width": 230.1651376146789,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 250.51226228019877,
+                "y": 46.16514134771598,
+                "width": 205.5045871559633,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 250.51226228019877,
+            "y": 46.16514134771598,
+            "width": 205.5045871559633,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 285.5122622801988,
+              "y": 96.16514134771597,
+              "click": true
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "slide",
+          "musicIntensity": 0.5,
+          "tone": "clear",
+          "motion": "zoom-in"
+        }
+      },
+      {
+        "title": "From Base64",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 3.333333333333332,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/mobile.mp4",
+        "startFrom": 6.073,
+        "direction": {
+          "purpose": "demonstration",
+          "layout": "device",
+          "narration": "Find From Base64, and add it to the recipe.",
+          "asset": "media/cyberchef-v2/mobile.mp4",
+          "mediaType": "video",
+          "sourceWidth": 480,
+          "sourceHeight": 850,
+          "sourceFontPx": 9.785932721712538,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 0,
+                "y": 97.85932721712538,
+                "width": 240,
+                "height": 150
+              }
+            },
+            {
+              "frame": 28,
+              "target": {
+                "x": 0,
+                "y": 97.85932721712538,
+                "width": 240,
+                "height": 150
+              }
+            },
+            {
+              "frame": 50,
+              "target": {
+                "x": 119.38838667096712,
+                "y": 14.678900015828077,
+                "width": 137.97399865013378,
+                "height": 290
+              }
+            }
+          ],
+          "focus": {
+            "x": 119.38838667096712,
+            "y": 14.678900015828077,
+            "width": 137.97399865013378,
+            "height": 290
+          },
+          "cursor": [
+            {
+              "frame": 21,
+              "x": 70,
+              "y": 117.85932721712538,
+              "click": true
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "mask",
+          "musicIntensity": 0.5,
+          "tone": "clear",
+          "motion": "spotlight"
+        }
+      },
+      {
+        "title": "Meet me on Mars.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.8333333333333357,
+        "shot": "result",
+        "footage": "media/cyberchef-v2/mobile.mp4",
+        "startFrom": 7.073,
+        "direction": {
+          "purpose": "payoff",
+          "layout": "device",
+          "narration": "Auto Bake reveals the original message.",
+          "asset": "media/cyberchef-v2/mobile-result.png",
+          "mediaType": "image",
+          "sourceWidth": 480,
+          "sourceHeight": 850,
+          "sourceFontPx": 9.785932721712538,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 238.18198705084097,
+                "y": 464.2691430141437,
+                "width": 230.1651376146789,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 250.51226228019877,
+                "y": 464.2691430141437,
+                "width": 205.5045871559633,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 250.51226228019877,
+            "y": 464.2691430141437,
+            "width": 205.5045871559633,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 285.5122622801988,
+              "y": 514.2691430141438,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "top",
+          "transition": "scale",
+          "musicIntensity": 0.8,
+          "tone": "satisfying",
+          "motion": "result-emphasis"
+        }
+      },
+      {
+        "title": "ENCODING ≠ ENCRYPTION",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 4.866666666666664,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/mobile.mp4",
+        "startFrom": 7.073,
+        "direction": {
+          "purpose": "takeaway",
+          "layout": "explainer",
+          "graphic": {
+            "heading": "ENCODING",
+            "contrast": "ENCRYPTION",
+            "subheading": "THE IMPORTANT DIFFERENCE",
+            "cards": [
+              {
+                "heading": "Encoding",
+                "body": "Changes the format.",
+                "detail": "No secrecy added."
+              },
+              {
+                "heading": "Encryption",
+                "body": "Protects with a key.",
+                "detail": "A different job."
+              }
+            ]
+          },
+          "narration": "No password was cracked. Base64 is encoding, not encryption.",
+          "asset": "media/cyberchef-v2/mobile.mp4",
+          "mediaType": "video",
+          "sourceWidth": 480,
+          "sourceHeight": 850,
+          "sourceFontPx": 9.785932721712538,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 238.18198705084097,
+                "y": 464.2691430141437,
+                "width": 230.1651376146789,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 250.51226228019877,
+                "y": 464.2691430141437,
+                "width": 205.5045871559633,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 250.51226228019877,
+            "y": 464.2691430141437,
+            "width": 205.5045871559633,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 285.5122622801988,
+              "y": 514.2691430141438,
+              "click": false
+            }
+          ],
+          "typography": "explainer",
+          "captionPlacement": "bottom",
+          "transition": "slide",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "split-screen"
+        }
+      },
+      {
+        "title": "Format. Not secrecy.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.9666666666666686,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/mobile.mp4",
+        "startFrom": 7.073,
+        "direction": {
+          "purpose": "takeaway",
+          "layout": "explainer",
+          "graphic": {
+            "heading": "CHANGES THE FORMAT.",
+            "contrast": "ADDS NO SECRECY.",
+            "subheading": "FORMAT, NOT SECRECY",
+            "explanation": "Base64 can be decoded. It does not protect a secret.",
+            "cards": []
+          },
+          "narration": "It changes the format, but adds no secrecy.",
+          "asset": "media/cyberchef-v2/mobile.mp4",
+          "mediaType": "video",
+          "sourceWidth": 480,
+          "sourceHeight": 850,
+          "sourceFontPx": 9.785932721712538,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 238.18198705084097,
+                "y": 464.2691430141437,
+                "width": 230.1651376146789,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 250.51226228019877,
+                "y": 464.2691430141437,
+                "width": 205.5045871559633,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 250.51226228019877,
+            "y": 464.2691430141437,
+            "width": 205.5045871559633,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 285.5122622801988,
+              "y": 514.2691430141438,
+              "click": false
+            }
+          ],
+          "typography": "explainer",
+          "captionPlacement": "bottom",
+          "transition": "mask",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "kinetic"
+        }
+      },
+      {
+        "title": "Save this tool.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2,
+        "shot": "cta",
+        "footage": "media/cyberchef-v2/mobile.mp4",
+        "startFrom": 7.073,
+        "direction": {
+          "purpose": "cta",
+          "layout": "ending",
+          "narration": "Save this tool for later.",
+          "asset": "media/cyberchef-v2/mobile-result.png",
+          "mediaType": "image",
+          "sourceWidth": 480,
+          "sourceHeight": 850,
+          "sourceFontPx": 9.785932721712538,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 238.18198705084097,
+                "y": 464.2691430141437,
+                "width": 230.1651376146789,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 250.51226228019877,
+                "y": 464.2691430141437,
+                "width": 205.5045871559633,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 250.51226228019877,
+            "y": 464.2691430141437,
+            "width": 205.5045871559633,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 285.5122622801988,
+              "y": 514.2691430141438,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "scale",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "parallax"
+        }
+      }
+    ],
+    "creative": {
+      "version": 2,
+      "example": "Meet me on Mars.",
+      "encoded": "TWVldCBtZSBvbiBNYXJzLg==",
+      "bpm": 116,
+      "soundEvents": [
+        {
+          "event": "encoded_arrival",
+          "frame": 0,
+          "sound": "digital_pop",
+          "intensity": 0.6
+        },
+        {
+          "event": "decoding_illustration",
+          "frame": 78,
+          "sound": "light_glitch",
+          "intensity": 0.35
+        },
+        {
+          "event": "interface",
+          "frame": 179,
+          "sound": "soft_whoosh",
+          "intensity": 0.35
+        },
+        {
+          "event": "input",
+          "frame": 305,
+          "sound": "keyboard",
+          "intensity": 0.3
+        },
+        {
+          "event": "select",
+          "frame": 392,
+          "sound": "ui_click",
+          "intensity": 0.5
+        },
+        {
+          "event": "result",
+          "frame": 471,
+          "sound": "digital_reveal",
+          "intensity": 0.6
+        },
+        {
+          "event": "distinction",
+          "frame": 556,
+          "sound": "text_accent",
+          "intensity": 0.35
+        },
+        {
+          "event": "ending",
+          "frame": 791,
+          "sound": "ending",
+          "intensity": 0.5
+        }
+      ],
+      "brand": "THE TOOL FILES",
+      "musicAsset": "media/cyberchef-v2/music.wav"
+    }
+  },
+  "before-after": {
+    "id": "cyberchef-base64-v2",
+    "template": "before-after",
+    "product": "CyberChef",
+    "url": "gchq.github.io/CyberChef",
+    "localCopy": true,
+    "duration": 28.366666666666667,
+    "narration": "This strange text says something simple. Meet me on Mars. It is just a fictional message. Here is how to read it with CyberChef, a free browser toolbox. Paste the encoded text into Input. Find From Base64, and add it to the recipe. Auto Bake reveals the original message. No password was cracked. Base64 is encoding, not encryption. It changes the format, but adds no secrecy. Save this tool for later.",
+    "audio": "media/cyberchef-v2/mix.wav",
+    "words": [
+      {
+        "text": "This",
+        "start": 0,
+        "end": 0.21
+      },
+      {
+        "text": "strange",
+        "start": 0.21,
+        "end": 0.66
+      },
+      {
+        "text": "text",
+        "start": 0.66,
+        "end": 1.07
+      },
+      {
+        "text": "says",
+        "start": 1.07,
+        "end": 1.46
+      },
+      {
+        "text": "something",
+        "start": 1.46,
+        "end": 2
+      },
+      {
+        "text": "simple.",
+        "start": 2,
+        "end": 2.6
+      },
+      {
+        "text": "Meet",
+        "start": 2.6,
+        "end": 2.86
+      },
+      {
+        "text": "me",
+        "start": 2.86,
+        "end": 3.05
+      },
+      {
+        "text": "on",
+        "start": 3.05,
+        "end": 3.22
+      },
+      {
+        "text": "Mars.",
+        "start": 3.22,
+        "end": 4.04
+      },
+      {
+        "text": "It",
+        "start": 4.04,
+        "end": 4.16
+      },
+      {
+        "text": "is",
+        "start": 4.16,
+        "end": 4.37
+      },
+      {
+        "text": "just",
+        "start": 4.37,
+        "end": 4.69
+      },
+      {
+        "text": "a",
+        "start": 4.69,
+        "end": 4.73
+      },
+      {
+        "text": "fictional",
+        "start": 4.73,
+        "end": 5.23
+      },
+      {
+        "text": "message.",
+        "start": 5.23,
+        "end": 5.97
+      },
+      {
+        "text": "Here",
+        "start": 5.97,
+        "end": 6.26
+      },
+      {
+        "text": "is",
+        "start": 6.26,
+        "end": 6.4
+      },
+      {
+        "text": "how",
+        "start": 6.4,
+        "end": 6.51
+      },
+      {
+        "text": "to",
+        "start": 6.51,
+        "end": 6.66
+      },
+      {
+        "text": "read",
+        "start": 6.66,
+        "end": 6.9
+      },
+      {
+        "text": "it",
+        "start": 6.9,
+        "end": 7.08
+      },
+      {
+        "text": "with",
+        "start": 7.08,
+        "end": 7.21
+      },
+      {
+        "text": "CyberChef,",
+        "start": 7.21,
+        "end": 8.13
+      },
+      {
+        "text": "a",
+        "start": 8.13,
+        "end": 8.22
+      },
+      {
+        "text": "free",
+        "start": 8.22,
+        "end": 8.57
+      },
+      {
+        "text": "browser",
+        "start": 8.57,
+        "end": 9.06
+      },
+      {
+        "text": "toolbox.",
+        "start": 9.06,
+        "end": 9.82
+      },
+      {
+        "text": "Paste",
+        "start": 9.82,
+        "end": 10.44
+      },
+      {
+        "text": "the",
+        "start": 10.44,
+        "end": 10.6
+      },
+      {
+        "text": "encoded",
+        "start": 10.6,
+        "end": 11.1
+      },
+      {
+        "text": "text",
+        "start": 11.1,
+        "end": 11.48
+      },
+      {
+        "text": "into",
+        "start": 11.48,
+        "end": 11.73
+      },
+      {
+        "text": "Input.",
+        "start": 11.73,
+        "end": 12.35
+      },
+      {
+        "text": "Find",
+        "start": 12.35,
+        "end": 12.65
+      },
+      {
+        "text": "From",
+        "start": 12.65,
+        "end": 12.87
+      },
+      {
+        "text": "Base64,",
+        "start": 12.87,
+        "end": 14.23
+      },
+      {
+        "text": "and",
+        "start": 14.23,
+        "end": 14.42
+      },
+      {
+        "text": "add",
+        "start": 14.42,
+        "end": 14.61
+      },
+      {
+        "text": "it",
+        "start": 14.61,
+        "end": 14.73
+      },
+      {
+        "text": "to",
+        "start": 14.73,
+        "end": 14.85
+      },
+      {
+        "text": "the",
+        "start": 14.85,
+        "end": 14.94
+      },
+      {
+        "text": "recipe.",
+        "start": 14.94,
+        "end": 15.71
+      },
+      {
+        "text": "Auto",
+        "start": 15.71,
+        "end": 16.05
+      },
+      {
+        "text": "Bake",
+        "start": 16.05,
+        "end": 16.44
+      },
+      {
+        "text": "reveals",
+        "start": 16.44,
+        "end": 17.14
+      },
+      {
+        "text": "the",
+        "start": 17.14,
+        "end": 17.33
+      },
+      {
+        "text": "original",
+        "start": 17.33,
+        "end": 17.75
+      },
+      {
+        "text": "message.",
+        "start": 17.75,
+        "end": 18.52
+      },
+      {
+        "text": "No",
+        "start": 18.52,
+        "end": 18.73
+      },
+      {
+        "text": "password",
+        "start": 18.73,
+        "end": 19.46
+      },
+      {
+        "text": "was",
+        "start": 19.46,
+        "end": 19.66
+      },
+      {
+        "text": "cracked.",
+        "start": 19.66,
+        "end": 20.38
+      },
+      {
+        "text": "Base64",
+        "start": 20.38,
+        "end": 21.55
+      },
+      {
+        "text": "is",
+        "start": 21.55,
+        "end": 21.71
+      },
+      {
+        "text": "encoding,",
+        "start": 21.71,
+        "end": 22.39
+      },
+      {
+        "text": "not",
+        "start": 22.39,
+        "end": 22.7
+      },
+      {
+        "text": "encryption.",
+        "start": 22.7,
+        "end": 23.39
+      },
+      {
+        "text": "It",
+        "start": 23.39,
+        "end": 23.55
+      },
+      {
+        "text": "changes",
+        "start": 23.55,
+        "end": 24.14
+      },
+      {
+        "text": "the",
+        "start": 24.14,
+        "end": 24.21
+      },
+      {
+        "text": "format,",
+        "start": 24.21,
+        "end": 24.93
+      },
+      {
+        "text": "but",
+        "start": 24.93,
+        "end": 25.05
+      },
+      {
+        "text": "adds",
+        "start": 25.05,
+        "end": 25.38
+      },
+      {
+        "text": "no",
+        "start": 25.38,
+        "end": 25.53
+      },
+      {
+        "text": "secrecy.",
+        "start": 25.53,
+        "end": 26.36
+      },
+      {
+        "text": "Save",
+        "start": 26.36,
+        "end": 26.69
+      },
+      {
+        "text": "this",
+        "start": 26.69,
+        "end": 26.9
+      },
+      {
+        "text": "tool",
+        "start": 26.9,
+        "end": 27.18
+      },
+      {
+        "text": "for",
+        "start": 27.18,
+        "end": 27.4
+      },
+      {
+        "text": "later.",
+        "start": 27.4,
+        "end": 27.96
+      }
+    ],
+    "scenes": [
+      {
+        "title": "What does this say?",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.6,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 8.48,
+        "direction": {
+          "purpose": "hook",
+          "layout": "cipher",
+          "narration": "This strange text says something simple.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 86,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 86,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 86,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 136,
+              "click": false
+            }
+          ],
+          "typography": "hook",
+          "captionPlacement": "bottom",
+          "transition": "cut",
+          "musicIntensity": 0.8,
+          "tone": "curious",
+          "motion": "text-pop"
+        }
+      },
+      {
+        "title": "Meet me on Mars.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 3.3666666666666667,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "curiosity",
+          "layout": "transform",
+          "narration": "Meet me on Mars. It is just a fictional message.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "mask",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "masked-reveal"
+        }
+      },
+      {
+        "title": "CyberChef",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 3.866666666666667,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 5.062,
+        "direction": {
+          "purpose": "intro",
+          "layout": "browser",
+          "narration": "Here is how to read it with CyberChef, a free browser toolbox.",
+          "asset": "media/cyberchef-v2/desktop-input.png",
+          "mediaType": "image",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 0,
+                "y": 0,
+                "width": 1000,
+                "height": 1050
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 86,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 86,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 136,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "scale",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "browser-card"
+        }
+      },
+      {
+        "title": "Paste the text.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.533333333333333,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 8.48,
+        "direction": {
+          "purpose": "demonstration",
+          "layout": "detail",
+          "narration": "Paste the encoded text into Input.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 86,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 86,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 86,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 136,
+              "click": true
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "slide",
+          "musicIntensity": 0.5,
+          "tone": "clear",
+          "motion": "zoom-in"
+        }
+      },
+      {
+        "title": "From Base64",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 3.333333333333332,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 7.800000000000001,
+        "direction": {
+          "purpose": "demonstration",
+          "layout": "detail",
+          "narration": "Find From Base64, and add it to the recipe.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 0,
+                "y": 200,
+                "width": 240,
+                "height": 150
+              }
+            },
+            {
+              "frame": 28,
+              "target": {
+                "x": 0,
+                "y": 200,
+                "width": 240,
+                "height": 150
+              }
+            },
+            {
+              "frame": 50,
+              "target": {
+                "x": 244,
+                "y": 30,
+                "width": 302,
+                "height": 290
+              }
+            }
+          ],
+          "focus": {
+            "x": 244,
+            "y": 30,
+            "width": 302,
+            "height": 290
+          },
+          "cursor": [
+            {
+              "frame": 21,
+              "x": 70,
+              "y": 220,
+              "click": true
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "mask",
+          "musicIntensity": 0.5,
+          "tone": "clear",
+          "motion": "spotlight"
+        }
+      },
+      {
+        "title": "Meet me on Mars.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.8333333333333357,
+        "shot": "result",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "payoff",
+          "layout": "comparison",
+          "narration": "Auto Bake reveals the original message.",
+          "asset": "media/cyberchef-v2/desktop-result.png",
+          "mediaType": "image",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "top",
+          "transition": "scale",
+          "musicIntensity": 0.8,
+          "tone": "satisfying",
+          "motion": "result-emphasis"
+        }
+      },
+      {
+        "title": "ENCODING ≠ ENCRYPTION",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 4.866666666666664,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "takeaway",
+          "layout": "explainer",
+          "graphic": {
+            "heading": "ENCODING",
+            "contrast": "ENCRYPTION",
+            "subheading": "THE IMPORTANT DIFFERENCE",
+            "cards": [
+              {
+                "heading": "Encoding",
+                "body": "Changes the format.",
+                "detail": "No secrecy added."
+              },
+              {
+                "heading": "Encryption",
+                "body": "Protects with a key.",
+                "detail": "A different job."
+              }
+            ]
+          },
+          "narration": "No password was cracked. Base64 is encoding, not encryption.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "explainer",
+          "captionPlacement": "bottom",
+          "transition": "slide",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "split-screen"
+        }
+      },
+      {
+        "title": "Format. Not secrecy.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2.9666666666666686,
+        "shot": "input",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "takeaway",
+          "layout": "explainer",
+          "graphic": {
+            "heading": "CHANGES THE FORMAT.",
+            "contrast": "ADDS NO SECRECY.",
+            "subheading": "FORMAT, NOT SECRECY",
+            "explanation": "Base64 can be decoded. It does not protect a secret.",
+            "cards": []
+          },
+          "narration": "It changes the format, but adds no secrecy.",
+          "asset": "media/cyberchef-v2/desktop.mp4",
+          "mediaType": "video",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "explainer",
+          "captionPlacement": "bottom",
+          "transition": "mask",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "kinetic"
+        }
+      },
+      {
+        "title": "Save this tool.",
+        "eyebrow": "",
+        "detail": "",
+        "duration": 2,
+        "shot": "cta",
+        "footage": "media/cyberchef-v2/desktop.mp4",
+        "startFrom": 9.226,
+        "direction": {
+          "purpose": "cta",
+          "layout": "ending",
+          "narration": "Save this tool for later.",
+          "asset": "media/cyberchef-v2/desktop-result.png",
+          "mediaType": "image",
+          "sourceWidth": 1000,
+          "sourceHeight": 1050,
+          "sourceFontPx": 20,
+          "camera": [
+            {
+              "frame": 0,
+              "target": {
+                "x": 506.8,
+                "y": 598,
+                "width": 470.40000000000003,
+                "height": 145
+              }
+            },
+            {
+              "frame": 36,
+              "target": {
+                "x": 532,
+                "y": 598,
+                "width": 420,
+                "height": 145
+              }
+            }
+          ],
+          "focus": {
+            "x": 532,
+            "y": 598,
+            "width": 420,
+            "height": 145
+          },
+          "cursor": [
+            {
+              "frame": 12,
+              "x": 567,
+              "y": 648,
+              "click": false
+            }
+          ],
+          "typography": "caption",
+          "captionPlacement": "bottom",
+          "transition": "scale",
+          "musicIntensity": 0.5,
+          "tone": "curious",
+          "motion": "parallax"
+        }
+      }
+    ],
+    "creative": {
+      "version": 2,
+      "example": "Meet me on Mars.",
+      "encoded": "TWVldCBtZSBvbiBNYXJzLg==",
+      "bpm": 116,
+      "soundEvents": [
+        {
+          "event": "encoded_arrival",
+          "frame": 0,
+          "sound": "digital_pop",
+          "intensity": 0.6
+        },
+        {
+          "event": "decoding_illustration",
+          "frame": 78,
+          "sound": "light_glitch",
+          "intensity": 0.35
+        },
+        {
+          "event": "interface",
+          "frame": 179,
+          "sound": "soft_whoosh",
+          "intensity": 0.35
+        },
+        {
+          "event": "input",
+          "frame": 305,
+          "sound": "keyboard",
+          "intensity": 0.3
+        },
+        {
+          "event": "select",
+          "frame": 392,
+          "sound": "ui_click",
+          "intensity": 0.5
+        },
+        {
+          "event": "result",
+          "frame": 471,
+          "sound": "digital_reveal",
+          "intensity": 0.6
+        },
+        {
+          "event": "distinction",
+          "frame": 556,
+          "sound": "text_accent",
+          "intensity": 0.35
+        },
+        {
+          "event": "ending",
+          "frame": 791,
+          "sound": "ending",
+          "intensity": 0.5
+        }
+      ],
+      "brand": "THE TOOL FILES",
+      "musicAsset": "media/cyberchef-v2/music.wav"
+    }
+  }
+}

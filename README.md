@@ -41,3 +41,24 @@ For Studio, first run the pipeline; choose a composition and load `{"spec": <con
 This is a production **foundation**, not a fully autonomous editorial system. Only the CyberChef Base64 capture/script adapter is implemented. The daily command defaults to three but will not invent subjects when its verified queue is exhausted. All three templates have still-frame checks; only discovery receives a full end-to-end video in the first test. Word timing uses acoustic alignment, not transcription confidence. Human listening and editorial review are still required before upload. No YouTube publishing is implemented.
 
 Read [architecture](docs/architecture.md), [daily workflow](docs/daily-workflow.md), [troubleshooting](docs/troubleshooting.md), [RemotionUI](docs/remotionui.md), and [licenses](docs/licenses.md).
+
+## Premium V2 (current default)
+
+The main test command now produces `output/cyberchef-v2/final-v2.mp4` and preserves the original test video. The new fictional message is “Meet me on Mars.” Real CyberChef still performs the actual decode. The original renderer/templates remain available for legacy specs.
+
+```bash
+npm run test:pipeline                    # fresh capture, narration, direction, music/SFX, render, checks
+npm run test:v2 -- --reuse               # deterministic edit iteration using retained speech/footage
+npm run verify:v2                       # inspect actual MP4 and validate delivered mix
+npm run test:creative
+npm run test:premium-templates            # mobile/before-after previews plus original render compatibility
+npm run export:v2                       # artifacts/cyberchef-v2.tar.gz
+```
+
+The export archive contains the revised MP4, script, structured storyboard, captions, quality/audio/retention reports, waveform, contact sheet and review notes. Large new renders remain ignored; no dedicated chat artifact-upload tool is available in this environment. Use the workspace file browser/file-transfer facility to retrieve `artifacts/cyberchef-v2.tar.gz`; the archive can be extracted with `tar -xzf cyberchef-v2.tar.gz`. Source and reports can be reviewed independently before explicitly publishing a video elsewhere.
+
+[Premium architecture](docs/premium-design.md), [audit](docs/audits/cyberchef-v1.md), [troubleshooting](docs/troubleshooting-v2.md). Daily production uses the premium profile for verified adapters, still defaults to three, and still reports shortages rather than fabricating subjects. Human listening and editorial approval remain required before uploading.
+
+### Download the reviewed v2 video from GitHub
+
+Open `output/cyberchef-v2/final-v2.mp4` in this repository and choose **Download raw file**. The single reviewed MP4 and its reports are intentionally tracked for retrieval; raw recordings, audio stems, caches and generated media remain excluded. The original v1 video is preserved separately.

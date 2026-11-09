@@ -9,3 +9,7 @@
 - Remotion: review https://www.remotion.dev/license for your organization and future commercial scale. This implementation does not purchase a license or assume every commercial use is free.
 
 Asset/model archives were fetched over verified TLS from official GitHub release links. SHA-256 values recorded from those successful downloads are pinned in config for repeatable integrity checks; they are not independently signed publisher attestations.
+
+## V2 procedural soundtrack
+
+AudioDirector generates a seeded 116 BPM composition and ten effect timbre categories from oscillators/noise/envelopes, with an explicit harmonic/rhythmic arrangement. No outside recordings, melodies or commercial tracks are downloaded. The project permits YouTube publication and automated reuse of these original generated assets, with no required attribution and no claim of exclusive copyright in common musical patterns. Every run saves audio-assets.json and actual stem filenames/measurements in audio-report.json. Listening quality is an editorial judgment, not established by licensing or level checks.

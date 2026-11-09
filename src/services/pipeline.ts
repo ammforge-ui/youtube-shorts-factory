@@ -20,6 +20,15 @@ export async function pipeline(
   fs.mkdirSync(out, { recursive: true });
   const topic = JSON.parse(fs.readFileSync(topicPath, "utf8"));
   topic.template = template;
+  if (topic.id === "cyberchef-base64-v2") {
+    const { premiumPipeline } = await import("./premiumPipeline");
+    return premiumPipeline(
+      out,
+      template as "discovery" | "mobile" | "before-after",
+      reuse,
+      topicPath,
+    );
+  }
   if (topic.id !== "cyberchef-base64" || topic.product !== "CyberChef")
     throw new Error("Unsupported capture/script adapter: " + topic.id);
   await research(out);

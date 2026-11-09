@@ -1,10 +1,18 @@
 process.env.PLAYWRIGHT_BROWSERS_PATH ||= "/workspace/pw-browsers";
-const { pipeline } = await import("../src/services/pipeline");
-await pipeline(
-  "output/test-run",
-  process.argv.find((x) => x.startsWith("--template="))?.split("=")[1] ||
+if (process.argv.includes("--legacy")) {
+  const { pipeline } = await import("../src/services/pipeline");
+  await pipeline(
+    "output/legacy-retest",
     "discovery",
-  process.argv.includes("--reuse"),
-);
-
+    process.argv.includes("--reuse"),
+  );
+} else {
+  const { premiumPipeline } = await import("../src/services/premiumPipeline");
+  await premiumPipeline(
+    "output/cyberchef-v2",
+    (process.argv.find((x) => x.startsWith("--template="))?.split("=")[1] ||
+      "discovery") as "discovery" | "mobile" | "before-after",
+    process.argv.includes("--reuse"),
+  );
+}
 export {};

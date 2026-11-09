@@ -12,7 +12,12 @@
     "export": "tsx scripts/export.ts",
     "test:invariants": "tsx scripts/check-invariants.ts",
     "test:templates": "tsx scripts/inspect-templates.ts",
-    "frames": "python scripts/encoded-frames.py"
+    "frames": "python scripts/encoded-frames.py",
+    "test:v2": "tsx scripts/render-v2.ts",
+    "verify:v2": "tsx scripts/verify-v2.ts",
+    "export:v2": "tsx scripts/export-v2.ts",
+    "test:creative": "tsx scripts/test-creative.ts",
+    "test:premium-templates": "tsx scripts/test-premium-templates.ts"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.542",

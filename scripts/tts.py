@@ -6,7 +6,7 @@ from pocketsphinx import Decoder
 spec=json.load(open(sys.argv[1]));out=sys.argv[2];model='/workspace/models/vits-piper-en_US-ljspeech-medium'
 c=sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=f'{model}/en_US-ljspeech-medium.onnx',tokens=f'{model}/tokens.txt',data_dir=f'{model}/espeak-ng-data'),num_threads=2,provider='cpu'),max_num_sentences=1)
 assert c.validate()
-a=sherpa_onnx.OfflineTts(c).generate(spec['narration'],sid=0,speed=1.06);sf.write(out,a.samples,a.sample_rate)
+a=sherpa_onnx.OfflineTts(c).generate(spec['narration'],sid=0,speed=spec.get('ttsSpeed',1.06));sf.write(out,a.samples,a.sample_rate)
 raw=out+'.16k.raw';subprocess.run(['ffmpeg','-v','error','-y','-i',out,'-ar','16000','-ac','1','-f','s16le',raw],check=True)
 text=' '.join(re.sub(r'[^a-zA-Z0-9\s\']',' ',spec['narration']).lower().split());dec=Decoder(samprate=16000,loglevel='ERROR')
 for word,phones in {'cyberchef':'S AY B ER SH EH F','base64':'B EY S S IH K S T IY F AO R'}.items():

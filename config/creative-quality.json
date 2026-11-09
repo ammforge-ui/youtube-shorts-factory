@@ -1,0 +1,12 @@
+{
+  "maxHookSeconds": 2.8,
+  "maxFirstDemoSeconds": 12,
+  "maxPayoffSeconds": 23,
+  "maxCtaSeconds": 2.6,
+  "minLayoutVariety": 5,
+  "maxHeldShotSeconds": 6,
+  "minInterfaceTextPx": 32,
+  "captionMaxWords": 6,
+  "maxEndingSilenceSeconds": 0.3,
+  "subjectiveReviewRequired": true
+}

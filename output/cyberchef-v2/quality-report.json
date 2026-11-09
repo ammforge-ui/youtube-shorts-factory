@@ -1,0 +1,225 @@
+{
+  "sha256": "c1fbba52259e4c523d78bd5c58cca9a2974e262f5f34f4f269dc0c61677e81d4",
+  "createdAt": "2026-11-09T16:27:00.402Z",
+  "passed": true,
+  "technical": {
+    "layoutSafe": true,
+    "recordingLandmarks": true,
+    "resolution": true,
+    "fps": true,
+    "h264": true,
+    "aac": true,
+    "duration": true,
+    "fullDecode": true,
+    "noBlackGaps": true,
+    "narrationPresent": true,
+    "musicPresent": true,
+    "musicBalanced": true,
+    "effectsPresent": true,
+    "noClipping": true,
+    "noEndingSilence": true,
+    "sceneCoverage": true,
+    "wordTiming": true,
+    "assets": true,
+    "intendedMixDelivered": true,
+    "actualDemo": true
+  },
+  "media": {
+    "duration": 28.373,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "bytes": 4745172
+  },
+  "audio": {
+    "meanDb": -20.5,
+    "peakDb": -4,
+    "silenceLog": [
+      "frame=  104 fps=0.0 q=-0.0 size=N/A time=00:00:03.46 bitrate=N/A speed=6.93x    \rframe=  315 fps=315 q=-0.0 size=N/A time=00:00:10.50 bitrate=N/A speed=10.5x    \rframe=  595 fps=396 q=-0.0 size=N/A time=00:00:19.83 bitrate=N/A speed=13.2x    \r[silencedetect @ 0x7f6e180829c0] silence_start: 28.17025",
+      "[silencedetect @ 0x7f6e180829c0] silence_end: 28.373333 | silence_duration: 0.203083"
+    ],
+    "trailingSilenceSeconds": 0.20275000000000176,
+    "stemPresence": "Measured isolated stems; exact recombination/delivery check performed separately",
+    "mixDelivery": {
+      "sampleRate": 48000,
+      "correlationEncodedToIntendedMix": 0.9998627606761487,
+      "passed": true,
+      "method": "Decoded AAC compared against the actual premux music+voice+effects mix; >0.98 correlation required."
+    },
+    "humanListening": "Audio-input audition was attempted but this assistant environment does not support audio input. No perceptual listening approval is claimed."
+  },
+  "retention": {
+    "kind": "Editorial heuristics; not a prediction of retention or virality",
+    "thresholds": {
+      "maxHookSeconds": 2.8,
+      "maxFirstDemoSeconds": 12,
+      "maxPayoffSeconds": 23,
+      "maxCtaSeconds": 2.6,
+      "minLayoutVariety": 5,
+      "maxHeldShotSeconds": 6,
+      "minInterfaceTextPx": 32,
+      "captionMaxWords": 6,
+      "maxEndingSilenceSeconds": 0.3,
+      "subjectiveReviewRequired": true
+    },
+    "checks": {
+      "firstFrameSubject": true,
+      "hookWithinThreshold": true,
+      "firstUsefulDemo": true,
+      "payoffTiming": true,
+      "shortEnding": true,
+      "layoutVariety": true,
+      "noCrossSentenceCaptions": true,
+      "captionDensity": true,
+      "captionSafeArea": true,
+      "estimatedInterfaceReadability": true
+    },
+    "passed": true,
+    "measurements": {
+      "firstDemoSeconds": 9.833333333333334,
+      "payoffSeconds": 15.7,
+      "ctaSeconds": 2,
+      "layoutCount": 7,
+      "layoutTypes": [
+        "cipher",
+        "transform",
+        "browser",
+        "detail",
+        "result",
+        "explainer",
+        "ending"
+      ],
+      "estimatedMinimumInterfaceTextPx": 42.857142857142854,
+      "phraseCount": 21,
+      "longestCaptionWords": 5
+    },
+    "warnings": [],
+    "recommendations": [
+      "Compare future audience retention using YouTube Analytics.",
+      "Have a listener review the neural voice, musical taste and mix on phone speakers."
+    ]
+  },
+  "layout": {
+    "passed": true,
+    "sampleCount": 9,
+    "violations": [],
+    "overlaps": []
+  },
+  "recordingAlignment": {
+    "inputVisible": 8.8,
+    "inputVisibleBestIoU": 0.8797850906648758,
+    "inputVisibleThreshold": 0.82,
+    "inputVisibleBestCandidateSeconds": 13.2,
+    "inputVisibleStatus": "aligned",
+    "resultVisible": 8.8,
+    "resultVisibleBestIoU": 0.8797190517998245,
+    "resultVisibleThreshold": 0.82,
+    "resultVisibleBestCandidateSeconds": 8.8,
+    "resultVisibleStatus": "aligned",
+    "method": "10 FPS recorded-text mask IoU against actual asserted screenshots; dilated-mask matching; lower-confidence mobile raster matches explicitly reported"
+  },
+  "scorecard": {
+    "technicalCorrectness": {
+      "score": 9,
+      "basis": "deterministic",
+      "evidence": "Codec/dimensions/full decode and media checks"
+    },
+    "hookEffectiveness": {
+      "score": 8,
+      "basis": "subjective editorial assessment",
+      "evidence": "Frame-zero large encoded subject; actual viewer response unknown"
+    },
+    "storyClarity": {
+      "score": 8,
+      "basis": "subjective editorial assessment",
+      "evidence": "Fictional example \u2192 real steps \u2192 result \u2192 distinction"
+    },
+    "visualPresentation": {
+      "score": 8,
+      "basis": "subjective editorial assessment; see hash-bound visual review",
+      "evidence": "Seven layout types and consistent navy/lime tokens"
+    },
+    "animationQuality": {
+      "score": 8,
+      "basis": "implementation + subjective",
+      "evidence": "Frame-based easing, measured camera paths and official scramble typography"
+    },
+    "interfaceReadability": {
+      "score": 8,
+      "basis": "measured estimate + review",
+      "evidence": "Source editor font \u00d7 camera scale; inspect actual frames"
+    },
+    "captionQuality": {
+      "score": 8,
+      "basis": "timing tests + subjective",
+      "evidence": "Acoustic timestamps, sentence/clause grouping, floating placement"
+    },
+    "narrationQuality": {
+      "score": 7,
+      "basis": "engine + measured audio; perceptual review pending",
+      "evidence": "Local neural LJ Speech, acoustic word alignment; naturalness not objectively measured"
+    },
+    "musicQuality": {
+      "score": 7,
+      "basis": "original composition; perceptual review pending",
+      "evidence": "116 BPM harmony/arpeggio/percussion with ducking; no claim of library-track quality"
+    },
+    "soundEffectQuality": {
+      "score": 8,
+      "basis": "event timing; perceptual review pending",
+      "evidence": "Distinct seeded transient/sweep/reveal cues tied to story events"
+    },
+    "audioMixing": {
+      "score": 8,
+      "basis": "measured levels; perceptual review pending",
+      "evidence": "Speech sidechain and measured stem levels"
+    },
+    "endingQuality": {
+      "score": 8,
+      "basis": "duration/silence checks + subjective",
+      "evidence": "Short overlay connected to result, musical cadence/fade"
+    },
+    "overallPolish": {
+      "score": 8,
+      "basis": "provisional editorial assessment",
+      "evidence": "Improvement relative to v1; not a retention or virality prediction"
+    }
+  },
+  "visualReview": {
+    "sha256": "c1fbba52259e4c523d78bd5c58cca9a2974e262f5f34f4f269dc0c61677e81d4",
+    "reviewedAt": "2026-11-09T16:26:51.497859+00:00",
+    "reviewer": "assistant encoded-frame visual inspection",
+    "status": "passed-with-notes",
+    "inspected": [
+      "first frame",
+      "1s",
+      "3s",
+      "5s resolved transformation",
+      "tool introduction",
+      "10.5s pasted input",
+      "14.8s real recipe operation",
+      "result reveal",
+      "both educational beats",
+      "CTA",
+      "final frame"
+    ],
+    "findings": [
+      "First frame has a large visible encoded subject; no startup loading frames.",
+      "Fictional illustration resolves to the example, then actual official app footage supplies the evidence.",
+      "Pixel-aligned input/recipe range corrected an empty-field timing error. A highlight that crossed text was removed from the input shot.",
+      "Main captions and titles remain readable in sampled frames; 9 browser geometry samples passed bounds/overlap checks.",
+      "Original v1 SHA-256 remains unchanged."
+    ],
+    "limits": [
+      "Representative frames do not establish every-frame aesthetic quality.",
+      "Audio-input audition is unsupported; perceptual music/voice review remains pending.",
+      "Low-resolution mobile recording landmarks remain ambiguous; mobile variant is preview-tested, not approved for a full production release."
+    ]
+  },
+  "limitations": [
+    "Scores marked subjective are editorial estimates, not objective creativity/retention measurements.",
+    "No new autonomous web discovery or product adapters are claimed."
+  ]
+}

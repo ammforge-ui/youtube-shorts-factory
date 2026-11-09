@@ -7,3 +7,15 @@ Output must be 1080x1920, 30 FPS, H.264/AAC, 25–40 seconds. Test count is one;
 Use npm ci, npm run typecheck, npx remotion-ui doctor, npm run test:pipeline, and npm run verify. Preserve nonzero exit codes. Inspect representative frames. Do not call audio perceptually reviewed unless actually heard.
 RemotionUI: inspect registry/source before importing, install via CLI, respect exact props. Source is vendored with its license. See docs/remotionui.md.
 Large outputs and public/media are ignored; export deliverables with npm run export. Keep finished MP4s until user retrieves them. Never commit credentials or generated footage by default.
+
+## Premium quality standard (v2)
+
+Default test: `npm run test:pipeline` (or `npm run test:v2`). Output is output/cyberchef-v2/final-v2.mp4. Never overwrite output/test-run/final.mp4; use --legacy only for a separate legacy-retest directory. Daily config points to verified premium topic adapters; PROCEED uses the existing daily command, never silently invents three topics and never uploads to YouTube.
+
+Every new approved story must use creative v2: a visible frame-zero subject, a short hook, real recorded interaction, source-coordinate camera targets, purposeful shot variety, naturally grouped floating captions and a concise ending attached to the result. Use shared navy/lime design tokens. Remove internal production labels. Animated illustrations must remain distinguishable from actual product evidence.
+
+Use StoryDirector, ScreenFocusDirector, MotionDirector, CaptionDirector, AudioDirector, RetentionDirector and QualityController. Creative specs validate before rendering. Audio requires licensed or original music, context-aware event effects, actual narration ducking, fades and final encoded-mix verification. Do not substitute silent placeholders or call random tones professional music.
+
+Required checks: typecheck, RemotionUI doctor, test:creative, actual full premium render, verify:v2, decoded-audio correlation to intended mix, audio peaks/silence/stem levels, first/1s/3s/interaction/reveal/takeaway/CTA/final encoded frames and contact sheet. Inspect visual overflow; run all three template previews when shared layout changes. Preserve failed/pending outcomes. Quality scores must identify subjective judgment; they do not predict retention, views or geography. Human listening/editorial approval remains required before uploading; state if audio audition is unavailable.
+
+Use `npm run export:v2` for a complete retrieval archive. Keep raw recordings, dependencies and large new renders ignored by default. Do not publish environment changes or push new Git changes unless requested.

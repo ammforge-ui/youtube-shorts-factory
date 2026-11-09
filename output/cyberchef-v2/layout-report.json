@@ -1,0 +1,710 @@
+{
+  "method": "Measured browser DOM text geometry at representative renderStill frames after font readiness",
+  "sampleCount": 9,
+  "passed": true,
+  "violations": [],
+  "overlaps": [],
+  "records": [
+    {
+      "frame": 39,
+      "regions": [
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1480,
+          "width": 800,
+          "height": 190,
+          "textRects": [
+            {
+              "text": "This",
+              "x": 112.34375,
+              "y": 1478,
+              "width": 135.265625,
+              "height": 68
+            },
+            {
+              "text": "strange",
+              "x": 274.765625,
+              "y": 1478,
+              "width": 252.140625,
+              "height": 68
+            },
+            {
+              "text": "text",
+              "x": 552.9135131835938,
+              "y": 1476.7027587890625,
+              "width": 134.5010986328125,
+              "height": 69.1820068359375
+            },
+            {
+              "text": "says",
+              "x": 710.1769409179688,
+              "y": 1473.537109375,
+              "width": 150.70855712890625,
+              "height": 71.06005859375
+            },
+            {
+              "text": "something",
+              "x": 312.0625,
+              "y": 1542.953125,
+              "width": 345.859375,
+              "height": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 123,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 290,
+          "width": 850,
+          "height": 439.6875,
+          "textRects": [
+            {
+              "text": "FICTIONAL EXAMPLE",
+              "x": 80,
+              "y": 290,
+              "width": 357.15625,
+              "height": 29
+            },
+            {
+              "text": "TWVldCBtZSBvbiBNYXJzLg==",
+              "x": 80,
+              "y": 363,
+              "width": 774.828125,
+              "height": 60
+            },
+            {
+              "text": "↓",
+              "x": 80,
+              "y": 440,
+              "width": 46.09375,
+              "height": 64
+            },
+            {
+              "text": "M",
+              "x": 80,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "e",
+              "x": 139.015625,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "e",
+              "x": 198.03125,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "t",
+              "x": 257.046875,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "m",
+              "x": 341.53125,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "e",
+              "x": 400.546875,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "o",
+              "x": 485.03125,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "n",
+              "x": 544.046875,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "M",
+              "x": 628.53125,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "a",
+              "x": 687.546875,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "r",
+              "x": 746.5625,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "}",
+              "x": 805.578125,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "_",
+              "x": 864.59375,
+              "y": 511,
+              "width": 59.015625,
+              "height": 114
+            },
+            {
+              "text": "Same message. Readable format.",
+              "x": 80,
+              "y": 689.6875,
+              "width": 644.625,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1480,
+          "width": 800,
+          "height": 190,
+          "textRects": [
+            {
+              "text": "It",
+              "x": 163.85801696777344,
+              "y": 1473.574462890625,
+              "width": 51.533966064453125,
+              "height": 71.063232421875
+            },
+            {
+              "text": "is",
+              "x": 241.4375,
+              "y": 1478,
+              "width": 54.40625,
+              "height": 68
+            },
+            {
+              "text": "just",
+              "x": 323,
+              "y": 1478,
+              "width": 123.421875,
+              "height": 68
+            },
+            {
+              "text": "a",
+              "x": 473.578125,
+              "y": 1478,
+              "width": 39.140625,
+              "height": 68
+            },
+            {
+              "text": "fictional",
+              "x": 539.875,
+              "y": 1478,
+              "width": 265.140625,
+              "height": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 224,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 220,
+          "width": 850,
+          "height": 239.765625,
+          "textRects": [
+            {
+              "text": "FREE BROWSER TOOLBOX",
+              "x": 80,
+              "y": 220,
+              "width": 421.71875,
+              "height": 34
+            },
+            {
+              "text": "CyberChef",
+              "x": 80,
+              "y": 273,
+              "width": 647.359375,
+              "height": 129
+            },
+            {
+              "text": "Free, open source. Runs locally, too.",
+              "x": 80,
+              "y": 419.765625,
+              "width": 696.28125,
+              "height": 40
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 650,
+          "width": 900,
+          "height": 710,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1480,
+          "width": 800,
+          "height": 190,
+          "textRects": [
+            {
+              "text": "it",
+              "x": 184.234375,
+              "y": 1478,
+              "width": 47.609375,
+              "height": 68
+            },
+            {
+              "text": "with",
+              "x": 258.68072509765625,
+              "y": 1477.6708984375,
+              "width": 143.1229248046875,
+              "height": 68.3048095703125
+            },
+            {
+              "text": "CyberChef,",
+              "x": 420.6053161621094,
+              "y": 1473.537109375,
+              "width": 373.1955871582031,
+              "height": 71.06005859375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 333,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 220,
+          "width": 850,
+          "height": 153.4375,
+          "textRects": [
+            {
+              "text": "YOUR EXAMPLE MESSAGE",
+              "x": 80,
+              "y": 220,
+              "width": 390.015625,
+              "height": 31
+            },
+            {
+              "text": "Paste",
+              "x": 80,
+              "y": 270,
+              "width": 288.1875,
+              "height": 107
+            },
+            {
+              "text": "the",
+              "x": 392.09375,
+              "y": 270,
+              "width": 171.875,
+              "height": 107
+            },
+            {
+              "text": "text.",
+              "x": 587.875,
+              "y": 270,
+              "width": 244.65625,
+              "height": 107
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 610,
+          "width": 900,
+          "height": 740,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1480,
+          "width": 800,
+          "height": 190,
+          "textRects": [
+            {
+              "text": "Paste",
+              "x": 94.515625,
+              "y": 1478,
+              "width": 181.6875,
+              "height": 68
+            },
+            {
+              "text": "the",
+              "x": 303.359375,
+              "y": 1478,
+              "width": 108.359375,
+              "height": 68
+            },
+            {
+              "text": "encoded",
+              "x": 432.6372375488281,
+              "y": 1473.537109375,
+              "width": 289.7099304199219,
+              "height": 71.06005859375
+            },
+            {
+              "text": "text",
+              "x": 740.2910766601562,
+              "y": 1473.537109375,
+              "width": 138.15228271484375,
+              "height": 71.06005859375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 416,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 220,
+          "width": 850,
+          "height": 153.4375,
+          "textRects": [
+            {
+              "text": "ADD THE OPERATION",
+              "x": 80,
+              "y": 220,
+              "width": 318.78125,
+              "height": 31
+            },
+            {
+              "text": "From",
+              "x": 80,
+              "y": 270,
+              "width": 261.40625,
+              "height": 107
+            },
+            {
+              "text": "Base64",
+              "x": 365.3125,
+              "y": 270,
+              "width": 377.390625,
+              "height": 107
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 610,
+          "width": 900,
+          "height": 740,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1480,
+          "width": 800,
+          "height": 190,
+          "textRects": [
+            {
+              "text": "Find",
+              "x": 174.3125,
+              "y": 1478,
+              "width": 142.3125,
+              "height": 68
+            },
+            {
+              "text": "From",
+              "x": 343.78125,
+              "y": 1478,
+              "width": 164.796875,
+              "height": 68
+            },
+            {
+              "text": "Base64,",
+              "x": 529.8854370117188,
+              "y": 1473.537109375,
+              "width": 271.6510009765625,
+              "height": 71.06005859375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 514,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 390,
+          "width": 850,
+          "height": 273.25,
+          "textRects": [
+            {
+              "text": "THE REAL DECODED RESULT",
+              "x": 80,
+              "y": 390,
+              "width": 423.65625,
+              "height": 31
+            },
+            {
+              "text": "Meet",
+              "x": 80,
+              "y": 440,
+              "width": 288.625,
+              "height": 119
+            },
+            {
+              "text": "me",
+              "x": 395.140625,
+              "y": 440,
+              "width": 175.46875,
+              "height": 119
+            },
+            {
+              "text": "on",
+              "x": 597.125,
+              "y": 440,
+              "width": 142.703125,
+              "height": 119
+            },
+            {
+              "text": "Mars.",
+              "x": 80,
+              "y": 549.125,
+              "width": 320.109375,
+              "height": 119
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 790,
+          "width": 900,
+          "height": 500,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 160,
+          "width": 800,
+          "height": 190,
+          "textRects": [
+            {
+              "text": "Auto",
+              "x": 114.03125,
+              "y": 158,
+              "width": 153.765625,
+              "height": 68
+            },
+            {
+              "text": "Bake",
+              "x": 294.953125,
+              "y": 158,
+              "width": 159.703125,
+              "height": 68
+            },
+            {
+              "text": "reveals",
+              "x": 476.4430847167969,
+              "y": 153.537109375,
+              "width": 249.37942504882812,
+              "height": 71.05999755859375
+            },
+            {
+              "text": "the",
+              "x": 747.609375,
+              "y": 158,
+              "width": 108.359375,
+              "height": 68
+            },
+            {
+              "text": "original",
+              "x": 359.96875,
+              "y": 222.953125,
+              "width": 250.046875,
+              "height": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 601,
+      "regions": [
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1480,
+          "width": 800,
+          "height": 190,
+          "textRects": [
+            {
+              "text": "No",
+              "x": 193.390625,
+              "y": 1478,
+              "width": 88.390625,
+              "height": 68
+            },
+            {
+              "text": "password",
+              "x": 308.9375,
+              "y": 1478,
+              "width": 313.265625,
+              "height": 68
+            },
+            {
+              "text": "was",
+              "x": 649.359375,
+              "y": 1478,
+              "width": 127.25,
+              "height": 68
+            },
+            {
+              "text": "cracked.",
+              "x": 340.5777587890625,
+              "y": 1538.490234375,
+              "width": 288.844482421875,
+              "height": 71.06005859375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 747,
+      "regions": [
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1480,
+          "width": 800,
+          "height": 190,
+          "textRects": [
+            {
+              "text": "It",
+              "x": 108.171875,
+              "y": 1478,
+              "width": 49.3125,
+              "height": 68
+            },
+            {
+              "text": "changes",
+              "x": 184.640625,
+              "y": 1478,
+              "width": 271.484375,
+              "height": 68
+            },
+            {
+              "text": "the",
+              "x": 483.28125,
+              "y": 1478,
+              "width": 108.359375,
+              "height": 68
+            },
+            {
+              "text": "format,",
+              "x": 613.3286743164062,
+              "y": 1473.537109375,
+              "width": 253.9676513671875,
+              "height": 71.06005859375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 821,
+      "regions": [
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 640,
+          "width": 900,
+          "height": 530,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1480,
+          "width": 800,
+          "height": 190,
+          "textRects": [
+            {
+              "text": "Save",
+              "x": 95.21875,
+              "y": 1478,
+              "width": 158.0625,
+              "height": 68
+            },
+            {
+              "text": "this",
+              "x": 280.4375,
+              "y": 1478,
+              "width": 123.421875,
+              "height": 68
+            },
+            {
+              "text": "tool",
+              "x": 428.06658935546875,
+              "y": 1474.3182373046875,
+              "width": 133.21051025390625,
+              "height": 71.1502685546875
+            },
+            {
+              "text": "for",
+              "x": 583.3764038085938,
+              "y": 1473.537109375,
+              "width": 97.9034423828125,
+              "height": 71.06005859375
+            },
+            {
+              "text": "later.",
+              "x": 706.328125,
+              "y": 1478,
+              "width": 168.453125,
+              "height": 68
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

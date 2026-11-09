@@ -2,7 +2,8 @@ import { createServer } from "node:http";
 import fs from "node:fs";
 import { chromium } from "playwright";
 import { json } from "../src/services/system";
-const file = "output/test-run/final.mp4";
+const out = process.argv[2] || "output/test-run";
+const file = out + "/" + (process.argv[3] || "final.mp4");
 const server = createServer((req, res) => {
   const size = fs.statSync(file).size;
   res.setHeader("Content-Type", "video/mp4");
@@ -71,8 +72,8 @@ try {
   });
   if (result.width !== 1080 || result.error)
     throw new Error(JSON.stringify(result));
-  await page.screenshot({ path: "output/test-run/playback.png" });
-  json("output/test-run/playback-check.json", {
+  await page.screenshot({ path: out + "/playback.png" });
+  json(out + "/playback-check.json", {
     ...result,
     initialPlaybackAdvanced: initial > 1,
     passed: true,

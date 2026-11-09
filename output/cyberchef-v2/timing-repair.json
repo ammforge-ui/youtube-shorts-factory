@@ -1,0 +1,8 @@
+{
+  "frameRange": [
+    295,
+    370
+  ],
+  "method": "Re-render affected scenes with pixel-aligned source offsets, concatenate original before/after video, retain original full mix audio",
+  "duration": 28.373
+}

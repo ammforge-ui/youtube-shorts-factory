@@ -1,4 +1,5 @@
 import React from "react";
+import {PremiumShort} from "../premium/PremiumShort";
 import {
   AbsoluteFill,
   Audio,
@@ -234,7 +235,8 @@ function Scene({
     </AbsoluteFill>
   );
 }
-export const Short: React.FC<{ spec: VideoSpec }> = ({ spec }) => {
+export const Short: React.FC<{ spec: VideoSpec }> = ({ spec }) => spec.creative?.version===2?<PremiumShort spec={spec}/>:<LegacyShort spec={spec}/>;
+const LegacyShort: React.FC<{ spec: VideoSpec }> = ({ spec }) => {
   const f = useCurrentFrame();
   const time = f / 30;
   let cursor = 0;

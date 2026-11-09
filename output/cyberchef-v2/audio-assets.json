@@ -1,0 +1,53 @@
+{
+  "source": "src/directors/AudioDirector.ts",
+  "type": "Original procedural composition and effects; no external recordings or samples",
+  "allowedUsage": "YouTube publishing and automated production; no attribution required",
+  "restrictions": "No claim of exclusive rights to generated musical patterns",
+  "assets": [
+    {
+      "filename": "music.wav",
+      "role": "arranged 116 BPM bed"
+    },
+    {
+      "filename": "audio-library/digital_pop.wav",
+      "role": "digital_pop"
+    },
+    {
+      "filename": "audio-library/soft_whoosh.wav",
+      "role": "soft_whoosh"
+    },
+    {
+      "filename": "audio-library/ui_click.wav",
+      "role": "ui_click"
+    },
+    {
+      "filename": "audio-library/keyboard.wav",
+      "role": "keyboard"
+    },
+    {
+      "filename": "audio-library/light_glitch.wav",
+      "role": "light_glitch"
+    },
+    {
+      "filename": "audio-library/digital_reveal.wav",
+      "role": "digital_reveal"
+    },
+    {
+      "filename": "audio-library/soft_impact.wav",
+      "role": "soft_impact"
+    },
+    {
+      "filename": "audio-library/text_accent.wav",
+      "role": "text_accent"
+    },
+    {
+      "filename": "audio-library/transition.wav",
+      "role": "transition"
+    },
+    {
+      "filename": "audio-library/ending.wav",
+      "role": "ending"
+    }
+  ],
+  "attribution": "none required"
+}
