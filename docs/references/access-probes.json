@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://excalidraw.com",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://squoosh.app",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://www.photopea.com",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://regex101.com",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://jsoncrack.com",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://gchq.github.io/CyberChef/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

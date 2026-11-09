@@ -1,0 +1,11 @@
+node_modules/
+output/
+public/media/
+.env
+.env.*
+!.env.example
+*.log
+.remotion/
+.cache/
+artifacts/
+data/production-history/*.json

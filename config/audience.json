@@ -1,0 +1,15 @@
+{
+  "language": "en",
+  "markets": [
+    "US",
+    "CA",
+    "GB",
+    "AU",
+    "NZ",
+    "Western Europe",
+    "Northern Europe"
+  ],
+  "operatorLocation": "Pakistan",
+  "niches": ["free software", "AI tools", "developer tools", "productivity"],
+  "geographyNote": "Content relevance is an editorial target; language and operator location do not guarantee viewer geography."
+}

@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:01,140
+That random text might
+
+2
+00:00:01,140 --> 00:00:03,060
+be readable. Meet CyberChef,
+
+3
+00:00:03,060 --> 00:00:04,380
+a free, open source
+
+4
+00:00:04,380 --> 00:00:05,590
+toolbox that runs in
+
+5
+00:00:05,590 --> 00:00:06,830
+your browser. Here is
+
+6
+00:00:06,830 --> 00:00:08,910
+a Base64 message. Paste
+
+7
+00:00:08,910 --> 00:00:10,260
+it into Input, then
+
+8
+00:00:10,260 --> 00:00:11,970
+add From Base64 to
+
+9
+00:00:11,970 --> 00:00:13,460
+the recipe. Auto Bake
+
+10
+00:00:13,460 --> 00:00:14,790
+turns it into plain
+
+11
+00:00:14,790 --> 00:00:16,760
+English: build something useful.
+
+12
+00:00:16,760 --> 00:00:18,440
+That is decoding, not
+
+13
+00:00:18,440 --> 00:00:19,830
+breaking encryption. You can
+
+14
+00:00:19,830 --> 00:00:21,490
+also chain operations for
+
+15
+00:00:21,490 --> 00:00:23,060
+repeatable data cleanup. This
+
+16
+00:00:23,060 --> 00:00:24,590
+demo uses the official
+
+17
+00:00:24,590 --> 00:00:26,080
+local copy. Save this
+
+18
+00:00:26,080 --> 00:00:27,280
+tool, and follow for
+
+19
+00:00:27,280 --> 00:00:28,730
+more useful software.
+

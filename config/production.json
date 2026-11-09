@@ -1,0 +1,13 @@
+{
+  "testCount": 1,
+  "dailyCount": 3,
+  "renderConcurrency": 2,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationRange": [25, 40],
+  "uploadEnabled": false,
+  "topicQueue": ["data/test-topic.json"],
+  "supportedCaptureAdapters": ["cyberchef-base64"],
+  "requireEditorialReview": true
+}

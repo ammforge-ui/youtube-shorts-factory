@@ -1,0 +1,452 @@
+{
+  "id": "cyberchef-base64",
+  "template": "discovery",
+  "product": "CyberChef",
+  "url": "gchq.github.io/CyberChef",
+  "localCopy": true,
+  "duration": 29.4,
+  "narration": "That random text might be readable. Meet CyberChef, a free, open source toolbox that runs in your browser. Here is a Base64 message. Paste it into Input, then add From Base64 to the recipe. Auto Bake turns it into plain English: build something useful. That is decoding, not breaking encryption. You can also chain operations for repeatable data cleanup. This demo uses the official local copy. Save this tool, and follow for more useful software.",
+  "audio": "media/test-run/mix.wav",
+  "words": [
+    {
+      "text": "That",
+      "start": 0,
+      "end": 0.16
+    },
+    {
+      "text": "random",
+      "start": 0.16,
+      "end": 0.55
+    },
+    {
+      "text": "text",
+      "start": 0.55,
+      "end": 0.95
+    },
+    {
+      "text": "might",
+      "start": 0.95,
+      "end": 1.14
+    },
+    {
+      "text": "be",
+      "start": 1.14,
+      "end": 1.33
+    },
+    {
+      "text": "readable.",
+      "start": 1.33,
+      "end": 1.81
+    },
+    {
+      "text": "Meet",
+      "start": 1.92,
+      "end": 2.14
+    },
+    {
+      "text": "CyberChef,",
+      "start": 2.14,
+      "end": 3.06
+    },
+    {
+      "text": "a",
+      "start": 3.06,
+      "end": 3.12
+    },
+    {
+      "text": "free,",
+      "start": 3.12,
+      "end": 3.56
+    },
+    {
+      "text": "open",
+      "start": 3.56,
+      "end": 3.92
+    },
+    {
+      "text": "source",
+      "start": 3.92,
+      "end": 4.38
+    },
+    {
+      "text": "toolbox",
+      "start": 4.38,
+      "end": 4.87
+    },
+    {
+      "text": "that",
+      "start": 4.87,
+      "end": 5.08
+    },
+    {
+      "text": "runs",
+      "start": 5.08,
+      "end": 5.45
+    },
+    {
+      "text": "in",
+      "start": 5.45,
+      "end": 5.59
+    },
+    {
+      "text": "your",
+      "start": 5.59,
+      "end": 5.73
+    },
+    {
+      "text": "browser.",
+      "start": 5.73,
+      "end": 6.36
+    },
+    {
+      "text": "Here",
+      "start": 6.36,
+      "end": 6.68
+    },
+    {
+      "text": "is",
+      "start": 6.68,
+      "end": 6.83
+    },
+    {
+      "text": "a",
+      "start": 6.83,
+      "end": 6.89
+    },
+    {
+      "text": "Base64",
+      "start": 6.89,
+      "end": 7.93
+    },
+    {
+      "text": "message.",
+      "start": 7.93,
+      "end": 8.6
+    },
+    {
+      "text": "Paste",
+      "start": 8.6,
+      "end": 8.91
+    },
+    {
+      "text": "it",
+      "start": 8.91,
+      "end": 9.1
+    },
+    {
+      "text": "into",
+      "start": 9.1,
+      "end": 9.38
+    },
+    {
+      "text": "Input,",
+      "start": 9.38,
+      "end": 9.92
+    },
+    {
+      "text": "then",
+      "start": 9.92,
+      "end": 10.26
+    },
+    {
+      "text": "add",
+      "start": 10.26,
+      "end": 10.5
+    },
+    {
+      "text": "From",
+      "start": 10.5,
+      "end": 10.72
+    },
+    {
+      "text": "Base64",
+      "start": 10.72,
+      "end": 11.77
+    },
+    {
+      "text": "to",
+      "start": 11.77,
+      "end": 11.97
+    },
+    {
+      "text": "the",
+      "start": 11.97,
+      "end": 12.07
+    },
+    {
+      "text": "recipe.",
+      "start": 12.07,
+      "end": 12.74
+    },
+    {
+      "text": "Auto",
+      "start": 12.74,
+      "end": 13.13
+    },
+    {
+      "text": "Bake",
+      "start": 13.13,
+      "end": 13.46
+    },
+    {
+      "text": "turns",
+      "start": 13.46,
+      "end": 13.92
+    },
+    {
+      "text": "it",
+      "start": 13.92,
+      "end": 14.07
+    },
+    {
+      "text": "into",
+      "start": 14.07,
+      "end": 14.33
+    },
+    {
+      "text": "plain",
+      "start": 14.33,
+      "end": 14.79
+    },
+    {
+      "text": "English:",
+      "start": 14.79,
+      "end": 15.46
+    },
+    {
+      "text": "build",
+      "start": 15.46,
+      "end": 15.81
+    },
+    {
+      "text": "something",
+      "start": 15.81,
+      "end": 16.31
+    },
+    {
+      "text": "useful.",
+      "start": 16.31,
+      "end": 16.76
+    },
+    {
+      "text": "That",
+      "start": 16.76,
+      "end": 17.26
+    },
+    {
+      "text": "is",
+      "start": 17.26,
+      "end": 17.44
+    },
+    {
+      "text": "decoding,",
+      "start": 17.44,
+      "end": 18.1
+    },
+    {
+      "text": "not",
+      "start": 18.1,
+      "end": 18.44
+    },
+    {
+      "text": "breaking",
+      "start": 18.44,
+      "end": 18.86
+    },
+    {
+      "text": "encryption.",
+      "start": 18.86,
+      "end": 19.52
+    },
+    {
+      "text": "You",
+      "start": 19.52,
+      "end": 19.64
+    },
+    {
+      "text": "can",
+      "start": 19.64,
+      "end": 19.83
+    },
+    {
+      "text": "also",
+      "start": 19.83,
+      "end": 20.22
+    },
+    {
+      "text": "chain",
+      "start": 20.22,
+      "end": 20.58
+    },
+    {
+      "text": "operations",
+      "start": 20.58,
+      "end": 21.38
+    },
+    {
+      "text": "for",
+      "start": 21.38,
+      "end": 21.49
+    },
+    {
+      "text": "repeatable",
+      "start": 21.49,
+      "end": 22.05
+    },
+    {
+      "text": "data",
+      "start": 22.05,
+      "end": 22.37
+    },
+    {
+      "text": "cleanup.",
+      "start": 22.37,
+      "end": 22.87
+    },
+    {
+      "text": "This",
+      "start": 22.87,
+      "end": 23.06
+    },
+    {
+      "text": "demo",
+      "start": 23.06,
+      "end": 23.44
+    },
+    {
+      "text": "uses",
+      "start": 23.44,
+      "end": 23.93
+    },
+    {
+      "text": "the",
+      "start": 23.93,
+      "end": 24.08
+    },
+    {
+      "text": "official",
+      "start": 24.08,
+      "end": 24.59
+    },
+    {
+      "text": "local",
+      "start": 24.59,
+      "end": 24.93
+    },
+    {
+      "text": "copy.",
+      "start": 24.93,
+      "end": 25.52
+    },
+    {
+      "text": "Save",
+      "start": 25.52,
+      "end": 25.84
+    },
+    {
+      "text": "this",
+      "start": 25.84,
+      "end": 26.08
+    },
+    {
+      "text": "tool,",
+      "start": 26.08,
+      "end": 26.55
+    },
+    {
+      "text": "and",
+      "start": 26.55,
+      "end": 26.7
+    },
+    {
+      "text": "follow",
+      "start": 26.7,
+      "end": 27.08
+    },
+    {
+      "text": "for",
+      "start": 27.08,
+      "end": 27.28
+    },
+    {
+      "text": "more",
+      "start": 27.28,
+      "end": 27.47
+    },
+    {
+      "text": "useful",
+      "start": 27.47,
+      "end": 27.89
+    },
+    {
+      "text": "software.",
+      "start": 27.89,
+      "end": 28.73
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Decode the mystery.",
+      "eyebrow": "THE HOOK",
+      "detail": "Random-looking text. A readable message.",
+      "duration": 1.92,
+      "shot": "input",
+      "footage": "media/test-run/desktop.mp4",
+      "startFrom": 2.591
+    },
+    {
+      "title": "Meet CyberChef.",
+      "eyebrow": "THE DISCOVERY",
+      "detail": "A free, open-source browser toolbox.",
+      "duration": 4.44,
+      "shot": "overview",
+      "footage": "media/test-run/desktop.mp4",
+      "startFrom": 2.591
+    },
+    {
+      "title": "Paste the message.",
+      "eyebrow": "01 / INPUT",
+      "detail": "This example is Base64-encoded text.",
+      "duration": 3.5599999999999996,
+      "shot": "input",
+      "footage": "media/test-run/desktop.mp4",
+      "startFrom": 2.591
+    },
+    {
+      "title": "Add From Base64.",
+      "eyebrow": "02 / RECIPE",
+      "detail": "Double-click the operation. Auto Bake is on.",
+      "duration": 2.8200000000000003,
+      "shot": "action",
+      "footage": "media/test-run/desktop.mp4",
+      "startFrom": 5.890999999999999
+    },
+    {
+      "title": "Build something useful.",
+      "eyebrow": "03 / RESULT",
+      "detail": "A real decoded result, straight from the browser.",
+      "duration": 4.020000000000001,
+      "shot": "result",
+      "footage": "media/test-run/desktop.mp4",
+      "startFrom": 5.591
+    },
+    {
+      "title": "Decode. Don’t decrypt.",
+      "eyebrow": "KNOW THE DIFFERENCE",
+      "detail": "Base64 is encoding. It is not encryption.",
+      "duration": 8.759999999999998,
+      "shot": "result",
+      "footage": "media/test-run/desktop.mp4",
+      "startFrom": 6.591
+    },
+    {
+      "title": "Keep this tool handy.",
+      "eyebrow": "YOUR NEXT DISCOVERY",
+      "detail": "Save CyberChef. Follow for useful software.",
+      "duration": 3.879999999999999,
+      "shot": "cta",
+      "footage": "media/test-run/desktop.mp4",
+      "startFrom": 0
+    }
+  ]
+}

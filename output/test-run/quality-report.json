@@ -1,0 +1,92 @@
+{
+  "sha256": "d257e7f4f0c4f061dbb98cb5d7f72606358ad99469222702b1b896f1bf3c9279",
+  "createdAt": "2026-11-09T15:23:41.552Z",
+  "technical": {
+    "fileNonempty": true,
+    "resolution": true,
+    "fps": true,
+    "duration": true,
+    "h264": true,
+    "aac": true,
+    "audioAudible": true,
+    "noClipping": true,
+    "fullDecode": true,
+    "noBlackGaps": true,
+    "captionCoverage": true,
+    "sceneCoverage": true,
+    "mediaPresent": true
+  },
+  "passed": true,
+  "media": {
+    "duration": 29.419,
+    "width": 1080,
+    "height": 1920,
+    "frameRate": "30/1",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "bytes": 6732160
+  },
+  "audio": {
+    "meanDb": -19.4,
+    "peakDb": -3.9,
+    "narrationEngine": "Piper LJ Speech via sherpa-onnx",
+    "music": "none; original synthesized cues only",
+    "ducking": "sidechain compressor on effects"
+  },
+  "captions": {
+    "method": "PocketSphinx acoustic forced alignment",
+    "wordCount": 75,
+    "review": "Automated monotonicity/coverage; human listening review still recommended before upload."
+  },
+  "visual": {
+    "automated": "Full decode and black-gap scan",
+    "representativeFrames": [
+      "scene-0.png",
+      "scene-1.png",
+      "scene-2.png",
+      "scene-3.png",
+      "scene-4.png",
+      "scene-5.png",
+      "scene-6.png"
+    ],
+    "review": {
+      "sha256": "d257e7f4f0c4f061dbb98cb5d7f72606358ad99469222702b1b896f1bf3c9279",
+      "reviewedAt": "2026-11-09T15:23:37.963711+00:00",
+      "reviewer": "assistant visual inspection of encoded frames",
+      "status": "passed-with-notes",
+      "frames": [
+        "encoded-frame-0.png",
+        "encoded-frame-1.png",
+        "encoded-frame-2.png",
+        "encoded-frame-3.png",
+        "encoded-frame-4.png",
+        "encoded-frame-5.png",
+        "encoded-frame-6.png",
+        "12.4-second action frame"
+      ],
+      "findings": {
+        "hook": "Actual encoded input visible; loading frames removed.",
+        "demonstration": "Input typing and From Base64 operation visible in real footage; operation confirmed at 12.4 seconds.",
+        "result": "Actual screenshot shows Build something useful.",
+        "captions": "Four-word groups, strong contrast; no observed title/caption overlap in sampled frames.",
+        "cta": "Readable official URL and faceless brand card.",
+        "mobileTemplate": "Additional still inspected; output enlarged and frame label overlap corrected."
+      },
+      "limitations": [
+        "Representative-frame review is not exhaustive perceptual review of every frame.",
+        "Full human listening and editorial approval remain recommended before upload."
+      ]
+    }
+  },
+  "content": {
+    "faceless": true,
+    "product": "CyberChef",
+    "demo": "Actual official local release; asserted Base64 result in capture.json",
+    "claims": "README and recorded interaction; no income claims",
+    "publication": "Not uploaded to YouTube"
+  },
+  "limitations": [
+    "Automated checks do not establish subjective professional quality.",
+    "No claim of human perceptual audio review."
+  ]
+}

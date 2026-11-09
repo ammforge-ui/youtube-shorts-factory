@@ -1,0 +1,144 @@
+{
+  "checkedAt": "2026-11-09T15:19:18.763Z",
+  "candidates": [
+    {
+      "name": "Excalidraw",
+      "source": "https://raw.githubusercontent.com/excalidraw/excalidraw/HEAD/README.md",
+      "sourceStatus": "official source retrieved",
+      "angle": "Drawing diagrams with a hand-drawn look",
+      "evaluation": {
+        "usefulness": 5,
+        "audienceRelevance": 5,
+        "visualPotential": 5,
+        "freeAccess": "Source-verified",
+        "recordability": "hosted access blocked",
+        "novelty": 3,
+        "shortSuitability": 4,
+        "subscriberFit": 5
+      },
+      "recheckedAt": "2026-11-09T15:19:18.697Z",
+      "currentSourceStatus": 200,
+      "evidenceFile": "output/test-run/research-sources/excalidraw.md",
+      "sourceBytes": 7774
+    },
+    {
+      "name": "Squoosh",
+      "source": "https://raw.githubusercontent.com/GoogleChromeLabs/squoosh/HEAD/README.md",
+      "sourceStatus": "official source retrieved",
+      "angle": "Compare image compression visually",
+      "evaluation": {
+        "usefulness": 5,
+        "audienceRelevance": 5,
+        "visualPotential": 5,
+        "freeAccess": "Source-verified",
+        "recordability": "hosted access blocked",
+        "novelty": 3,
+        "shortSuitability": 4,
+        "subscriberFit": 5
+      },
+      "recheckedAt": "2026-11-09T15:19:18.746Z",
+      "currentSourceStatus": 200,
+      "evidenceFile": "output/test-run/research-sources/squoosh.md",
+      "sourceBytes": 1008
+    },
+    {
+      "name": "Photopea",
+      "source": "https://www.photopea.com/learn/",
+      "sourceStatus": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "angle": "Browser image editing",
+      "evaluation": {
+        "usefulness": 5,
+        "audienceRelevance": 5,
+        "visualPotential": 5,
+        "freeAccess": "Unverified in this environment",
+        "recordability": "hosted access blocked",
+        "novelty": 3,
+        "shortSuitability": 4,
+        "subscriberFit": 5
+      },
+      "recheckedAt": "2026-11-09T15:19:18.431Z",
+      "currentSourceStatus": "Error: Command failed: curl -fsSL --max-time 20 --output output/test-run/research-sources/photopea.md --write-out %{http_code} https://www.photopea.com/learn/\ncurl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "name": "JSON Crack",
+      "source": "https://raw.githubusercontent.com/AykutSarac/jsoncrack.com/HEAD/README.md",
+      "sourceStatus": "official source retrieved",
+      "angle": "Visualize JSON as a graph",
+      "evaluation": {
+        "usefulness": 5,
+        "audienceRelevance": 5,
+        "visualPotential": 5,
+        "freeAccess": "Source-verified",
+        "recordability": "hosted access blocked",
+        "novelty": 3,
+        "shortSuitability": 4,
+        "subscriberFit": 5
+      },
+      "recheckedAt": "2026-11-09T15:19:18.704Z",
+      "currentSourceStatus": 200,
+      "evidenceFile": "output/test-run/research-sources/json-crack.md",
+      "sourceBytes": 5609
+    },
+    {
+      "name": "CyberChef",
+      "source": "https://raw.githubusercontent.com/gchq/CyberChef/HEAD/README.md",
+      "sourceStatus": "official source retrieved",
+      "angle": "Decode a Base64 message",
+      "evaluation": {
+        "usefulness": 5,
+        "audienceRelevance": 5,
+        "visualPotential": 4,
+        "freeAccess": "Source-verified",
+        "recordability": "official local release works",
+        "novelty": 3,
+        "shortSuitability": 4,
+        "subscriberFit": 5
+      },
+      "recheckedAt": "2026-11-09T15:19:18.763Z",
+      "currentSourceStatus": 200,
+      "evidenceFile": "output/test-run/research-sources/cyberchef.md",
+      "sourceBytes": 15229
+    },
+    {
+      "name": "Mermaid Live Editor",
+      "source": "https://raw.githubusercontent.com/mermaid-js/mermaid-live-editor/HEAD/README.md",
+      "sourceStatus": "official source retrieved",
+      "angle": "Turn text into a flowchart",
+      "evaluation": {
+        "usefulness": 5,
+        "audienceRelevance": 5,
+        "visualPotential": 5,
+        "freeAccess": "Open-source editor; hosted access not verified here",
+        "recordability": "Would require a local source build or allowed hosted destination; not tested",
+        "novelty": 3,
+        "shortSuitability": 5,
+        "subscriberFit": 5
+      },
+      "recheckedAt": "2026-11-09T15:19:18.608Z",
+      "currentSourceStatus": 200,
+      "evidenceFile": "output/test-run/research-sources/mermaid-live-editor.md",
+      "sourceBytes": 3290
+    }
+  ],
+  "selected": {
+    "name": "CyberChef",
+    "officialWebsite": "https://gchq.github.io/CyberChef/",
+    "officialSource": "https://github.com/gchq/CyberChef",
+    "release": "https://github.com/gchq/CyberChef/releases/tag/v11.5.0",
+    "verifiedFeatures": [
+      "From Base64 decodes the recorded input to Build something useful.",
+      "Recipe operations execute with Auto Bake",
+      "Official downloadable browser application runs locally"
+    ],
+    "claimsSources": [
+      "https://github.com/gchq/CyberChef/blob/master/README.md"
+    ],
+    "reason": "No account, no payment, meaningful deterministic result; official release available despite hosted-site restrictions.",
+    "angle": "Turn an encoded message into readable English without calling it encryption breaking.",
+    "limitations": [
+      "Hosted website blocked by cloud network policy. Actual official release recorded locally.",
+      "Candidate scores are editorial judgments, not measured audience data.",
+      "Photopea official documentation could not be retrieved; its capabilities remain unverified here."
+    ]
+  }
+}

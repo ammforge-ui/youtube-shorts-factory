@@ -1,0 +1,4 @@
+CyberChef is a free, open-source browser toolbox. This original recording uses the official v11.5.0 local release. We decode a harmless Base64 example; this is not encryption breaking.
+Try it: https://gchq.github.io/CyberChef/
+Source: https://github.com/gchq/CyberChef
+Narration: local Piper LJ Speech voice. Original synthesized sound effects; no third-party music.

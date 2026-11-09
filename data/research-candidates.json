@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Excalidraw",
+    "source": "https://raw.githubusercontent.com/excalidraw/excalidraw/HEAD/README.md",
+    "sourceStatus": "official source retrieved",
+    "angle": "Drawing diagrams with a hand-drawn look",
+    "evaluation": {
+      "usefulness": 5,
+      "audienceRelevance": 5,
+      "visualPotential": 5,
+      "freeAccess": "Source-verified",
+      "recordability": "hosted access blocked",
+      "novelty": 3,
+      "shortSuitability": 4,
+      "subscriberFit": 5
+    }
+  },
+  {
+    "name": "Squoosh",
+    "source": "https://raw.githubusercontent.com/GoogleChromeLabs/squoosh/HEAD/README.md",
+    "sourceStatus": "official source retrieved",
+    "angle": "Compare image compression visually",
+    "evaluation": {
+      "usefulness": 5,
+      "audienceRelevance": 5,
+      "visualPotential": 5,
+      "freeAccess": "Source-verified",
+      "recordability": "hosted access blocked",
+      "novelty": 3,
+      "shortSuitability": 4,
+      "subscriberFit": 5
+    }
+  },
+  {
+    "name": "Photopea",
+    "source": "https://www.photopea.com/learn/",
+    "sourceStatus": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "angle": "Browser image editing",
+    "evaluation": {
+      "usefulness": 5,
+      "audienceRelevance": 5,
+      "visualPotential": 5,
+      "freeAccess": "Unverified in this environment",
+      "recordability": "hosted access blocked",
+      "novelty": 3,
+      "shortSuitability": 4,
+      "subscriberFit": 5
+    }
+  },
+  {
+    "name": "JSON Crack",
+    "source": "https://raw.githubusercontent.com/AykutSarac/jsoncrack.com/HEAD/README.md",
+    "sourceStatus": "official source retrieved",
+    "angle": "Visualize JSON as a graph",
+    "evaluation": {
+      "usefulness": 5,
+      "audienceRelevance": 5,
+      "visualPotential": 5,
+      "freeAccess": "Source-verified",
+      "recordability": "hosted access blocked",
+      "novelty": 3,
+      "shortSuitability": 4,
+      "subscriberFit": 5
+    }
+  },
+  {
+    "name": "CyberChef",
+    "source": "https://raw.githubusercontent.com/gchq/CyberChef/HEAD/README.md",
+    "sourceStatus": "official source retrieved",
+    "angle": "Decode a Base64 message",
+    "evaluation": {
+      "usefulness": 5,
+      "audienceRelevance": 5,
+      "visualPotential": 4,
+      "freeAccess": "Source-verified",
+      "recordability": "official local release works",
+      "novelty": 3,
+      "shortSuitability": 4,
+      "subscriberFit": 5
+    }
+  },
+  {
+    "name": "Mermaid Live Editor",
+    "source": "https://raw.githubusercontent.com/mermaid-js/mermaid-live-editor/HEAD/README.md",
+    "sourceStatus": "official source retrieved",
+    "angle": "Turn text into a flowchart",
+    "evaluation": {
+      "usefulness": 5,
+      "audienceRelevance": 5,
+      "visualPotential": 5,
+      "freeAccess": "Open-source editor; hosted access not verified here",
+      "recordability": "Would require a local source build or allowed hosted destination; not tested",
+      "novelty": 3,
+      "shortSuitability": 5,
+      "subscriberFit": 5
+    }
+  }
+]

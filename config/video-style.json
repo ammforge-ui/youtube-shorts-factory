@@ -1,0 +1,9 @@
+{
+  "background": "#0b111c",
+  "accent": "#baff5a",
+  "text": "#f2f5fa",
+  "safeMargins": { "left": 80, "right": 130, "top": 100, "bottom": 220 },
+  "captionWords": 4,
+  "font": "DejaVu Sans",
+  "templates": ["discovery", "mobile", "before-after"]
+}

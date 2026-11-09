@@ -1,0 +1,22 @@
+{
+  "version": "11.5.0",
+  "mode": "official release served locally",
+  "input": "QnVpbGQgc29tZXRoaW5nIHVzZWZ1bC4=",
+  "expected": "Build something useful.",
+  "captures": [
+    {
+      "name": "desktop",
+      "actual": "Build something useful.",
+      "errors": [],
+      "readyAt": 2.291,
+      "recording": "desktop.mp4"
+    },
+    {
+      "name": "mobile",
+      "actual": "Build something useful.",
+      "errors": [],
+      "readyAt": 2.169,
+      "recording": "mobile.mp4"
+    }
+  ]
+}
