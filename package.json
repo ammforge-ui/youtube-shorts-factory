@@ -7,7 +7,7 @@
     "typecheck": "tsc --noEmit",
     "studio": "remotion studio src/remotion/index.ts",
     "test:pipeline": "tsx scripts/test-pipeline.ts",
-    "produce:daily": "tsx scripts/produce-daily.ts",
+    "produce:daily": "tsx scripts/produce-daily-v3.ts",
     "verify": "tsx scripts/verify-output.ts",
     "export": "tsx scripts/export.ts",
     "test:invariants": "tsx scripts/check-invariants.ts",
@@ -17,7 +17,14 @@
     "verify:v2": "tsx scripts/verify-v2.ts",
     "export:v2": "tsx scripts/export-v2.ts",
     "test:creative": "tsx scripts/test-creative.ts",
-    "test:premium-templates": "tsx scripts/test-premium-templates.ts"
+    "test:premium-templates": "tsx scripts/test-premium-templates.ts",
+    "produce:daily:legacy": "tsx scripts/produce-daily.ts",
+    "research:daily": "tsx scripts/research-v3.ts",
+    "produce:v3": "tsx scripts/produce-daily-v3.ts",
+    "render:v3": "tsx scripts/render-v3.ts",
+    "setup:v3": "node scripts/setup-v3.mjs",
+    "test:v3": "tsx scripts/check-v3.ts",
+    "export:v3": "python scripts/export-v3.py"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.542",

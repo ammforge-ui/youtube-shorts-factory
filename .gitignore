@@ -9,3 +9,5 @@ public/media/
 .cache/
 artifacts/
 data/production-history/*.json
+
+work/

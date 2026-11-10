@@ -131,7 +131,7 @@ export const VideoSchema = z.object({
   scenes: z.array(Scene).min(3),
   creative: z
     .object({
-      version: z.literal(2),
+      version: z.union([z.literal(2), z.literal(3)]),
       example: z.string(),
       encoded: z.string(),
       bpm: z.number().min(105).max(125),
