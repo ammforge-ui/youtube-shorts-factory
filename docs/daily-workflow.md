@@ -1,20 +1,11 @@
 # Daily workflow
 
-When instructed PROCEED:
+On PROCEED, run `npm run produce:daily` in the existing checkout. Read config/production.json and the current production documentation first. Default count is three; `PRODUCTION_COUNT=1` requests one. The v3 runner performs fresh source discovery/retrieval and scoring, excludes produced IDs from persistent history, and renders only reviewed topics with genuine tested capture adapters. A shortfall exits 2; it never invents experiments or recycles completed subjects. New discoveries require primary verification, accessible software and a working adapter before eligibility.
 
-```bash
-cd /workspace/youtube-shorts-factory
-npm run produce:daily
-```
+Future narration uses HumanVoiceDirector automatically through scripts/tts.py and the cache-aware narration service. Read docs/human-voice-director.md. Provide scene-purpose phrases when possible; otherwise five-mode semantic sentence defaults apply. Use one voice identity, conservative native rate changes, intentional pauses and sparse word emphasis. Rebuild timings after final audio processing; never reuse old caption timestamps when performance changes. Do not describe the mode names as native engine emotion support.
 
-Default count: 3. Override with `PRODUCTION_COUNT=1 npm run produce:daily`. The command loads config, reads history, selects unseen curated topic specs, runs the real pipeline sequentially, exports metadata and writes a daily report. An insufficient queue exits 2 and reports the actual count. It never duplicates the CyberChef example to make three outputs.
+Run typecheck, RemotionUI doctor, creative/voice contracts, actual full render, encoded QA and browser playback. Inspect encoded opening, action, payoff, CTA and final frames. Listen before claiming perceptual voice/music approval. Every output has its real limitations recorded. Tests and corrections must preserve nonzero outcomes. Legacy pipeline tests use a separate output directory; never overwrite earlier videos.
 
-Current queue contains one verified CyberChef adapter. After the first test it is already in history, so daily production correctly reports zero new subjects. Autonomous discovery and distinct product interaction adapters remain to be implemented before three daily videos are practical. Add adapters with real assertions and script/storyboard policies before adding new IDs to the queue. The current script anchors are CyberChef-specific and reject incompatible scripts rather than silently producing a mismatched video.
+The robot-run experiment is a separate original Codex-authored prototype with its source included under experiments/robot-run. Wanaka and web alternatives were proxy-blocked, so this is not evidence of their capabilities. Run `npm run game:serve`, then `npm run game:test` or `npm run game:capture`, then `npm run game:build -- OUTPUT --stills` / `npm run game:build -- OUTPUT`. Use a new versioned output folder for each fresh capture; replacing a completed take requires explicit --newtake / --rerender. Never relabel this local experiment as a third-party game-builder demonstration.
 
-Review quality-report.json, capture.json, script, source claims, extracted frames, captions and the complete soundtrack. Download the export archive, then perform a manual YouTube upload if desired. Never auto-publish. Track actual audience geography later in channel analytics.
-
-## Premium default
-
-The verified queue now points at data/cyberchef-v2.json. All future supported premium adapters must emit validated creative directions, measured focus rectangles, phrase-aware captions and timed audio events. The main `npm run test:pipeline` command now produces CyberChef v2 in a separate folder. `--legacy` produces a separate legacy-retest; original v1 is preserved. `npm run test:v2 -- --reuse` reuses captured speech/footage for design iterations. `npm run verify:v2` analyzes the actual encoded MP4, including correlation against the intended complete mix. `npm run export:v2` packages all review deliverables.
-
-Default daily count remains three, but only one verified product/story adapter exists. Additional research and interaction adapters are still required for three original subjects daily; the command reports insufficient new topics with exit 2. Premium styling does not solve this editorial limitation.
+Review scripts, sources, footage, captions, reports and complete audio. Export the review bundle; upload to YouTube manually only if desired. Do not publish automatically, spoof geography or promise audience performance.

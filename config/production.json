@@ -22,5 +22,8 @@
   ],
   "requireEditorialReview": true,
   "qualityProfile": "premium-v3",
-  "reviewedTopicsFile": "data/production-v3.json"
+  "reviewedTopicsFile": "data/production-v3.json",
+  "voiceConfig": "config/voice.json",
+  "voiceDirector": "HumanVoiceDirector",
+  "requireFinalWaveformAlignment": true
 }

@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {VoicePerformance,directHumanVoice}from'../src/directors/HumanVoiceDirector';
+import {phrases}from'../src/directors/CaptionDirector';
+const out=process.argv[2]||'output/robot-run-v1-2026-11-10';
+const topic=JSON.parse(fs.readFileSync('data/robot-run-v1.json','utf8')),p=VoicePerformance.parse(topic.voicePerformance);
+assert.equal(p.phrases.map(p=>p.text).join(' '),topic.narration);assert.equal(new Set(p.phrases.map(p=>p.emotion)).size,5);
+assert(!VoicePerformance.safeParse({version:1,phrases:[{text:'Hi',emotion:'shout',scene:'hook'}]}).success);
+assert(!VoicePerformance.safeParse({version:1,phrases:[{text:'Hi',emotion:'curious',rate:1.5,scene:'hook'}]}).success);
+assert(!VoicePerformance.safeParse({version:1,phrases:[{text:'Hi',emotion:'curious',pauseAfterMs:1500,scene:'hook'}]}).success);
+const generated=directHumanVoice('Can this work? Before we test, look here. Subscribe for more tools.');assert.deepEqual(generated.phrases.map(p=>p.emotion),['curious','anticipation','satisfied']);
+const v=JSON.parse(fs.readFileSync(out+'/narration.wav.json','utf8'));assert.equal(v.words.map((w:any)=>w.text).join(' '),topic.narration);assert(v.words.every((w:any,i:number)=>w.end>w.start&&(i===0||w.start>=v.words[i-1].end-.04)));assert(phrases(v.words).every(p=>p.tokens.length<=5));
+const q=JSON.parse(fs.readFileSync(out+'/voice-quality-report.json','utf8'));assert(q.passed);console.log('Human voice contracts, rejected invalid controls, five-mode synthesis evidence, final acoustic alignment and phrase captions: PASS');

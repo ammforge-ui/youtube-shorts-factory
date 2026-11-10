@@ -24,7 +24,13 @@
     "render:v3": "tsx scripts/render-v3.ts",
     "setup:v3": "node scripts/setup-v3.mjs",
     "test:v3": "tsx scripts/check-v3.ts",
-    "export:v3": "python scripts/export-v3.py"
+    "export:v3": "python scripts/export-v3.py",
+    "test:voice": "tsx scripts/test-human-voice.ts",
+    "game:serve": "node scripts/game-server.mjs",
+    "game:test": "node scripts/test-game.mjs",
+    "game:capture": "node scripts/capture-game.mjs",
+    "game:build": "tsx scripts/build-game-short.ts",
+    "test:voice-cache": "tsx scripts/test-voice-cache.ts"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.542",
@@ -36,6 +42,7 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "remotion": "4.0.542",
+    "three": "0.180.0",
     "zod": "4.3.6"
   },
   "devDependencies": {

@@ -14,3 +14,6 @@ artifacts/
 data/production-history/*.json
 
 work/
+
+__pycache__/
+*.pyc

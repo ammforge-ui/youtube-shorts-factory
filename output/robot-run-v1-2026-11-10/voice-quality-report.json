@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "checks": {
+    "fileBoundToTimings": true,
+    "fiveSupportedModes": true,
+    "wordTiming": true,
+    "differentPhraseRates": true,
+    "boundedPauses": true,
+    "noClipping": true,
+    "oneSpeaker": true,
+    "insertedPauseSilence": true
+  },
+  "directed": {
+    "duration": 26.437868480725623,
+    "peakDbFS": -4.883321394003755,
+    "rmsDbFS": -24.386129937398202,
+    "estimatedF0Hz": {
+      "voicedWindows": 614,
+      "median": 200.45454545454547,
+      "p10": 159.25000000000003,
+      "p90": 275.625
+    },
+    "pitchMethod": "Short-window autocorrelation estimate; not a naturalness score"
+  },
+  "flat": {
+    "duration": 24.998185941043083,
+    "peakDbFS": -3.652153359294102,
+    "rmsDbFS": -23.801641902200625,
+    "estimatedF0Hz": {
+      "voicedWindows": 597,
+      "median": 210.0,
+      "p10": 169.6153846153846,
+      "p90": 275.625
+    },
+    "pitchMethod": "Short-window autocorrelation estimate; not a naturalness score"
+  },
+  "performance": [
+    {
+      "index": 0,
+      "text": "Can AI build a playable three D game?",
+      "emotion": "curious",
+      "rate": 0.99,
+      "emphasis": [
+        "playable"
+      ],
+      "pitchRatio": 1.0,
+      "start": 0.0,
+      "end": 2.4181859410430837,
+      "pauseAfterMs": 170.0,
+      "scene": "hook"
+    },
+    {
+      "index": 1,
+      "text": "I gave Codex a robot obstacle course:",
+      "emotion": "explanatory",
+      "rate": 0.98,
+      "emphasis": [
+        "Codex"
+      ],
+      "pitchRatio": 1.0,
+      "start": 2.588208616780045,
+      "end": 5.757732426303855,
+      "pauseAfterMs": 90.0,
+      "scene": "brief"
+    },
+    {
+      "index": 2,
+      "text": "moving platforms, glowing coins, and a finish portal.",
+      "emotion": "explanatory",
+      "rate": 0.98,
+      "emphasis": [
+        "glowing coins"
+      ],
+      "pitchRatio": 1.0,
+      "start": 5.847709750566894,
+      "end": 8.97936507936508,
+      "pauseAfterMs": 120.0,
+      "scene": "challenge"
+    },
+    {
+      "index": 3,
+      "text": "This is the local prototype it wrote.",
+      "emotion": "anticipation",
+      "rate": 0.95,
+      "emphasis": [
+        "prototype"
+      ],
+      "pitchRatio": 1.0,
+      "start": 9.099365079365079,
+      "end": 11.444716553287982,
+      "pauseAfterMs": 220.0,
+      "scene": "source"
+    },
+    {
+      "index": 4,
+      "text": "I tested the controls, collected the coins, then reached the portal.",
+      "emotion": "excited",
+      "rate": 1.05,
+      "emphasis": [
+        "reached"
+      ],
+      "pitchRatio": 1.0,
+      "start": 11.664716553287983,
+      "end": 15.507891156462586,
+      "pauseAfterMs": 120.0,
+      "scene": "payoff"
+    },
+    {
+      "index": 5,
+      "text": "It runs, but this took code fixes, and it is not a finished game.",
+      "emotion": "explanatory",
+      "rate": 0.98,
+      "emphasis": [
+        "code fixes"
+      ],
+      "pitchRatio": 1.0,
+      "start": 15.627891156462585,
+      "end": 19.911519274376417,
+      "pauseAfterMs": 140.0,
+      "scene": "limitation"
+    },
+    {
+      "index": 6,
+      "text": "Treat AI output as a starting point you still need to test.",
+      "emotion": "satisfied",
+      "rate": 0.98,
+      "emphasis": [
+        "test"
+      ],
+      "pitchRatio": 1.0,
+      "start": 20.051519274376417,
+      "end": 24.02589569160998,
+      "pauseAfterMs": 130.0,
+      "scene": "takeaway"
+    },
+    {
+      "index": 7,
+      "text": "Subscribe for more AI experiments.",
+      "emotion": "satisfied",
+      "rate": 0.98,
+      "emphasis": [],
+      "pitchRatio": 1.0,
+      "start": 24.155873015873016,
+      "end": 26.4378231292517,
+      "pauseAfterMs": 0,
+      "scene": "cta"
+    }
+  ],
+  "processing": "Native phrase rates; <1dB smooth emphasis; short edge fades and measured micro-pauses. Optional pitch processing OFF for final.",
+  "review": {
+    "listening": "Pending human audition. No human-level performance or artifact-free perceptual claim.",
+    "naturalness": "Unverified by listening",
+    "intonation": "Native question punctuation plus measured F0; no direct emotion control",
+    "comparisonDecision": "Conservative directed take selected for measured timing variation; A/B files supplied for listener judgment."
+  }
+}

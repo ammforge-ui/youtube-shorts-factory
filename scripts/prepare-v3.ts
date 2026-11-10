@@ -2,13 +2,13 @@ import fs from 'node:fs';
 import {json,run} from '../src/services/system';
 import {VideoSchema} from '../src/schemas/video';
 import {directAudio} from '../src/directors/AudioDirector';
+import {generateDirectedNarration} from '../src/services/narration';
 import {srt} from '../src/directors/CaptionDirector';
 const root=process.argv[2]||'output/production-v3-2026-11-10';
 const topics=JSON.parse(fs.readFileSync(process.env.PRODUCTION_TOPICS||'data/production-v3.json','utf8'));
 for(const topic of topics){
  const name=topic.id==='cyberchef-v3'?'cyberchef':topic.id,out=`${root}/${name}`,key=`v3-${name}`;fs.mkdirSync(out,{recursive:true});json(out+'/topic.json',topic);
- if(!fs.existsSync(out+'/narration.wav.json'))console.log(run('python',['scripts/tts.py',out+'/topic.json',out+'/narration.wav']));
- const voice=JSON.parse(fs.readFileSync(out+'/narration.wav.json','utf8'));const capture=JSON.parse(fs.readFileSync(out+'/capture.json','utf8'));
+ const voice=generateDirectedNarration(topic,out);const capture=JSON.parse(fs.readFileSync(out+'/capture.json','utf8'));
  const media='public/media/'+key;fs.mkdirSync(media,{recursive:true});for(const file of fs.readdirSync(out).filter(x=>/\.(png|mp4)$/.test(x)))fs.copyFileSync(out+'/'+file,media+'/'+file);
  const at=(phrase:string)=>{const clean=(s:string)=>s.toLowerCase().replace(/[^a-z0-9]/g,'');const toks=phrase.split(' ');const i=voice.words.findIndex((_:any,i:number)=>toks.every((t,j)=>clean(voice.words[i+j]?.text||'')===clean(t)));if(i<0)throw Error('Missing anchor '+phrase);return Math.round(voice.words[i].start*30)/30};
  const duration=Math.ceil((voice.duration+.25)*30)/30;

@@ -1,0 +1,123 @@
+{
+  "bpm": 120,
+  "composition": "Original two-bar B-minor/Gmaj7/Dmaj7/Aadd9 progression; plucked arpeggio, warm pad, bass, kick, snare and hats; seeded synthesis.",
+  "license": {
+    "source": "src/directors/AudioDirector.ts",
+    "type": "Original procedural composition and effects; no external recordings or samples",
+    "allowedUsage": "YouTube publishing and automated production; no attribution required",
+    "restrictions": "No claim of exclusive rights to generated musical patterns"
+  },
+  "narration": {
+    "meanDb": -17.7,
+    "peakDb": -2,
+    "silenceLog": [
+      "[silencedetect @ 0x7f5898082300] silence_start: 2.3875",
+      "[silencedetect @ 0x7f5898082300] silence_end: 2.590667 | silence_duration: 0.203167",
+      "[silencedetect @ 0x7f5898082300] silence_start: 11.434375",
+      "[silencedetect @ 0x7f5898082300] silence_end: 11.668354 | silence_duration: 0.233979",
+      "[silencedetect @ 0x7f5898082300] silence_start: 19.895958",
+      "[silencedetect @ 0x7f5898082300] silence_end: 20.054208 | silence_duration: 0.15825"
+    ]
+  },
+  "music": {
+    "meanDb": -23.9,
+    "peakDb": -4.9,
+    "silenceLog": []
+  },
+  "duckedMusic": {
+    "meanDb": -32.3,
+    "peakDb": -9.4,
+    "silenceLog": []
+  },
+  "effects": {
+    "meanDb": -51.1,
+    "peakDb": -24.9,
+    "silenceLog": [
+      "[silencedetect @ 0x7f87dc082300] silence_start: 0.0805833",
+      "[silencedetect @ 0x7f87dc082300] silence_end: 2.6 | silence_duration: 2.519417",
+      "[silencedetect @ 0x7f87dc082300] silence_start: 2.981208",
+      "[silencedetect @ 0x7f87dc082300] silence_end: 5.841312 | silence_duration: 2.860104",
+      "[silencedetect @ 0x7f87dc082300] silence_start: 6.04375",
+      "[silencedetect @ 0x7f87dc082300] silence_end: 9.1085 | silence_duration: 3.06475",
+      "[silencedetect @ 0x7f87dc082300] silence_start: 9.310458",
+      "[silencedetect @ 0x7f87dc082300] silence_end: 14.9345 | silence_duration: 5.624042",
+      "[silencedetect @ 0x7f87dc082300] silence_start: 15.442104",
+      "[silencedetect @ 0x7f87dc082300] silence_end: 15.641375 | silence_duration: 0.199271",
+      "[silencedetect @ 0x7f87dc082300] silence_start: 15.845417",
+      "[silencedetect @ 0x7f87dc082300] silence_end: 20.075146 | silence_duration: 4.229729",
+      "[silencedetect @ 0x7f87dc082300] silence_start: 20.278708",
+      "[silencedetect @ 0x7f87dc082300] silence_end: 24.168667 | silence_duration: 3.889958",
+      "[silencedetect @ 0x7f87dc082300] silence_start: 24.546396",
+      "[silencedetect @ 0x7f87dc082300] silence_end: 26.553104 | silence_duration: 2.006708"
+    ]
+  },
+  "mix": {
+    "meanDb": -20.4,
+    "peakDb": -4.5,
+    "silenceLog": []
+  },
+  "events": [
+    {
+      "event": "Can AI build a 3D game?",
+      "frame": 0,
+      "sound": "digital_pop",
+      "intensity": 0.25
+    },
+    {
+      "event": "The brief: a robot obstacle course.",
+      "frame": 78,
+      "sound": "keyboard",
+      "intensity": 0.25
+    },
+    {
+      "event": "Platforms. Coins. A portal.",
+      "frame": 175,
+      "sound": "soft_whoosh",
+      "intensity": 0.25
+    },
+    {
+      "event": "Actual code. Local prototype.",
+      "frame": 273,
+      "sound": "soft_whoosh",
+      "intensity": 0.25
+    },
+    {
+      "event": "Then I tested what it built.",
+      "frame": 448,
+      "sound": "digital_reveal",
+      "intensity": 0.55
+    },
+    {
+      "event": "It took fixes. It is still a prototype.",
+      "frame": 469,
+      "sound": "soft_whoosh",
+      "intensity": 0.25
+    },
+    {
+      "event": "AI writes. You still test.",
+      "frame": 602,
+      "sound": "soft_whoosh",
+      "intensity": 0.25
+    },
+    {
+      "event": "More AI experiments.",
+      "frame": 725,
+      "sound": "ending",
+      "intensity": 0.25
+    }
+  ],
+  "ducking": {
+    "threshold": 0.035,
+    "ratio": 3,
+    "attackMs": 20,
+    "releaseMs": 230,
+    "method": "Actual narration sidechain compressor"
+  },
+  "perceptualReview": "Pending human listening; objective checks do not establish narration naturalness or musical taste.",
+  "encoded": {
+    "peakDbFS": -4.5172196483278135,
+    "correlationToIntendedMix": 0.9998397934300327,
+    "silenceAndLoudnessLog": "{\n\t\"input_i\" : \"-17.05\",\n\t\"input_tp\" : \"-4.52\",\n\t\"input_lra\" : \"1.90\",\n\t\"input_thresh\" : \"-27.14\",\n\t\"output_i\" : \"-16.03\",\n\t\"output_tp\" : \"-3.20\",\n\t\"output_lra\" : \"1.70\",\n\t\"output_thresh\" : \"-26.09\",\n\t\"normalization_type\" : \"dynamic\",\n\t\"target_offset\" : \"0.03\"\n}\nframe=  813 fps=231 q=-0.0 size=N/A time=00:00:24.20 bitrate=N/A speed=6.88x    \n[out#0/null @ 0x558db5c0c5c0] video:349KiB audio:20336KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  813 fps=231 q=-0.0 Lsize=N/A time=00:00:27.10 bitrate=N/A speed= 7.7x    \n",
+    "silenceEvents": []
+  }
+}

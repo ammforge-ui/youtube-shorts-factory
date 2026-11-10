@@ -1,0 +1,8 @@
+[
+  {
+    "scene": 7,
+    "startFrame": 725,
+    "endFrameExclusive": 813,
+    "reason": "Improve final subscribe badge contrast against the light platform"
+  }
+]

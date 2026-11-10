@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "samples": [
+    {
+      "time": 0.219537,
+      "paused": false,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "time": 3.223477,
+      "paused": false,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "time": 14.225494,
+      "paused": false,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "time": 26.223113,
+      "paused": false,
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "scope": "Actual Chromium seek/playback, muted; no listening approval"
+}
