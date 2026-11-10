@@ -1,0 +1,79 @@
+1
+00:00:00,000 --> 00:00:01,340
+These three boxes run
+
+2
+00:00:01,340 --> 00:00:02,640
+a tiny automation.
+
+3
+00:00:02,640 --> 00:00:04,090
+No code in this flow.
+
+4
+00:00:04,090 --> 00:00:05,930
+The first sends a message.
+
+5
+00:00:05,930 --> 00:00:07,340
+The middle changes it.
+
+6
+00:00:07,340 --> 00:00:09,100
+The last shows the result.
+
+7
+00:00:09,100 --> 00:00:10,120
+This is Node RED,
+
+8
+00:00:10,120 --> 00:00:12,660
+a free visual programming tool.
+
+9
+00:00:12,660 --> 00:00:14,110
+Open the Change node
+
+10
+00:00:14,110 --> 00:00:15,340
+and set a greeting.
+
+11
+00:00:15,340 --> 00:00:16,450
+Deploy the flow,
+
+12
+00:00:16,450 --> 00:00:18,390
+then press the little button.
+
+13
+00:00:18,390 --> 00:00:18,740
+Hello,
+
+14
+00:00:18,740 --> 00:00:19,280
+builder!
+
+15
+00:00:19,280 --> 00:00:20,240
+Press it again.
+
+16
+00:00:20,240 --> 00:00:21,980
+Another message arrives.
+
+17
+00:00:21,980 --> 00:00:23,020
+Start small,
+
+18
+00:00:23,020 --> 00:00:24,420
+then explore the built in
+
+19
+00:00:24,420 --> 00:00:25,160
+nodes.
+
+20
+00:00:25,160 --> 00:00:27,730
+Subscribe for more useful software.

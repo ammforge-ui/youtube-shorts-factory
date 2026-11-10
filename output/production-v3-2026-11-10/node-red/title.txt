@@ -1,0 +1,1 @@
+Three boxes. A working automation. | Node-RED

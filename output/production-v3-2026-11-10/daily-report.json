@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-10",
+  "requested": 3,
+  "produced": 3,
+  "publication": "Not published",
+  "videos": {
+    "cyberchef": {
+      "metadata": {
+        "duration": 28.907,
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "bytes": 4918510
+      },
+      "sha256": "c33b83fac332dd930a72e1026b30692aa5d5983c1aea5e7ca2ea79f02bfb0842",
+      "passed": true,
+      "visualReview": "passed-with-notes",
+      "audioReview": "Human listening pending"
+    },
+    "node-red": {
+      "metadata": {
+        "duration": 28.011,
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "bytes": 5579312
+      },
+      "sha256": "4740ee781545f5a0a95a48e0cc9ddb289d05313d2effa0e11b567e03a9d16d69",
+      "passed": true,
+      "visualReview": "passed-with-notes",
+      "audioReview": "Human listening pending"
+    },
+    "playwright": {
+      "metadata": {
+        "duration": 27.051,
+        "width": 1080,
+        "height": 1920,
+        "fps": "30/1",
+        "videoCodec": "h264",
+        "audioCodec": "aac",
+        "bytes": 6998151
+      },
+      "sha256": "f57fddec849b2f8db772b25da0ce4578a69e5604dc9c3d3fcc82543603b08e4f",
+      "passed": true,
+      "visualReview": "passed-with-notes",
+      "audioReview": "Human listening pending"
+    }
+  },
+  "originalV2Sha256": "c1fbba52259e4c523d78bd5c58cca9a2974e262f5f34f4f269dc0c61677e81d4",
+  "originalV2Preserved": true,
+  "freshLaunchShortfall": "Two new videos are evergreen fallbacks. No fresh SaaS AI demonstration was verified in the restricted environment.",
+  "factoryLimitation": "New candidate qualification and capture adapters are not fully autonomous.",
+  "sourceChanges": "Local checkout only; no push or media commit."
+}

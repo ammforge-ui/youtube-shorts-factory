@@ -1,0 +1,51 @@
+{
+  "product": "node-red",
+  "viewport": {
+    "width": 1200,
+    "height": 1000
+  },
+  "shots": [
+    {
+      "id": "overview",
+      "time": 4.56,
+      "target": {
+        "x": 215,
+        "y": 40,
+        "width": 985,
+        "height": 960
+      }
+    },
+    {
+      "id": "rule",
+      "time": 5.808,
+      "target": {
+        "x": 407.90625,
+        "y": 172.09375,
+        "width": 462,
+        "height": 721
+      }
+    },
+    {
+      "id": "result",
+      "time": 9.16,
+      "target": {
+        "x": 895,
+        "y": 44,
+        "width": 300,
+        "height": 916
+      }
+    },
+    {
+      "id": "repeat",
+      "time": 10.068,
+      "target": {
+        "x": 895,
+        "y": 44,
+        "width": 300,
+        "height": 916
+      }
+    }
+  ],
+  "verified": true,
+  "capturedAt": "2026-11-10T12:10:22.235Z"
+}

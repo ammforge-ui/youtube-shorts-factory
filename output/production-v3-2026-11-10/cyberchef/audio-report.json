@@ -1,0 +1,137 @@
+{
+  "bpm": 116,
+  "composition": "Original two-bar B-minor/Gmaj7/Dmaj7/Aadd9 progression; plucked arpeggio, warm pad, bass, kick, snare and hats; seeded synthesis.",
+  "license": {
+    "source": "src/directors/AudioDirector.ts",
+    "type": "Original procedural composition and effects; no external recordings or samples",
+    "allowedUsage": "YouTube publishing and automated production; no attribution required",
+    "restrictions": "No claim of exclusive rights to generated musical patterns"
+  },
+  "narration": {
+    "meanDb": -17.2,
+    "peakDb": -2,
+    "silenceLog": []
+  },
+  "music": {
+    "meanDb": -24.7,
+    "peakDb": -5,
+    "silenceLog": []
+  },
+  "duckedMusic": {
+    "meanDb": -33.9,
+    "peakDb": -9.7,
+    "silenceLog": [
+      "[silencedetect @ 0x7f42d8082300] silence_start: 3.970104",
+      "[silencedetect @ 0x7f42d8082300] silence_end: 4.137958 | silence_duration: 0.167854",
+      "[silencedetect @ 0x7f42d8082300] silence_start: 8.118187",
+      "[silencedetect @ 0x7f42d8082300] silence_end: 8.275896 | silence_duration: 0.157708",
+      "[silencedetect @ 0x7f42d8082300] silence_start: 12.253438",
+      "[silencedetect @ 0x7f42d8082300] silence_end: 12.413792 | silence_duration: 0.160354",
+      "[silencedetect @ 0x7f42d8082300] silence_start: 16.390479",
+      "[silencedetect @ 0x7f42d8082300] silence_end: 16.551729 | silence_duration: 0.16125",
+      "[silencedetect @ 0x7f42d8082300] silence_start: 24.669896",
+      "[silencedetect @ 0x7f42d8082300] silence_end: 24.827604 | silence_duration: 0.157708"
+    ]
+  },
+  "effects": {
+    "meanDb": -49.5,
+    "peakDb": -24.9,
+    "silenceLog": [
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 0.0890625",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 1.7345 | silence_duration: 1.645437",
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 2.242104",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 4.806042 | silence_duration: 2.563937",
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 5.015979",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 8.266708 | silence_duration: 3.250729",
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 8.284917",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 10.1 | silence_duration: 1.815083",
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 10.119",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 12.667833 | silence_duration: 2.548833",
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 13.175437",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 15.171333 | silence_duration: 1.995896",
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 15.380708",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 20.571271 | silence_duration: 5.190562",
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 20.779396",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 22.805062 | silence_duration: 2.025667",
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 23.015333",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 26.135292 | silence_duration: 3.119958",
+      "[silencedetect @ 0x7f0fa8082300] silence_start: 26.534",
+      "[silencedetect @ 0x7f0fa8082300] silence_end: 28.353104 | silence_duration: 1.819104"
+    ]
+  },
+  "mix": {
+    "meanDb": -20,
+    "peakDb": -3.7,
+    "silenceLog": []
+  },
+  "events": [
+    {
+      "event": "This looks secret.",
+      "frame": 0,
+      "sound": "digital_pop",
+      "intensity": 0.28
+    },
+    {
+      "event": "Meet me on Mars.",
+      "frame": 52,
+      "sound": "digital_reveal",
+      "intensity": 0.55
+    },
+    {
+      "event": "Decode it in your browser.",
+      "frame": 144,
+      "sound": "soft_whoosh",
+      "intensity": 0.28
+    },
+    {
+      "event": "Paste into Input.",
+      "frame": 248,
+      "sound": "ui_click",
+      "intensity": 0.28
+    },
+    {
+      "event": "Add From Base64.",
+      "frame": 303,
+      "sound": "ui_click",
+      "intensity": 0.28
+    },
+    {
+      "event": "The message is readable.",
+      "frame": 380,
+      "sound": "digital_reveal",
+      "intensity": 0.55
+    },
+    {
+      "event": "Encoding ≠ encryption.",
+      "frame": 455,
+      "sound": "soft_whoosh",
+      "intensity": 0.28
+    },
+    {
+      "event": "No key needed.",
+      "frame": 617,
+      "sound": "soft_whoosh",
+      "intensity": 0.28
+    },
+    {
+      "event": "Inspect data. Keep secrets safe.",
+      "frame": 684,
+      "sound": "soft_whoosh",
+      "intensity": 0.28
+    },
+    {
+      "event": "More tools worth knowing.",
+      "frame": 784,
+      "sound": "ending",
+      "intensity": 0.28
+    }
+  ],
+  "ducking": {
+    "threshold": 0.035,
+    "ratio": 3,
+    "attackMs": 20,
+    "releaseMs": 230,
+    "method": "Actual narration sidechain compressor"
+  },
+  "perceptualReview": "Not yet auditioned by a human; objective stem/level checks do not establish musical taste."
+}

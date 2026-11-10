@@ -1,0 +1,136 @@
+{
+  "bpm": 110,
+  "composition": "Original two-bar B-minor/Gmaj7/Dmaj7/Aadd9 progression; plucked arpeggio, warm pad, bass, kick, snare and hats; seeded synthesis.",
+  "license": {
+    "source": "src/directors/AudioDirector.ts",
+    "type": "Original procedural composition and effects; no external recordings or samples",
+    "allowedUsage": "YouTube publishing and automated production; no attribution required",
+    "restrictions": "No claim of exclusive rights to generated musical patterns"
+  },
+  "narration": {
+    "meanDb": -17.5,
+    "peakDb": -2,
+    "silenceLog": []
+  },
+  "music": {
+    "meanDb": -23.9,
+    "peakDb": -4.9,
+    "silenceLog": []
+  },
+  "duckedMusic": {
+    "meanDb": -33.4,
+    "peakDb": -8.3,
+    "silenceLog": [
+      "[silencedetect @ 0x7f525c082300] silence_start: 8.551917",
+      "[silencedetect @ 0x7f525c082300] silence_end: 8.727292 | silence_duration: 0.175375",
+      "[silencedetect @ 0x7f525c082300] silence_start: 12.932292",
+      "[silencedetect @ 0x7f525c082300] silence_end: 13.090917 | silence_duration: 0.158625",
+      "[silencedetect @ 0x7f525c082300] silence_start: 17.28075",
+      "[silencedetect @ 0x7f525c082300] silence_end: 17.454542 | silence_duration: 0.173792",
+      "[silencedetect @ 0x7f525c082300] silence_start: 21.630875",
+      "[silencedetect @ 0x7f525c082300] silence_end: 21.818188 | silence_duration: 0.187312"
+    ]
+  },
+  "effects": {
+    "meanDb": -50.5,
+    "peakDb": -24.9,
+    "silenceLog": [
+      "[silencedetect @ 0x7febcc082300] silence_start: 0.0890625",
+      "[silencedetect @ 0x7febcc082300] silence_end: 3.304125 | silence_duration: 3.215062",
+      "[silencedetect @ 0x7febcc082300] silence_start: 3.514396",
+      "[silencedetect @ 0x7febcc082300] silence_end: 7.072729 | silence_duration: 3.558333",
+      "[silencedetect @ 0x7febcc082300] silence_start: 7.278771",
+      "[silencedetect @ 0x7febcc082300] silence_end: 9.233375 | silence_duration: 1.954604",
+      "[silencedetect @ 0x7febcc082300] silence_start: 9.251958",
+      "[silencedetect @ 0x7febcc082300] silence_end: 11.436979 | silence_duration: 2.185021",
+      "[silencedetect @ 0x7febcc082300] silence_start: 11.647354",
+      "[silencedetect @ 0x7febcc082300] silence_end: 14.101167 | silence_duration: 2.453812",
+      "[silencedetect @ 0x7febcc082300] silence_start: 14.608771",
+      "[silencedetect @ 0x7febcc082300] silence_end: 16.303187 | silence_duration: 1.694417",
+      "[silencedetect @ 0x7febcc082300] silence_start: 16.512375",
+      "[silencedetect @ 0x7febcc082300] silence_end: 20.472729 | silence_duration: 3.960354",
+      "[silencedetect @ 0x7febcc082300] silence_start: 20.682021",
+      "[silencedetect @ 0x7febcc082300] silence_end: 24.368625 | silence_duration: 3.686604",
+      "[silencedetect @ 0x7febcc082300] silence_start: 24.767333",
+      "[silencedetect @ 0x7febcc082300] silence_end: 26.486437 | silence_duration: 1.719104"
+    ]
+  },
+  "mix": {
+    "meanDb": -20.3,
+    "peakDb": -3.5,
+    "silenceLog": [
+      "[silencedetect @ 0x7f6ebc082300] silence_start: 26.836917",
+      "[silencedetect @ 0x7f6ebc082300] silence_end: 27.033333 | silence_duration: 0.196417"
+    ]
+  },
+  "events": [
+    {
+      "event": "What happened after the click?",
+      "frame": 0,
+      "sound": "digital_pop",
+      "intensity": 0.28
+    },
+    {
+      "event": "Inspect the run afterward.",
+      "frame": 99,
+      "sound": "soft_whoosh",
+      "intensity": 0.28
+    },
+    {
+      "event": "A fictional checkout test.",
+      "frame": 212,
+      "sound": "soft_whoosh",
+      "intensity": 0.28
+    },
+    {
+      "event": "Select the click.",
+      "frame": 277,
+      "sound": "ui_click",
+      "intensity": 0.28
+    },
+    {
+      "event": "Before the action.",
+      "frame": 343,
+      "sound": "soft_whoosh",
+      "intensity": 0.28
+    },
+    {
+      "event": "The missing address.",
+      "frame": 423,
+      "sound": "digital_reveal",
+      "intensity": 0.55
+    },
+    {
+      "event": "Snapshots beat guesswork.",
+      "frame": 489,
+      "sound": "soft_whoosh",
+      "intensity": 0.28
+    },
+    {
+      "event": "Keep sensitive data out.",
+      "frame": 614,
+      "sound": "soft_whoosh",
+      "intensity": 0.28
+    },
+    {
+      "event": "More developer tools.",
+      "frame": 731,
+      "sound": "ending",
+      "intensity": 0.28
+    }
+  ],
+  "ducking": {
+    "threshold": 0.035,
+    "ratio": 3,
+    "attackMs": 20,
+    "releaseMs": 230,
+    "method": "Actual narration sidechain compressor"
+  },
+  "perceptualReview": "Pending human listening; objective checks do not establish narration naturalness or musical taste.",
+  "encoded": {
+    "peakDbFS": -3.542259767959848,
+    "correlationToIntendedMix": 0.9998425107421274,
+    "silenceAndLoudnessLog": "{\n\t\"input_i\" : \"-16.85\",\n\t\"input_tp\" : \"-3.52\",\n\t\"input_lra\" : \"2.20\",\n\t\"input_thresh\" : \"-26.88\",\n\t\"output_i\" : \"-15.76\",\n\t\"output_tp\" : \"-2.21\",\n\t\"output_lra\" : \"2.20\",\n\t\"output_thresh\" : \"-25.76\",\n\t\"normalization_type\" : \"dynamic\",\n\t\"target_offset\" : \"-0.24\"\n}\n[out#0/null @ 0x55ce5d6d94c0] video:348KiB audio:20288KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nframe=  810 fps=338 q=-0.0 Lsize=N/A time=00:00:27.00 bitrate=N/A speed=11.3x    \n",
+    "silenceEvents": []
+  }
+}

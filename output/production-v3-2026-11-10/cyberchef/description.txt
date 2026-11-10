@@ -1,0 +1,1 @@
+A real CyberChef Base64 decode, recorded from the official local release. Base64 is encoding, not encryption. Fictional sample: Meet me on Mars. Free and open source. https://gchq.github.io/CyberChef/

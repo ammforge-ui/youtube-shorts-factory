@@ -1,5 +1,8 @@
 node_modules/
-output/
+# Keep finished videos in Git; ignore intermediate production files.
+output/**
+!output/**/
+!output/**/final*.mp4
 public/media/
 .env
 .env.*
