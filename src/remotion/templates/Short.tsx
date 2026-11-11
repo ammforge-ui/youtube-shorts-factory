@@ -1,4 +1,6 @@
 import React from "react";
+import {ExperimentShort} from "../premium/ExperimentShort";
+import {FactoryShort} from "../premium/FactoryShort";
 import {PremiumShort} from "../premium/PremiumShort";
 import {
   AbsoluteFill,
@@ -235,7 +237,7 @@ function Scene({
     </AbsoluteFill>
   );
 }
-export const Short: React.FC<{ spec: VideoSpec }> = ({ spec }) => spec.creative?.version===2?<PremiumShort spec={spec}/>:<LegacyShort spec={spec}/>;
+export const Short: React.FC<{ spec: VideoSpec }> = ({ spec }) => spec.creative?.version===4?<ExperimentShort spec={spec}/>:spec.creative?.version===3?<FactoryShort spec={spec}/>:spec.creative?.version===2?<PremiumShort spec={spec}/>:<LegacyShort spec={spec}/>;
 const LegacyShort: React.FC<{ spec: VideoSpec }> = ({ spec }) => {
   const f = useCurrentFrame();
   const time = f / 30;

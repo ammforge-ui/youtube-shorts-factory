@@ -1,0 +1,844 @@
+{
+  "method": "Measured browser DOM text geometry at representative renderStill frames after font readiness",
+  "sampleCount": 10,
+  "passed": true,
+  "violations": [],
+  "overlaps": [],
+  "records": [
+    {
+      "frame": 26,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 241.0625,
+          "textRects": [
+            {
+              "text": "CYBERCHEF",
+              "x": 80,
+              "y": 204,
+              "width": 192.265625,
+              "height": 29
+            },
+            {
+              "text": "This",
+              "x": 80,
+              "y": 252,
+              "width": 205.21875,
+              "height": 103
+            },
+            {
+              "text": "looks",
+              "x": 308.09375,
+              "y": 252,
+              "width": 261.984375,
+              "height": 103
+            },
+            {
+              "text": "secret.",
+              "x": 80,
+              "y": 347.03125,
+              "width": 342.8125,
+              "height": 103
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.1682739257812,
+          "width": 900,
+          "height": 849.9999389648438,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "This",
+              "x": 193.140625,
+              "y": 1509,
+              "width": 121.265625,
+              "height": 60
+            },
+            {
+              "text": "message",
+              "x": 338.3006896972656,
+              "y": 1508.7684326171875,
+              "width": 259.8361511230469,
+              "height": 60.208251953125
+            },
+            {
+              "text": "looks",
+              "x": 619.322021484375,
+              "y": 1505.6268310546875,
+              "width": 160.23095703125,
+              "height": 62.0999755859375
+            },
+            {
+              "text": "secret.",
+              "x": 383.703125,
+              "y": 1567.234375,
+              "width": 202.578125,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 97,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 90.71875,
+          "textRects": [
+            {
+              "text": "Meet",
+              "x": 80,
+              "y": 208,
+              "width": 215.0625,
+              "height": 89
+            },
+            {
+              "text": "me",
+              "x": 314.8125,
+              "y": 208,
+              "width": 130.75,
+              "height": 89
+            },
+            {
+              "text": "on",
+              "x": 465.3125,
+              "y": 208,
+              "width": 106.328125,
+              "height": 89
+            },
+            {
+              "text": "Mars.",
+              "x": 591.390625,
+              "y": 208,
+              "width": 238.515625,
+              "height": 89
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.9149169921875,
+          "width": 900,
+          "height": 850,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "Meet",
+              "x": 212.21875,
+              "y": 1509,
+              "width": 147.140625,
+              "height": 60
+            },
+            {
+              "text": "me",
+              "x": 383.703125,
+              "y": 1509,
+              "width": 89.453125,
+              "height": 60
+            },
+            {
+              "text": "on",
+              "x": 497.5,
+              "y": 1509,
+              "width": 72.75,
+              "height": 60
+            },
+            {
+              "text": "Mars.",
+              "x": 591.7379760742188,
+              "y": 1505.6268310546875,
+              "width": 168.8990478515625,
+              "height": 62.0999755859375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 189,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 171.15625,
+          "textRects": [
+            {
+              "text": "Decode",
+              "x": 80,
+              "y": 208,
+              "width": 317.84375,
+              "height": 89
+            },
+            {
+              "text": "it",
+              "x": 417.59375,
+              "y": 208,
+              "width": 62.390625,
+              "height": 89
+            },
+            {
+              "text": "in",
+              "x": 499.734375,
+              "y": 208,
+              "width": 80.15625,
+              "height": 89
+            },
+            {
+              "text": "your",
+              "x": 599.640625,
+              "y": 208,
+              "width": 193.34375,
+              "height": 89
+            },
+            {
+              "text": "browser.",
+              "x": 80,
+              "y": 290.078125,
+              "width": 366.609375,
+              "height": 89
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.9149169921875,
+          "width": 900,
+          "height": 850,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "for",
+              "x": 360.0768737792969,
+              "y": 1505.6319580078125,
+              "width": 86.94003295898438,
+              "height": 62.0999755859375
+            },
+            {
+              "text": "free,",
+              "x": 469.890625,
+              "y": 1509,
+              "width": 138.5625,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 276,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 90.71875,
+          "textRects": [
+            {
+              "text": "Paste",
+              "x": 80,
+              "y": 208,
+              "width": 238.0625,
+              "height": 89
+            },
+            {
+              "text": "into",
+              "x": 337.8125,
+              "y": 208,
+              "width": 168.703125,
+              "height": 89
+            },
+            {
+              "text": "Input.",
+              "x": 526.265625,
+              "y": 208,
+              "width": 256.09375,
+              "height": 89
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.252685546875,
+          "width": 900,
+          "height": 850,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "into",
+              "x": 327.484375,
+              "y": 1509,
+              "width": 115.4375,
+              "height": 60
+            },
+            {
+              "text": "Input.",
+              "x": 467.265625,
+              "y": 1509,
+              "width": 175.234375,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 342,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 90.71875,
+          "textRects": [
+            {
+              "text": "Add",
+              "x": 80,
+              "y": 208,
+              "width": 167.625,
+              "height": 89
+            },
+            {
+              "text": "From",
+              "x": 267.375,
+              "y": 208,
+              "width": 215.953125,
+              "height": 89
+            },
+            {
+              "text": "Base64.",
+              "x": 503.078125,
+              "y": 208,
+              "width": 340.640625,
+              "height": 89
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.6939086914062,
+          "width": 900,
+          "height": 849.9999389648438,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "Add",
+              "x": 180.296875,
+              "y": 1509,
+              "width": 114.703125,
+              "height": 60
+            },
+            {
+              "text": "From",
+              "x": 319.34375,
+              "y": 1509,
+              "width": 147.75,
+              "height": 60
+            },
+            {
+              "text": "Base64",
+              "x": 487.70452880859375,
+              "y": 1505.6268310546875,
+              "width": 220.7784423828125,
+              "height": 62.0999755859375
+            },
+            {
+              "text": "to",
+              "x": 729.09375,
+              "y": 1509,
+              "width": 60.59375,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 418,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 171.15625,
+          "textRects": [
+            {
+              "text": "The",
+              "x": 80,
+              "y": 208,
+              "width": 157.5,
+              "height": 89
+            },
+            {
+              "text": "message",
+              "x": 257.25,
+              "y": 208,
+              "width": 378.453125,
+              "height": 89
+            },
+            {
+              "text": "is",
+              "x": 655.453125,
+              "y": 208,
+              "width": 71.296875,
+              "height": 89
+            },
+            {
+              "text": "readable.",
+              "x": 80,
+              "y": 290.078125,
+              "width": 406.875,
+              "height": 89
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.6556396484375,
+          "width": 900,
+          "height": 850,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "The",
+              "x": 147.984375,
+              "y": 1509,
+              "width": 107.765625,
+              "height": 60
+            },
+            {
+              "text": "readable",
+              "x": 280.09375,
+              "y": 1509,
+              "width": 258.640625,
+              "height": 60
+            },
+            {
+              "text": "message",
+              "x": 559.644775390625,
+              "y": 1507.1431884765625,
+              "width": 265.80419921875,
+              "height": 61.591064453125
+            },
+            {
+              "text": "appears",
+              "x": 142.8925018310547,
+              "y": 1563.8612060546875,
+              "width": 244.77748107910156,
+              "height": 62.0999755859375
+            },
+            {
+              "text": "automatically.",
+              "x": 407.875,
+              "y": 1567.234375,
+              "width": 415.09375,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 500,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 171.15625,
+          "textRects": [
+            {
+              "text": "Encoding",
+              "x": 80,
+              "y": 208,
+              "width": 392.25,
+              "height": 89
+            },
+            {
+              "text": "≠",
+              "x": 492,
+              "y": 208,
+              "width": 63.6875,
+              "height": 89
+            },
+            {
+              "text": "encryption.",
+              "x": 80,
+              "y": 290.078125,
+              "width": 489.703125,
+              "height": 89
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.9149169921875,
+          "width": 900,
+          "height": 850,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "But",
+              "x": 155.625,
+              "y": 1509,
+              "width": 101.515625,
+              "height": 60
+            },
+            {
+              "text": "here",
+              "x": 281.484375,
+              "y": 1509,
+              "width": 133.203125,
+              "height": 60
+            },
+            {
+              "text": "is",
+              "x": 439.03125,
+              "y": 1509,
+              "width": 48.78125,
+              "height": 60
+            },
+            {
+              "text": "the",
+              "x": 512.15625,
+              "y": 1509,
+              "width": 97.15625,
+              "height": 60
+            },
+            {
+              "text": "useful",
+              "x": 630.49365234375,
+              "y": 1505.6268310546875,
+              "width": 187.04388427734375,
+              "height": 62.0999755859375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 651,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 90.71875,
+          "textRects": [
+            {
+              "text": "No",
+              "x": 80,
+              "y": 208,
+              "width": 115.828125,
+              "height": 89
+            },
+            {
+              "text": "key",
+              "x": 215.578125,
+              "y": 208,
+              "width": 149.59375,
+              "height": 89
+            },
+            {
+              "text": "needed.",
+              "x": 384.921875,
+              "y": 208,
+              "width": 346.421875,
+              "height": 89
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.4986572265625,
+          "width": 900,
+          "height": 850,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "Anyone",
+              "x": 155.109375,
+              "y": 1509,
+              "width": 219.171875,
+              "height": 60
+            },
+            {
+              "text": "can",
+              "x": 398.625,
+              "y": 1509,
+              "width": 102.9375,
+              "height": 60
+            },
+            {
+              "text": "reverse",
+              "x": 522.0220947265625,
+              "y": 1505.6268310546875,
+              "width": 229.721435546875,
+              "height": 62.0999755859375
+            },
+            {
+              "text": "it",
+              "x": 772.203125,
+              "y": 1509,
+              "width": 42.6875,
+              "height": 60
+            },
+            {
+              "text": "without",
+              "x": 372.328125,
+              "y": 1567.234375,
+              "width": 225.34375,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 729,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 171.15625,
+          "textRects": [
+            {
+              "text": "Inspect",
+              "x": 80,
+              "y": 208,
+              "width": 314.953125,
+              "height": 89
+            },
+            {
+              "text": "data.",
+              "x": 414.703125,
+              "y": 208,
+              "width": 222.1875,
+              "height": 89
+            },
+            {
+              "text": "Keep",
+              "x": 656.640625,
+              "y": 208,
+              "width": 215.0625,
+              "height": 89
+            },
+            {
+              "text": "secrets",
+              "x": 80,
+              "y": 290.078125,
+              "width": 312.4375,
+              "height": 89
+            },
+            {
+              "text": "safe.",
+              "x": 412.1875,
+              "y": 290.078125,
+              "width": 210.015625,
+              "height": 89
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.9149169921875,
+          "width": 900,
+          "height": 850,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "never",
+              "x": 398.5130920410156,
+              "y": 1505.6268310546875,
+              "width": 172.95822143554688,
+              "height": 62.0999755859375
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 826,
+      "regions": [
+        {
+          "kind": "title",
+          "x": 80,
+          "y": 205,
+          "width": 850,
+          "height": 171.15625,
+          "textRects": [
+            {
+              "text": "More",
+              "x": 80,
+              "y": 208,
+              "width": 216.875,
+              "height": 89
+            },
+            {
+              "text": "tools",
+              "x": 316.625,
+              "y": 208,
+              "width": 212.046875,
+              "height": 89
+            },
+            {
+              "text": "worth",
+              "x": 548.421875,
+              "y": 208,
+              "width": 250.34375,
+              "height": 89
+            },
+            {
+              "text": "knowing.",
+              "x": 80,
+              "y": 290.078125,
+              "width": 390.515625,
+              "height": 89
+            }
+          ]
+        },
+        {
+          "kind": "footage",
+          "x": 80,
+          "y": 546.8063354492188,
+          "width": 900,
+          "height": 850.0000610351562,
+          "textRects": []
+        },
+        {
+          "kind": "caption",
+          "x": 85,
+          "y": 1510,
+          "width": 800,
+          "height": 150,
+          "textRects": [
+            {
+              "text": "Subscribe",
+              "x": 95.984375,
+              "y": 1509,
+              "width": 289.4375,
+              "height": 60
+            },
+            {
+              "text": "for",
+              "x": 409.765625,
+              "y": 1509,
+              "width": 84,
+              "height": 60
+            },
+            {
+              "text": "more",
+              "x": 518.109375,
+              "y": 1509,
+              "width": 150.828125,
+              "height": 60
+            },
+            {
+              "text": "useful",
+              "x": 690.11865234375,
+              "y": 1505.6268310546875,
+              "width": 187.04388427734375,
+              "height": 62.0999755859375
+            },
+            {
+              "text": "software.",
+              "x": 346.015625,
+              "y": 1567.234375,
+              "width": 277.953125,
+              "height": 60
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

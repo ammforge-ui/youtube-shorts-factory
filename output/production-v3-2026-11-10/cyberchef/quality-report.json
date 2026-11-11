@@ -1,0 +1,86 @@
+{
+  "sha256": "c33b83fac332dd930a72e1026b30692aa5d5983c1aea5e7ca2ea79f02bfb0842",
+  "passed": true,
+  "technical": {
+    "resolution": true,
+    "fps": true,
+    "h264": true,
+    "aac": true,
+    "duration": true,
+    "fullDecode": true,
+    "noBlackGaps": true,
+    "noClipping": true,
+    "intendedMix": true,
+    "musicPresent": true,
+    "musicBalance": true,
+    "effectsPresent": true,
+    "layout": true,
+    "wordTiming": true,
+    "sceneCoverage": true,
+    "realCaptureAssertion": true,
+    "noEndingSilence": true
+  },
+  "media": {
+    "duration": 28.907,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "bytes": 4918510
+  },
+  "audio": {
+    "peakDbFS": -3.8134755228517414,
+    "mixCorrelation": 0.9998780673781557,
+    "trailingSilenceSeconds": 0.16
+  },
+  "visualReview": {
+    "status": "passed-with-notes",
+    "reviewer": "Assistant encoded contact-sheet inspection",
+    "sha256": "c33b83fac332dd930a72e1026b30692aa5d5983c1aea5e7ca2ea79f02bfb0842",
+    "inspected": [
+      "0s",
+      "1s",
+      "3s",
+      "real input",
+      "operation selection and recipe",
+      "decoded payoff",
+      "encoding/encryption takeaway",
+      "CTA",
+      "final 0.1s"
+    ],
+    "findings": [
+      "Encoded input is visible immediately; actual readable output is shown within opening seconds.",
+      "Genuine app pixels remain readable at the sampled mobile-sized frames.",
+      "Recipe pan shows the real From Base64 operation, not an illustrative UI.",
+      "Captions and titles remain in safe areas.",
+      "No black ending or missing media observed."
+    ],
+    "limitations": [
+      "First-frame title is still animating in, while the actual encoded subject is already visible.",
+      "Several shots are restrained moving stills; more continuous action footage would improve editorial richness.",
+      "No perceptual audio approval."
+    ]
+  },
+  "limitations": [
+    "Representative frames and geometry checks do not evaluate every animation frame.",
+    "Local neural voice and original procedural soundtrack require human listening review.",
+    "No viewer analytics or guaranteed viral potential."
+  ],
+  "contactSheetTimes": [
+    0,
+    1,
+    2.333,
+    3,
+    5.4,
+    8.867,
+    10.7,
+    13.267,
+    15.767,
+    21.167,
+    23.4,
+    26.733,
+    27.907,
+    28.8
+  ]
+}

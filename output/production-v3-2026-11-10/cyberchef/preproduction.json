@@ -1,0 +1,613 @@
+{
+  "fiveHooks": [
+    {
+      "hook": "This message looks secret.",
+      "clarity": 5,
+      "curiosity": 5,
+      "honesty": true,
+      "visualPotential": 5,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 5,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 5
+    },
+    {
+      "hook": "This weird text says something surprisingly ordinary.",
+      "clarity": 5,
+      "curiosity": 4,
+      "honesty": true,
+      "visualPotential": 4,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 4,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 4
+    },
+    {
+      "hook": "Can you read this without a password?",
+      "clarity": 5,
+      "curiosity": 4,
+      "honesty": true,
+      "visualPotential": 4,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 4,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 4
+    },
+    {
+      "hook": "One operation turns this into English.",
+      "clarity": 5,
+      "curiosity": 4,
+      "honesty": true,
+      "visualPotential": 4,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 4,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 4
+    },
+    {
+      "hook": "Do not hide passwords like this.",
+      "clarity": 5,
+      "curiosity": 4,
+      "honesty": true,
+      "visualPotential": 4,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 4,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 4
+    }
+  ],
+  "selectedHook": "This message looks secret.",
+  "justification": "Concrete encoded subject followed immediately by the real decoded message; resolves the promise before teaching the steps.",
+  "format": "curiosity gap \u2192 immediate reveal \u2192 how-to \u2192 useful caution",
+  "finalScript": "This message looks secret. Meet me on Mars. That is all it says. CyberChef can reveal it for free, right in your browser. Paste the text into Input. Add From Base64 to the recipe. The readable message appears automatically. But here is the useful distinction. Base64 is encoding, not encryption. Anyone can reverse it without a key. Use it to inspect data, never to hide a password. Subscribe for more useful software.",
+  "storyboard": [
+    {
+      "title": "This looks secret.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 1.7333333333333334,
+      "shot": "action",
+      "footage": "media/v3-cyberchef/desktop-input.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "hook",
+        "layout": "detail",
+        "narration": "This message looks secret.",
+        "asset": "media/v3-cyberchef/desktop-input.png",
+        "mediaType": "image",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 550,
+              "y": 78,
+              "width": 434.7,
+              "height": 200
+            }
+          },
+          {
+            "frame": 51,
+            "target": {
+              "x": 550,
+              "y": 78,
+              "width": 420,
+              "height": 200
+            }
+          }
+        ],
+        "focus": {
+          "x": 550,
+          "y": 78,
+          "width": 420,
+          "height": 200
+        },
+        "cursor": [],
+        "typography": "hook",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Meet me on Mars.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 3.0666666666666664,
+      "shot": "result",
+      "footage": "media/v3-cyberchef/desktop-result.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "payoff",
+        "layout": "result",
+        "narration": "Meet me on Mars. That is all it says.",
+        "asset": "media/v3-cyberchef/desktop-result.png",
+        "mediaType": "image",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 434.7,
+              "height": 200
+            }
+          },
+          {
+            "frame": 91,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 420,
+              "height": 200
+            }
+          }
+        ],
+        "focus": {
+          "x": 550,
+          "y": 590,
+          "width": 420,
+          "height": 200
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.85,
+        "tone": "satisfying",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Decode it in your browser.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 3.4666666666666677,
+      "shot": "action",
+      "footage": "media/v3-cyberchef/desktop-input.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "curiosity",
+        "layout": "detail",
+        "narration": "CyberChef can reveal it for free, right in your browser.",
+        "asset": "media/v3-cyberchef/desktop-input.png",
+        "mediaType": "image",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 550,
+              "y": 78,
+              "width": 434.7,
+              "height": 200
+            }
+          },
+          {
+            "frame": 103,
+            "target": {
+              "x": 550,
+              "y": 78,
+              "width": 420,
+              "height": 200
+            }
+          }
+        ],
+        "focus": {
+          "x": 550,
+          "y": 78,
+          "width": 420,
+          "height": 200
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Paste into Input.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 1.8333333333333321,
+      "shot": "action",
+      "footage": "media/v3-cyberchef/desktop.mp4",
+      "startFrom": 3.518,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "Paste the text into Input. Add",
+        "asset": "media/v3-cyberchef/desktop.mp4",
+        "mediaType": "video",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 550,
+              "y": 78,
+              "width": 434.7,
+              "height": 200
+            }
+          },
+          {
+            "frame": 54,
+            "target": {
+              "x": 550,
+              "y": 78,
+              "width": 420,
+              "height": 200
+            }
+          }
+        ],
+        "focus": {
+          "x": 550,
+          "y": 78,
+          "width": 420,
+          "height": 200
+        },
+        "cursor": [
+          {
+            "frame": 18,
+            "x": 605,
+            "y": 133,
+            "click": true
+          }
+        ],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "cursor"
+      }
+    },
+    {
+      "title": "Add From Base64.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 2.5666666666666664,
+      "shot": "action",
+      "footage": "media/v3-cyberchef/desktop.mp4",
+      "startFrom": 5.726999999999999,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "From Base64 to the recipe. The",
+        "asset": "media/v3-cyberchef/desktop.mp4",
+        "mediaType": "video",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 200,
+              "width": 310.5,
+              "height": 180
+            }
+          },
+          {
+            "frame": 76,
+            "target": {
+              "x": 244,
+              "y": 78,
+              "width": 310,
+              "height": 280
+            }
+          }
+        ],
+        "focus": {
+          "x": 0,
+          "y": 200,
+          "width": 300,
+          "height": 180
+        },
+        "cursor": [
+          {
+            "frame": 18,
+            "x": 55,
+            "y": 220,
+            "click": true
+          }
+        ],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "cursor"
+      }
+    },
+    {
+      "title": "The message is readable.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 2.5,
+      "shot": "result",
+      "footage": "media/v3-cyberchef/desktop-result.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "payoff",
+        "layout": "result",
+        "narration": "readable message appears automatically. But",
+        "asset": "media/v3-cyberchef/desktop-result.png",
+        "mediaType": "image",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 434.7,
+              "height": 200
+            }
+          },
+          {
+            "frame": 74,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 420,
+              "height": 200
+            }
+          }
+        ],
+        "focus": {
+          "x": 550,
+          "y": 590,
+          "width": 420,
+          "height": 200
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.85,
+        "tone": "satisfying",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Encoding \u2260 encryption.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 5.4,
+      "shot": "action",
+      "footage": "media/v3-cyberchef/desktop-result.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "takeaway",
+        "layout": "detail",
+        "narration": "here is the useful distinction. Base64 is encoding, not encryption.",
+        "asset": "media/v3-cyberchef/desktop-result.png",
+        "mediaType": "image",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 434.7,
+              "height": 200
+            }
+          },
+          {
+            "frame": 161,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 420,
+              "height": 200
+            }
+          }
+        ],
+        "focus": {
+          "x": 550,
+          "y": 590,
+          "width": 420,
+          "height": 200
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "No key needed.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 2.2333333333333343,
+      "shot": "action",
+      "footage": "media/v3-cyberchef/desktop-result.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "takeaway",
+        "layout": "detail",
+        "narration": "Anyone can reverse it without a key. Use",
+        "asset": "media/v3-cyberchef/desktop-result.png",
+        "mediaType": "image",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 434.7,
+              "height": 200
+            }
+          },
+          {
+            "frame": 66,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 420,
+              "height": 200
+            }
+          }
+        ],
+        "focus": {
+          "x": 550,
+          "y": 590,
+          "width": 420,
+          "height": 200
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Inspect data. Keep secrets safe.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 3.333333333333332,
+      "shot": "action",
+      "footage": "media/v3-cyberchef/desktop-result.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "takeaway",
+        "layout": "detail",
+        "narration": "it to inspect data, never to hide a password. Subscribe",
+        "asset": "media/v3-cyberchef/desktop-result.png",
+        "mediaType": "image",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 434.7,
+              "height": 200
+            }
+          },
+          {
+            "frame": 99,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 420,
+              "height": 200
+            }
+          }
+        ],
+        "focus": {
+          "x": 550,
+          "y": 590,
+          "width": 420,
+          "height": 200
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "More tools worth knowing.",
+      "eyebrow": "",
+      "detail": "Official local CyberChef \u00b7 fictional message",
+      "duration": 2.7666666666666657,
+      "shot": "cta",
+      "footage": "media/v3-cyberchef/desktop-result.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "cta",
+        "layout": "detail",
+        "narration": "for more useful software.",
+        "asset": "media/v3-cyberchef/desktop-result.png",
+        "mediaType": "image",
+        "sourceWidth": 1000,
+        "sourceHeight": 1050,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 434.7,
+              "height": 200
+            }
+          },
+          {
+            "frame": 82,
+            "target": {
+              "x": 550,
+              "y": 590,
+              "width": 420,
+              "height": 200
+            }
+          }
+        ],
+        "focus": {
+          "x": 550,
+          "y": 590,
+          "width": 420,
+          "height": 200
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    }
+  ],
+  "demonstration": "Real local application with assertions in capture-v3.ts",
+  "musicMood": "Original playful electronic instrumental; speech ducking",
+  "cta": "for more useful software.",
+  "review": {
+    "promise": true,
+    "demonstration": true,
+    "payoff": true,
+    "takeaway": true,
+    "subscribe": true
+  },
+  "limits": [
+    "Local neural voice; perceptual audition pending.",
+    "Node-RED and Playwright are verified evergreen fallbacks, not freshly launched products."
+  ]
+}

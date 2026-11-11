@@ -1,0 +1,136 @@
+{
+  "version": "11.5.0",
+  "mode": "official release served locally",
+  "input": "TWVldCBtZSBvbiBNYXJzLg==",
+  "expected": "Meet me on Mars.",
+  "captures": [
+    {
+      "name": "desktop",
+      "actual": "Meet me on Mars.",
+      "errors": [],
+      "readyAt": 3.098,
+      "landmarks": {
+        "inputVisible": 8.8,
+        "inputVisibleBestIoU": 0.8800358102059087,
+        "inputVisibleThreshold": 0.82,
+        "inputVisibleBestCandidateSeconds": 8.8,
+        "inputVisibleStatus": "aligned",
+        "resultVisible": 8.8,
+        "resultVisibleBestIoU": 0.8800527240773286,
+        "resultVisibleThreshold": 0.82,
+        "resultVisibleBestCandidateSeconds": 8.8,
+        "resultVisibleStatus": "aligned",
+        "method": "10 FPS recorded-text mask IoU against actual asserted screenshots; dilated-mask matching; lower-confidence mobile raster matches explicitly reported"
+      },
+      "timeline": {
+        "ready": 3.098,
+        "input": 3.618,
+        "select": 6.127,
+        "result": 6.286
+      },
+      "targets": {
+        "input": {
+          "x": 550,
+          "y": 78,
+          "width": 450,
+          "height": 460
+        },
+        "output": {
+          "x": 550,
+          "y": 590,
+          "width": 450,
+          "height": 460
+        },
+        "search": {
+          "x": 0,
+          "y": 78,
+          "width": 240,
+          "height": 40
+        },
+        "recipe": {
+          "x": 244,
+          "y": 30,
+          "width": 302,
+          "height": 1020
+        },
+        "operation": {
+          "x": 0,
+          "y": 200,
+          "width": 240,
+          "height": 41
+        }
+      },
+      "coordinateScale": 1,
+      "editorFontPx": 20,
+      "viewport": {
+        "width": 1000,
+        "height": 1050
+      },
+      "recording": "desktop.mp4"
+    },
+    {
+      "name": "mobile",
+      "actual": "Meet me on Mars.",
+      "errors": [],
+      "readyAt": 2.165,
+      "landmarks": {
+        "inputVisible": null,
+        "inputVisibleBestIoU": 0.6372093023255814,
+        "inputVisibleThreshold": 0.82,
+        "inputVisibleBestCandidateSeconds": 9.6,
+        "inputVisibleStatus": "needs-review: low-resolution raster match is ambiguous",
+        "resultVisible": null,
+        "resultVisibleBestIoU": 0.5749525616698292,
+        "resultVisibleThreshold": 0.82,
+        "resultVisibleBestCandidateSeconds": 9.6,
+        "resultVisibleStatus": "needs-review: low-resolution raster match is ambiguous",
+        "method": "10 FPS recorded-text mask IoU against actual asserted screenshots; dilated-mask matching; lower-confidence mobile raster matches explicitly reported"
+      },
+      "timeline": {
+        "ready": 2.165,
+        "input": 2.293,
+        "select": 4.728,
+        "result": 4.838
+      },
+      "targets": {
+        "input": {
+          "x": 259.31960172974004,
+          "y": 38.16514134771598,
+          "width": 220.18345637423548,
+          "height": 392.66057658997516
+        },
+        "output": {
+          "x": 259.31960172974004,
+          "y": 456.2691430141437,
+          "width": 220.18345637423548,
+          "height": 392.6605205944189
+        },
+        "search": {
+          "x": 0,
+          "y": 38.16514134771598,
+          "width": 117.43120012662462,
+          "height": 19.571861710387996
+        },
+        "recipe": {
+          "x": 119.38838667096712,
+          "y": 14.678900015828077,
+          "width": 137.97399865013378,
+          "height": 834.2507635927346
+        },
+        "operation": {
+          "x": 0,
+          "y": 97.85932721712538,
+          "width": 117.43120012662462,
+          "height": 20.06116954558486
+        }
+      },
+      "coordinateScale": 0.4892966360856269,
+      "editorFontPx": 9.785932721712538,
+      "viewport": {
+        "width": 480,
+        "height": 850
+      },
+      "recording": "mobile.mp4"
+    }
+  ]
+}

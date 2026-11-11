@@ -1,0 +1,824 @@
+{
+  "id": "codex-robot-run-v1",
+  "template": "discovery",
+  "product": "Codex · original 3D prototype",
+  "url": "Local experiment · original source included",
+  "localCopy": true,
+  "duration": 27.1,
+  "narration": "Can AI build a playable three D game? I gave Codex a robot obstacle course: moving platforms, glowing coins, and a finish portal. This is the local prototype it wrote. I tested the controls, collected the coins, then reached the portal. It runs, but this took code fixes, and it is not a finished game. Treat AI output as a starting point you still need to test. Subscribe for more AI experiments.",
+  "voicePerformance": {
+    "version": 1,
+    "phrases": [
+      {
+        "text": "Can AI build a playable three D game?",
+        "emotion": "curious",
+        "rate": 0.99,
+        "emphasis": [
+          "playable"
+        ],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 170,
+        "scene": "hook"
+      },
+      {
+        "text": "I gave Codex a robot obstacle course:",
+        "emotion": "explanatory",
+        "rate": 0.98,
+        "emphasis": [
+          "Codex"
+        ],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 90,
+        "scene": "brief"
+      },
+      {
+        "text": "moving platforms, glowing coins, and a finish portal.",
+        "emotion": "explanatory",
+        "rate": 0.98,
+        "emphasis": [
+          "glowing coins"
+        ],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 120,
+        "scene": "challenge"
+      },
+      {
+        "text": "This is the local prototype it wrote.",
+        "emotion": "anticipation",
+        "rate": 0.95,
+        "emphasis": [
+          "prototype"
+        ],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 220,
+        "scene": "source"
+      },
+      {
+        "text": "I tested the controls, collected the coins, then reached the portal.",
+        "emotion": "excited",
+        "rate": 1.05,
+        "emphasis": [
+          "reached"
+        ],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 120,
+        "scene": "payoff"
+      },
+      {
+        "text": "It runs, but this took code fixes, and it is not a finished game.",
+        "emotion": "explanatory",
+        "rate": 0.98,
+        "emphasis": [
+          "code fixes"
+        ],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 140,
+        "scene": "limitation"
+      },
+      {
+        "text": "Treat AI output as a starting point you still need to test.",
+        "emotion": "satisfied",
+        "rate": 0.98,
+        "emphasis": [
+          "test"
+        ],
+        "pauseBeforeMs": 0,
+        "pauseAfterMs": 130,
+        "scene": "takeaway"
+      },
+      {
+        "text": "Subscribe for more AI experiments.",
+        "emotion": "satisfied",
+        "rate": 0.98,
+        "emphasis": [],
+        "pauseBeforeMs": 0,
+        "scene": "cta"
+      }
+    ],
+    "pitchProcessing": false
+  },
+  "audio": "media/robot-run-v1-2026-11-10/mix.wav",
+  "words": [
+    {
+      "text": "Can",
+      "start": 0,
+      "end": 0.12
+    },
+    {
+      "text": "AI",
+      "start": 0.12,
+      "end": 0.54
+    },
+    {
+      "text": "build",
+      "start": 0.54,
+      "end": 0.86
+    },
+    {
+      "text": "a",
+      "start": 0.86,
+      "end": 0.91
+    },
+    {
+      "text": "playable",
+      "start": 0.91,
+      "end": 1.35
+    },
+    {
+      "text": "three",
+      "start": 1.35,
+      "end": 1.66
+    },
+    {
+      "text": "D",
+      "start": 1.66,
+      "end": 1.92
+    },
+    {
+      "text": "game?",
+      "start": 1.92,
+      "end": 2.38
+    },
+    {
+      "text": "I",
+      "start": 2.59,
+      "end": 2.75
+    },
+    {
+      "text": "gave",
+      "start": 2.75,
+      "end": 3.11
+    },
+    {
+      "text": "Codex",
+      "start": 3.11,
+      "end": 3.82
+    },
+    {
+      "text": "a",
+      "start": 3.82,
+      "end": 3.89
+    },
+    {
+      "text": "robot",
+      "start": 3.89,
+      "end": 4.4
+    },
+    {
+      "text": "obstacle",
+      "start": 4.4,
+      "end": 5.04
+    },
+    {
+      "text": "course:",
+      "start": 5.04,
+      "end": 5.68
+    },
+    {
+      "text": "moving",
+      "start": 5.85,
+      "end": 6.16
+    },
+    {
+      "text": "platforms,",
+      "start": 6.16,
+      "end": 6.98
+    },
+    {
+      "text": "glowing",
+      "start": 6.98,
+      "end": 7.37
+    },
+    {
+      "text": "coins,",
+      "start": 7.37,
+      "end": 7.83
+    },
+    {
+      "text": "and",
+      "start": 7.83,
+      "end": 7.99
+    },
+    {
+      "text": "a",
+      "start": 7.99,
+      "end": 8.03
+    },
+    {
+      "text": "finish",
+      "start": 8.03,
+      "end": 8.49
+    },
+    {
+      "text": "portal.",
+      "start": 8.49,
+      "end": 8.91
+    },
+    {
+      "text": "This",
+      "start": 9.09,
+      "end": 9.38
+    },
+    {
+      "text": "is",
+      "start": 9.38,
+      "end": 9.55
+    },
+    {
+      "text": "the",
+      "start": 9.55,
+      "end": 9.63
+    },
+    {
+      "text": "local",
+      "start": 9.63,
+      "end": 10.05
+    },
+    {
+      "text": "prototype",
+      "start": 10.05,
+      "end": 10.74
+    },
+    {
+      "text": "it",
+      "start": 10.74,
+      "end": 10.97
+    },
+    {
+      "text": "wrote.",
+      "start": 10.97,
+      "end": 11.4
+    },
+    {
+      "text": "I",
+      "start": 11.66,
+      "end": 11.78
+    },
+    {
+      "text": "tested",
+      "start": 11.78,
+      "end": 12.26
+    },
+    {
+      "text": "the",
+      "start": 12.26,
+      "end": 12.32
+    },
+    {
+      "text": "controls,",
+      "start": 12.32,
+      "end": 13.12
+    },
+    {
+      "text": "collected",
+      "start": 13.12,
+      "end": 13.65
+    },
+    {
+      "text": "the",
+      "start": 13.65,
+      "end": 13.71
+    },
+    {
+      "text": "coins,",
+      "start": 13.71,
+      "end": 14.23
+    },
+    {
+      "text": "then",
+      "start": 14.23,
+      "end": 14.52
+    },
+    {
+      "text": "reached",
+      "start": 14.52,
+      "end": 14.91
+    },
+    {
+      "text": "the",
+      "start": 14.91,
+      "end": 14.99
+    },
+    {
+      "text": "portal.",
+      "start": 14.99,
+      "end": 15.47
+    },
+    {
+      "text": "It",
+      "start": 15.64,
+      "end": 15.76
+    },
+    {
+      "text": "runs,",
+      "start": 15.76,
+      "end": 16.33
+    },
+    {
+      "text": "but",
+      "start": 16.33,
+      "end": 16.58
+    },
+    {
+      "text": "this",
+      "start": 16.58,
+      "end": 16.82
+    },
+    {
+      "text": "took",
+      "start": 16.82,
+      "end": 17.07
+    },
+    {
+      "text": "code",
+      "start": 17.07,
+      "end": 17.34
+    },
+    {
+      "text": "fixes,",
+      "start": 17.34,
+      "end": 18.19
+    },
+    {
+      "text": "and",
+      "start": 18.19,
+      "end": 18.37
+    },
+    {
+      "text": "it",
+      "start": 18.37,
+      "end": 18.51
+    },
+    {
+      "text": "is",
+      "start": 18.51,
+      "end": 18.69
+    },
+    {
+      "text": "not",
+      "start": 18.69,
+      "end": 18.88
+    },
+    {
+      "text": "a",
+      "start": 18.88,
+      "end": 18.97
+    },
+    {
+      "text": "finished",
+      "start": 18.97,
+      "end": 19.41
+    },
+    {
+      "text": "game.",
+      "start": 19.41,
+      "end": 19.86
+    },
+    {
+      "text": "Treat",
+      "start": 20.05,
+      "end": 20.39
+    },
+    {
+      "text": "AI",
+      "start": 20.39,
+      "end": 20.84
+    },
+    {
+      "text": "output",
+      "start": 20.84,
+      "end": 21.34
+    },
+    {
+      "text": "as",
+      "start": 21.34,
+      "end": 21.51
+    },
+    {
+      "text": "a",
+      "start": 21.51,
+      "end": 21.55
+    },
+    {
+      "text": "starting",
+      "start": 21.55,
+      "end": 22.13
+    },
+    {
+      "text": "point",
+      "start": 22.13,
+      "end": 22.44
+    },
+    {
+      "text": "you",
+      "start": 22.44,
+      "end": 22.53
+    },
+    {
+      "text": "still",
+      "start": 22.53,
+      "end": 22.88
+    },
+    {
+      "text": "need",
+      "start": 22.88,
+      "end": 23.25
+    },
+    {
+      "text": "to",
+      "start": 23.25,
+      "end": 23.36
+    },
+    {
+      "text": "test.",
+      "start": 23.36,
+      "end": 23.99
+    },
+    {
+      "text": "Subscribe",
+      "start": 24.17,
+      "end": 24.77
+    },
+    {
+      "text": "for",
+      "start": 24.77,
+      "end": 24.89
+    },
+    {
+      "text": "more",
+      "start": 24.89,
+      "end": 25.13
+    },
+    {
+      "text": "AI",
+      "start": 25.13,
+      "end": 25.46
+    },
+    {
+      "text": "experiments.",
+      "start": 25.46,
+      "end": 26.44
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Can AI build a 3D game?",
+      "eyebrow": "",
+      "detail": "Codex-authored prototype · actual browser recording",
+      "duration": 2.6,
+      "shot": "action",
+      "footage": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+      "startFrom": 3.2,
+      "direction": {
+        "purpose": "hook",
+        "layout": "device",
+        "narration": "Can AI build a playable three D game?",
+        "asset": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+        "mediaType": "video",
+        "sourceWidth": 600,
+        "sourceHeight": 1000,
+        "sourceFontPx": 29,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 1000
+            }
+          }
+        ],
+        "cursor": [],
+        "typography": "hook",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.6,
+        "tone": "curious",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "The brief: a robot obstacle course.",
+      "eyebrow": "",
+      "detail": "Original brief display · typing 2× · not a live AI request",
+      "duration": 3.233333333333333,
+      "shot": "action",
+      "footage": "media/robot-run-v1-2026-11-10/brief-fast.mp4",
+      "startFrom": 1,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "browser",
+        "narration": "I gave Codex a robot obstacle course:",
+        "asset": "media/robot-run-v1-2026-11-10/brief-fast.mp4",
+        "mediaType": "video",
+        "sourceWidth": 600,
+        "sourceHeight": 1000,
+        "sourceFontPx": 29,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 1000
+            }
+          }
+        ],
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.6,
+        "tone": "curious",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Platforms. Coins. A portal.",
+      "eyebrow": "",
+      "detail": "Codex-authored prototype · actual browser recording",
+      "duration": 3.2666666666666666,
+      "shot": "action",
+      "footage": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+      "startFrom": 1.9,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "device",
+        "narration": "moving platforms, glowing coins, and a finish portal.",
+        "asset": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+        "mediaType": "video",
+        "sourceWidth": 600,
+        "sourceHeight": 1000,
+        "sourceFontPx": 29,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 1000
+            }
+          }
+        ],
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.6,
+        "tone": "curious",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Actual code. Local prototype.",
+      "eyebrow": "",
+      "detail": "Actual source from this session",
+      "duration": 2.5666666666666664,
+      "shot": "action",
+      "footage": "media/robot-run-v1-2026-11-10/source.mp4",
+      "startFrom": 0.8,
+      "direction": {
+        "purpose": "curiosity",
+        "layout": "detail",
+        "narration": "This is the local prototype it wrote.",
+        "asset": "media/robot-run-v1-2026-11-10/source.mp4",
+        "mediaType": "video",
+        "sourceWidth": 600,
+        "sourceHeight": 1000,
+        "sourceFontPx": 29,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 1000
+            }
+          }
+        ],
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.4,
+        "tone": "curious",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Then I tested what it built.",
+      "eyebrow": "",
+      "detail": "Codex-authored prototype · actual browser recording",
+      "duration": 3.966666666666667,
+      "shot": "result",
+      "footage": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+      "startFrom": 5.802,
+      "direction": {
+        "purpose": "payoff",
+        "layout": "device",
+        "graphic": {
+          "heading": "REAL PLAYTEST",
+          "explanation": "3.25",
+          "cards": []
+        },
+        "narration": "I tested the controls, collected the coins, then reached the portal.",
+        "asset": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+        "mediaType": "video",
+        "sourceWidth": 600,
+        "sourceHeight": 1000,
+        "sourceFontPx": 29,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 1000
+            }
+          }
+        ],
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.85,
+        "tone": "satisfying",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "It took fixes. It is still a prototype.",
+      "eyebrow": "",
+      "detail": "Codex-authored prototype · actual browser recording",
+      "duration": 4.433333333333334,
+      "shot": "action",
+      "footage": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+      "startFrom": 2.6,
+      "direction": {
+        "purpose": "takeaway",
+        "layout": "device",
+        "narration": "It runs, but this took code fixes, and it is not a finished game.",
+        "asset": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+        "mediaType": "video",
+        "sourceWidth": 600,
+        "sourceHeight": 1000,
+        "sourceFontPx": 29,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 1000
+            }
+          }
+        ],
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.6,
+        "tone": "curious",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "AI writes. You still test.",
+      "eyebrow": "",
+      "detail": "Codex-authored prototype · actual browser recording",
+      "duration": 4.100000000000001,
+      "shot": "action",
+      "footage": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+      "startFrom": 7.552,
+      "direction": {
+        "purpose": "takeaway",
+        "layout": "device",
+        "narration": "Treat AI output as a starting point you still need to test.",
+        "asset": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+        "mediaType": "video",
+        "sourceWidth": 600,
+        "sourceHeight": 1000,
+        "sourceFontPx": 29,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 1000
+            }
+          }
+        ],
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.6,
+        "tone": "curious",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "More AI experiments.",
+      "eyebrow": "",
+      "detail": "Codex-authored prototype · actual browser recording",
+      "duration": 2.9333333333333336,
+      "shot": "cta",
+      "footage": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+      "startFrom": 8.751999999999999,
+      "direction": {
+        "purpose": "cta",
+        "layout": "device",
+        "narration": "Subscribe for more AI experiments.",
+        "asset": "media/robot-run-v1-2026-11-10/gameplay.mp4",
+        "mediaType": "video",
+        "sourceWidth": 600,
+        "sourceHeight": 1000,
+        "sourceFontPx": 29,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 600,
+              "height": 1000
+            }
+          }
+        ],
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.6,
+        "tone": "curious",
+        "motion": "zoom-in"
+      }
+    }
+  ],
+  "creative": {
+    "version": 4,
+    "example": "Original robot obstacle course",
+    "encoded": "",
+    "bpm": 120,
+    "soundEvents": [
+      {
+        "event": "Can AI build a 3D game?",
+        "frame": 0,
+        "sound": "digital_pop",
+        "intensity": 0.25
+      },
+      {
+        "event": "The brief: a robot obstacle course.",
+        "frame": 78,
+        "sound": "keyboard",
+        "intensity": 0.25
+      },
+      {
+        "event": "Platforms. Coins. A portal.",
+        "frame": 175,
+        "sound": "soft_whoosh",
+        "intensity": 0.25
+      },
+      {
+        "event": "Actual code. Local prototype.",
+        "frame": 273,
+        "sound": "soft_whoosh",
+        "intensity": 0.25
+      },
+      {
+        "event": "Then I tested what it built.",
+        "frame": 448,
+        "sound": "digital_reveal",
+        "intensity": 0.55
+      },
+      {
+        "event": "It took fixes. It is still a prototype.",
+        "frame": 469,
+        "sound": "soft_whoosh",
+        "intensity": 0.25
+      },
+      {
+        "event": "AI writes. You still test.",
+        "frame": 602,
+        "sound": "soft_whoosh",
+        "intensity": 0.25
+      },
+      {
+        "event": "More AI experiments.",
+        "frame": 725,
+        "sound": "ending",
+        "intensity": 0.25
+      }
+    ],
+    "brand": "THE TOOL FILES",
+    "musicAsset": "media/robot-run-v1-2026-11-10/music.wav"
+  }
+}

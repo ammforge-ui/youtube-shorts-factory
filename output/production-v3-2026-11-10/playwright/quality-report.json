@@ -1,0 +1,86 @@
+{
+  "sha256": "f57fddec849b2f8db772b25da0ce4578a69e5604dc9c3d3fcc82543603b08e4f",
+  "passed": true,
+  "technical": {
+    "resolution": true,
+    "fps": true,
+    "h264": true,
+    "aac": true,
+    "duration": true,
+    "fullDecode": true,
+    "noBlackGaps": true,
+    "noClipping": true,
+    "intendedMix": true,
+    "musicPresent": true,
+    "musicBalance": true,
+    "effectsPresent": true,
+    "layout": true,
+    "wordTiming": true,
+    "sceneCoverage": true,
+    "realCaptureAssertion": true,
+    "noEndingSilence": true
+  },
+  "media": {
+    "duration": 27.051,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "bytes": 6998151
+  },
+  "audio": {
+    "peakDbFS": -3.542259767959848,
+    "mixCorrelation": 0.9998425107421274,
+    "trailingSilenceSeconds": 0.27999999999999997
+  },
+  "visualReview": {
+    "status": "passed-with-notes",
+    "reviewer": "Assistant encoded contact-sheet inspection",
+    "sha256": "f57fddec849b2f8db772b25da0ce4578a69e5604dc9c3d3fcc82543603b08e4f",
+    "inspected": [
+      "opening",
+      "1s",
+      "3s",
+      "trace overview",
+      "selected click",
+      "Before",
+      "After",
+      "takeaway",
+      "CTA",
+      "ending"
+    ],
+    "findings": [
+      "Actual trace source and fictional checkout are visibly distinguished.",
+      "The selected action is now inside the close-up.",
+      "Before/After shots visibly differ and the missing-address error fulfills the hook.",
+      "Safe captions, correct title wrapping and clean result/ending in representative frames.",
+      "Synthetic highlight rings were removed from the final repaired action shot."
+    ],
+    "limitations": [
+      "Overview UI text is smaller than focused shots and serves only as orientation.",
+      "Mostly moving stills with one genuine UI interaction clip.",
+      "Muted browser playback does not establish perceptual audio quality."
+    ]
+  },
+  "limitations": [
+    "Representative frames and geometry checks do not evaluate every animation frame.",
+    "Local neural voice and original procedural soundtrack require human listening review.",
+    "No viewer analytics or guaranteed viral potential."
+  ],
+  "contactSheetTimes": [
+    0,
+    1,
+    3,
+    3.9,
+    7.667,
+    9.833,
+    12.033,
+    14.7,
+    16.9,
+    21.067,
+    24.967,
+    26.051,
+    26.933
+  ]
+}

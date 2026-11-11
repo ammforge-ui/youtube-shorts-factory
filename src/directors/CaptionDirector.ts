@@ -35,7 +35,20 @@ export function phrases(words: VideoSpec["words"]): CaptionPhrase[] {
       chunks[i + 1].unshift(g.pop()!);
     }
   }
-  return chunks.map((ws) => ({
+  // Moving a trailing article can make the following group exceed five words.
+  // Rebalance it without losing words or crossing sentence boundaries.
+  const bounded = chunks.flatMap((original) => {
+    const remaining = [...original];
+    const result: typeof chunks = [];
+    while (remaining.length > 5) {
+      let cut = remaining.length === 6 ? 4 : 5;
+      if (/^(a|the|to|of|for|is)$/i.test(remaining[cut - 1].text)) cut--;
+      result.push(remaining.splice(0, cut));
+    }
+    if (remaining.length) result.push(remaining);
+    return result;
+  });
+  return bounded.map((ws) => ({
     text: ws.map((w) => w.text).join(" "),
     startMs: ws[0].start * 1000,
     durationMs: (ws.at(-1)!.end - ws[0].start) * 1000,

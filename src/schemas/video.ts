@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { VoicePerformance } from "../directors/HumanVoiceDirector";
 export const Word = z.object({
   text: z.string(),
   start: z.number().nonnegative(),
@@ -126,12 +127,13 @@ export const VideoSchema = z.object({
   localCopy: z.boolean(),
   duration: z.number().min(25).max(40),
   narration: z.string(),
+  voicePerformance: VoicePerformance.optional(),
   audio: z.string(),
   words: z.array(Word).min(1),
   scenes: z.array(Scene).min(3),
   creative: z
     .object({
-      version: z.literal(2),
+      version: z.union([z.literal(2), z.literal(3), z.literal(4)]),
       example: z.string(),
       encoded: z.string(),
       bpm: z.number().min(105).max(125),

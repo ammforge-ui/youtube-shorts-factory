@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T12:03:35.277Z",
+  "selected": [
+    {
+      "name": "CyberChef V3",
+      "website": "https://gchq.github.io/CyberChef/",
+      "source": "https://raw.githubusercontent.com/gchq/CyberChef/master/README.md",
+      "category": "developer",
+      "date": null,
+      "what": "Data transformation toolbox",
+      "freeTier": "Free Apache-2.0 release",
+      "login": "No account",
+      "automation": "Local open-source operation permitted by package license",
+      "demo": "Actual official release decodes the sample",
+      "hook": "This message looks secret.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        5,
+        5,
+        4,
+        5,
+        1,
+        5,
+        4
+      ],
+      "penalty": 0,
+      "decision": "Selected: honest demonstrated evergreen fallback",
+      "score": 84,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://raw.githubusercontent.com/gchq/CyberChef/master/README.md",
+        "file": "output/production-v3-2026-11-10/sources/source-18.txt",
+        "ok": true,
+        "checkedAt": "2026-11-10T12:03:33.491Z"
+      }
+    }
+  ],
+  "allCandidatesFile": "../research-sources.json",
+  "limitations": "No accessible fresh AI service demo verified. Two evergreen fallback tools; no trending or recent-launch claim in their scripts.",
+  "sources": [
+    "https://raw.githubusercontent.com/gchq/CyberChef/master/README.md"
+  ]
+}

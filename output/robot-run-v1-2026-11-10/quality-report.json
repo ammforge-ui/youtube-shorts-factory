@@ -1,0 +1,97 @@
+{
+  "sha256": "24d2614fa5ca33e99e9717e9ecdf48f1c9fa9179be90e5f78ec83acea0cdd0b2",
+  "passed": true,
+  "technical": {
+    "resolution": true,
+    "fps": true,
+    "h264": true,
+    "aac": true,
+    "duration": true,
+    "fullDecode": true,
+    "noBlackGaps": true,
+    "noClipping": true,
+    "intendedMix": true,
+    "musicPresent": true,
+    "musicBalance": true,
+    "effectsPresent": true,
+    "layout": true,
+    "wordTiming": true,
+    "sceneCoverage": true,
+    "realCaptureAssertion": true,
+    "noEndingSilence": true,
+    "target27to33Seconds": true,
+    "voiceWaveformMatchesAlignment": true,
+    "gameRouteVerified": true
+  },
+  "media": {
+    "duration": 27.115,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "bytes": 11574373
+  },
+  "audio": {
+    "peakDbFS": -4.5172196483278135,
+    "mixCorrelation": 0.9998397934300327,
+    "trailingSilenceSeconds": 0.08
+  },
+  "visualReview": {
+    "status": "passed-with-notes",
+    "reviewer": "Assistant actual encoded-frame inspection",
+    "sha256": "24d2614fa5ca33e99e9717e9ecdf48f1c9fa9179be90e5f78ec83acea0cdd0b2",
+    "inspected": [
+      "frame zero",
+      "1s",
+      "3s",
+      "actual brief typing",
+      "platform/coin gameplay",
+      "actual source",
+      "test run",
+      "portal reveal at 15.1s",
+      "prototype limitation",
+      "CTA",
+      "final frame"
+    ],
+    "findings": [
+      "Meaningful gameplay and full hook visible immediately.",
+      "Large robot/platform footage dominates portrait frame without stretching.",
+      "Brief and code are labeled as original experiment materials, not a live third-party generator.",
+      "Four-coin/portal completion matches the actual asserted run; reveal badge appears at the end of the run.",
+      "Caption groups fit safe bounds and avoid the robot/portal in reviewed frames.",
+      "Final CTA contrast improved and rechecked after a targeted scene repair."
+    ],
+    "limitations": [
+      "Gameplay capture uses software WebGL and 600\u00d71000 source; not equivalent to a native 1080p GPU recording.",
+      "Source orientation shot contains code not intended to be read line by line on mobile.",
+      "Geometry checks cover text, not automatic semantic detection of all gameplay objects.",
+      "No perceptual audio approval or human-level voice-naturalness claim."
+    ]
+  },
+  "limitations": [
+    "Representative frames and geometry checks do not evaluate every animation frame.",
+    "Local neural voice and original procedural soundtrack require human listening review.",
+    "No viewer analytics or guaranteed viral potential."
+  ],
+  "contactSheetTimes": [
+    0,
+    1,
+    3,
+    3.2,
+    6.433,
+    9.7,
+    12.267,
+    16.233,
+    20.667,
+    24.767,
+    26.115,
+    27.0
+  ],
+  "editorialReview": {
+    "hookFulfilled": true,
+    "honesty": "Codex original prototype with iterations; not Wanaka or one-shot success",
+    "musicAndVoiceTaste": "Human listening pending",
+    "subjectiveAssessment": "More continuous visually interesting footage than the earlier utility demos; actual viewer response unknown"
+  }
+}

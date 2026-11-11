@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-10T12:03:35.277Z",
+  "selected": [
+    {
+      "name": "Node-RED",
+      "website": "https://nodered.org/",
+      "source": "https://raw.githubusercontent.com/node-red/node-red.github.io/main/docs/user-guide/nodes.md",
+      "category": "no-code",
+      "date": "2026-06-09",
+      "what": "Visual event-driven programming",
+      "freeTier": "Free open-source local runtime",
+      "login": "No account for local demo",
+      "automation": "Local open-source operation permitted by package license",
+      "demo": "Actual Inject \u2192 Change \u2192 Debug run asserted",
+      "hook": "These three boxes run a tiny automation.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        5,
+        5,
+        4,
+        5,
+        1,
+        5,
+        4
+      ],
+      "penalty": 0,
+      "decision": "Selected: honest demonstrated evergreen fallback",
+      "score": 84,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://raw.githubusercontent.com/node-red/node-red.github.io/main/docs/user-guide/nodes.md",
+        "file": "output/production-v3-2026-11-10/sources/source-16.txt",
+        "ok": true,
+        "checkedAt": "2026-11-10T12:03:33.334Z"
+      }
+    }
+  ],
+  "allCandidatesFile": "../research-sources.json",
+  "limitations": "No accessible fresh AI service demo verified. Two evergreen fallback tools; no trending or recent-launch claim in their scripts.",
+  "sources": [
+    "https://raw.githubusercontent.com/node-red/node-red.github.io/main/docs/user-guide/nodes.md"
+  ]
+}

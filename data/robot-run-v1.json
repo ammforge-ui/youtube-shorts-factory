@@ -1,0 +1,92 @@
+{
+  "id": "codex-robot-run-v1",
+  "product": "Codex \u00b7 original 3D prototype",
+  "url": "Local experiment \u00b7 original source included",
+  "localCopy": true,
+  "template": "discovery",
+  "narration": "Can AI build a playable three D game? I gave Codex a robot obstacle course: moving platforms, glowing coins, and a finish portal. This is the local prototype it wrote. I tested the controls, collected the coins, then reached the portal. It runs, but this took code fixes, and it is not a finished game. Treat AI output as a starting point you still need to test. Subscribe for more AI experiments.",
+  "voicePerformance": {
+    "version": 1,
+    "pitchProcessing": false,
+    "phrases": [
+      {
+        "text": "Can AI build a playable three D game?",
+        "emotion": "curious",
+        "emphasis": [
+          "playable"
+        ],
+        "pauseAfterMs": 170,
+        "scene": "hook",
+        "rate": 0.99
+      },
+      {
+        "text": "I gave Codex a robot obstacle course:",
+        "emotion": "explanatory",
+        "emphasis": [
+          "Codex"
+        ],
+        "pauseAfterMs": 90,
+        "scene": "brief",
+        "rate": 0.98
+      },
+      {
+        "text": "moving platforms, glowing coins, and a finish portal.",
+        "emotion": "explanatory",
+        "emphasis": [
+          "glowing coins"
+        ],
+        "pauseAfterMs": 120,
+        "scene": "challenge",
+        "rate": 0.98
+      },
+      {
+        "text": "This is the local prototype it wrote.",
+        "emotion": "anticipation",
+        "emphasis": [
+          "prototype"
+        ],
+        "pauseAfterMs": 220,
+        "scene": "source",
+        "rate": 0.95
+      },
+      {
+        "text": "I tested the controls, collected the coins, then reached the portal.",
+        "emotion": "excited",
+        "emphasis": [
+          "reached"
+        ],
+        "pauseAfterMs": 120,
+        "scene": "payoff",
+        "rate": 1.05
+      },
+      {
+        "text": "It runs, but this took code fixes, and it is not a finished game.",
+        "emotion": "explanatory",
+        "emphasis": [
+          "code fixes"
+        ],
+        "pauseAfterMs": 140,
+        "scene": "limitation",
+        "rate": 0.98
+      },
+      {
+        "text": "Treat AI output as a starting point you still need to test.",
+        "emotion": "satisfied",
+        "emphasis": [
+          "test"
+        ],
+        "pauseAfterMs": 130,
+        "scene": "takeaway",
+        "rate": 0.98
+      },
+      {
+        "text": "Subscribe for more AI experiments.",
+        "emotion": "satisfied",
+        "emphasis": [],
+        "scene": "cta",
+        "rate": 0.98
+      }
+    ]
+  },
+  "experimentPrompt": "Create a colorful 3D obstacle course where a small robot must jump over moving platforms, collect glowing coins, and reach a finish portal. Make it playful, visually appealing, and easy to understand."
+}

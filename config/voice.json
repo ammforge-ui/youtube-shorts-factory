@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "enabled": true,
+  "engine": "sherpa-onnx/Piper",
+  "voice": "en_US-ljspeech-medium",
+  "speakerId": 0,
+  "subtlePitchProcessing": false,
+  "emphasisGainDb": 0.9,
+  "maxEmphasisWordsPerPhrase": 2,
+  "presets": {
+    "curious": {"rate": 1.02, "pauseAfterMs": 170, "pitchRatio": 1.012},
+    "excited": {"rate": 1.07, "pauseAfterMs": 100, "pitchRatio": 1.018},
+    "anticipation": {"rate": 0.96, "pauseAfterMs": 220, "pitchRatio": 0.995},
+    "explanatory": {"rate": 1.01, "pauseAfterMs": 100, "pitchRatio": 1.0},
+    "satisfied": {"rate": 0.99, "pauseAfterMs": 130, "pitchRatio": 0.995}
+  }
+}

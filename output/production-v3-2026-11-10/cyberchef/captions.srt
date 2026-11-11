@@ -1,0 +1,83 @@
+1
+00:00:00,000 --> 00:00:01,740
+This message looks secret.
+
+2
+00:00:01,740 --> 00:00:03,240
+Meet me on Mars.
+
+3
+00:00:03,240 --> 00:00:04,800
+That is all it says.
+
+4
+00:00:04,800 --> 00:00:06,190
+CyberChef can reveal it
+
+5
+00:00:06,190 --> 00:00:06,920
+for free,
+
+6
+00:00:07,050 --> 00:00:08,270
+right in your browser.
+
+7
+00:00:08,270 --> 00:00:09,190
+Paste the text
+
+8
+00:00:09,190 --> 00:00:10,090
+into Input.
+
+9
+00:00:10,090 --> 00:00:11,880
+Add From Base64 to
+
+10
+00:00:11,880 --> 00:00:12,650
+the recipe.
+
+11
+00:00:12,650 --> 00:00:15,160
+The readable message appears automatically.
+
+12
+00:00:15,160 --> 00:00:16,730
+But here is the useful
+
+13
+00:00:16,730 --> 00:00:17,520
+distinction.
+
+14
+00:00:17,520 --> 00:00:19,650
+Base64 is encoding,
+
+15
+00:00:19,650 --> 00:00:20,580
+not encryption.
+
+16
+00:00:20,580 --> 00:00:22,220
+Anyone can reverse it without
+
+17
+00:00:22,220 --> 00:00:22,790
+a key.
+
+18
+00:00:22,790 --> 00:00:24,130
+Use it to inspect data,
+
+19
+00:00:24,130 --> 00:00:24,390
+never
+
+20
+00:00:24,730 --> 00:00:26,120
+to hide a password.
+
+21
+00:00:26,120 --> 00:00:28,650
+Subscribe for more useful software.

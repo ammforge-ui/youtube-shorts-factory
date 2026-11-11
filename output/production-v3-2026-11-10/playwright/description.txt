@@ -1,0 +1,1 @@
+Real Playwright Trace Viewer 1.58.2, showing a local fictional checkout fixture we created. Before/After snapshots explain a missing address error. No real store or purchase. Evergreen feature, not a new release claim. https://playwright.dev/docs/trace-viewer

@@ -1,0 +1,916 @@
+{
+  "id": "playwright",
+  "template": "before-after",
+  "product": "Playwright",
+  "url": "playwright.dev",
+  "localCopy": true,
+  "duration": 27.033333333333335,
+  "narration": "Your browser test clicked the button. What happened next? Playwright can keep a trace, so you can inspect the run afterward. Here is a fictional checkout test. Open its trace and select the click. Before shows the page before that action. After reveals the missing address error. You can inspect snapshots instead of guessing from a failure message. Record traces in your own tests, and keep sensitive data out. Subscribe for more developer tools.",
+  "audio": "media/v3-playwright/mix.wav",
+  "words": [
+    {
+      "text": "Your",
+      "start": 0,
+      "end": 0.14
+    },
+    {
+      "text": "browser",
+      "start": 0.14,
+      "end": 0.65
+    },
+    {
+      "text": "test",
+      "start": 0.65,
+      "end": 1.1
+    },
+    {
+      "text": "clicked",
+      "start": 1.1,
+      "end": 1.51
+    },
+    {
+      "text": "the",
+      "start": 1.51,
+      "end": 1.58
+    },
+    {
+      "text": "button.",
+      "start": 1.58,
+      "end": 2.01
+    },
+    {
+      "text": "What",
+      "start": 2.01,
+      "end": 2.34
+    },
+    {
+      "text": "happened",
+      "start": 2.34,
+      "end": 2.76
+    },
+    {
+      "text": "next?",
+      "start": 2.76,
+      "end": 3.31
+    },
+    {
+      "text": "Playwright",
+      "start": 3.31,
+      "end": 3.85
+    },
+    {
+      "text": "can",
+      "start": 3.85,
+      "end": 4.02
+    },
+    {
+      "text": "keep",
+      "start": 4.02,
+      "end": 4.27
+    },
+    {
+      "text": "a",
+      "start": 4.27,
+      "end": 4.31
+    },
+    {
+      "text": "trace,",
+      "start": 4.31,
+      "end": 4.89
+    },
+    {
+      "text": "so",
+      "start": 4.89,
+      "end": 5.13
+    },
+    {
+      "text": "you",
+      "start": 5.13,
+      "end": 5.29
+    },
+    {
+      "text": "can",
+      "start": 5.29,
+      "end": 5.49
+    },
+    {
+      "text": "inspect",
+      "start": 5.49,
+      "end": 6.06
+    },
+    {
+      "text": "the",
+      "start": 6.06,
+      "end": 6.19
+    },
+    {
+      "text": "run",
+      "start": 6.19,
+      "end": 6.37
+    },
+    {
+      "text": "afterward.",
+      "start": 6.37,
+      "end": 7.07
+    },
+    {
+      "text": "Here",
+      "start": 7.07,
+      "end": 7.46
+    },
+    {
+      "text": "is",
+      "start": 7.46,
+      "end": 7.66
+    },
+    {
+      "text": "a",
+      "start": 7.66,
+      "end": 7.69
+    },
+    {
+      "text": "fictional",
+      "start": 7.69,
+      "end": 8.2
+    },
+    {
+      "text": "checkout",
+      "start": 8.2,
+      "end": 8.66
+    },
+    {
+      "text": "test.",
+      "start": 8.66,
+      "end": 9.24
+    },
+    {
+      "text": "Open",
+      "start": 9.24,
+      "end": 9.54
+    },
+    {
+      "text": "its",
+      "start": 9.54,
+      "end": 9.79
+    },
+    {
+      "text": "trace",
+      "start": 9.79,
+      "end": 10.22
+    },
+    {
+      "text": "and",
+      "start": 10.22,
+      "end": 10.35
+    },
+    {
+      "text": "select",
+      "start": 10.35,
+      "end": 10.84
+    },
+    {
+      "text": "the",
+      "start": 10.84,
+      "end": 10.94
+    },
+    {
+      "text": "click.",
+      "start": 10.94,
+      "end": 11.44
+    },
+    {
+      "text": "Before",
+      "start": 11.44,
+      "end": 11.85
+    },
+    {
+      "text": "shows",
+      "start": 11.85,
+      "end": 12.32
+    },
+    {
+      "text": "the",
+      "start": 12.32,
+      "end": 12.4
+    },
+    {
+      "text": "page",
+      "start": 12.4,
+      "end": 12.83
+    },
+    {
+      "text": "before",
+      "start": 12.83,
+      "end": 13.28
+    },
+    {
+      "text": "that",
+      "start": 13.28,
+      "end": 13.49
+    },
+    {
+      "text": "action.",
+      "start": 13.49,
+      "end": 14.11
+    },
+    {
+      "text": "After",
+      "start": 14.11,
+      "end": 14.47
+    },
+    {
+      "text": "reveals",
+      "start": 14.47,
+      "end": 15
+    },
+    {
+      "text": "the",
+      "start": 15,
+      "end": 15.08
+    },
+    {
+      "text": "missing",
+      "start": 15.08,
+      "end": 15.47
+    },
+    {
+      "text": "address",
+      "start": 15.47,
+      "end": 15.89
+    },
+    {
+      "text": "error.",
+      "start": 15.89,
+      "end": 16.3
+    },
+    {
+      "text": "You",
+      "start": 16.3,
+      "end": 16.38
+    },
+    {
+      "text": "can",
+      "start": 16.38,
+      "end": 16.59
+    },
+    {
+      "text": "inspect",
+      "start": 16.59,
+      "end": 17.14
+    },
+    {
+      "text": "snapshots",
+      "start": 17.14,
+      "end": 17.82
+    },
+    {
+      "text": "instead",
+      "start": 17.82,
+      "end": 18.34
+    },
+    {
+      "text": "of",
+      "start": 18.34,
+      "end": 18.45
+    },
+    {
+      "text": "guessing",
+      "start": 18.45,
+      "end": 18.9
+    },
+    {
+      "text": "from",
+      "start": 18.9,
+      "end": 19.09
+    },
+    {
+      "text": "a",
+      "start": 19.09,
+      "end": 19.12
+    },
+    {
+      "text": "failure",
+      "start": 19.12,
+      "end": 19.68
+    },
+    {
+      "text": "message.",
+      "start": 19.68,
+      "end": 20.46
+    },
+    {
+      "text": "Record",
+      "start": 20.46,
+      "end": 20.78
+    },
+    {
+      "text": "traces",
+      "start": 20.78,
+      "end": 21.23
+    },
+    {
+      "text": "in",
+      "start": 21.23,
+      "end": 21.32
+    },
+    {
+      "text": "your",
+      "start": 21.32,
+      "end": 21.53
+    },
+    {
+      "text": "own",
+      "start": 21.53,
+      "end": 21.79
+    },
+    {
+      "text": "tests,",
+      "start": 21.79,
+      "end": 22.48
+    },
+    {
+      "text": "and",
+      "start": 22.48,
+      "end": 22.63
+    },
+    {
+      "text": "keep",
+      "start": 22.63,
+      "end": 22.86
+    },
+    {
+      "text": "sensitive",
+      "start": 22.86,
+      "end": 23.46
+    },
+    {
+      "text": "data",
+      "start": 23.46,
+      "end": 23.81
+    },
+    {
+      "text": "out.",
+      "start": 23.81,
+      "end": 24.37
+    },
+    {
+      "text": "Subscribe",
+      "start": 24.37,
+      "end": 25.04
+    },
+    {
+      "text": "for",
+      "start": 25.04,
+      "end": 25.2
+    },
+    {
+      "text": "more",
+      "start": 25.2,
+      "end": 25.42
+    },
+    {
+      "text": "developer",
+      "start": 25.42,
+      "end": 25.97
+    },
+    {
+      "text": "tools.",
+      "start": 25.97,
+      "end": 26.77
+    }
+  ],
+  "scenes": [
+    {
+      "title": "What happened after the click?",
+      "eyebrow": "",
+      "detail": "Real Trace Viewer \u00b7 fictional test fixture",
+      "duration": 3.3,
+      "shot": "action",
+      "footage": "media/v3-playwright/after.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "hook",
+        "layout": "detail",
+        "narration": "Your browser test clicked the button. What happened next?",
+        "asset": "media/v3-playwright/after.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 817.65,
+              "height": 600
+            }
+          },
+          {
+            "frame": 98,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 790,
+              "height": 600
+            }
+          }
+        ],
+        "focus": {
+          "x": 400,
+          "y": 130,
+          "width": 790,
+          "height": 600
+        },
+        "cursor": [],
+        "typography": "hook",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Inspect the run afterward.",
+      "eyebrow": "",
+      "detail": "Real Trace Viewer \u00b7 fictional test fixture",
+      "duration": 3.7666666666666666,
+      "shot": "action",
+      "footage": "media/v3-playwright/overview.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "curiosity",
+        "layout": "detail",
+        "narration": "Playwright can keep a trace, so you can inspect the run afterward.",
+        "asset": "media/v3-playwright/overview.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 80,
+              "width": 1242,
+              "height": 820
+            }
+          },
+          {
+            "frame": 112,
+            "target": {
+              "x": 0,
+              "y": 80,
+              "width": 1200,
+              "height": 820
+            }
+          }
+        ],
+        "focus": {
+          "x": 0,
+          "y": 80,
+          "width": 1200,
+          "height": 820
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "A fictional checkout test.",
+      "eyebrow": "",
+      "detail": "Real Trace Viewer \u00b7 fictional test fixture",
+      "duration": 2.166666666666666,
+      "shot": "action",
+      "footage": "media/v3-playwright/before.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "Here is a fictional checkout test.",
+        "asset": "media/v3-playwright/before.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 817.65,
+              "height": 600
+            }
+          },
+          {
+            "frame": 64,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 790,
+              "height": 600
+            }
+          }
+        ],
+        "focus": {
+          "x": 400,
+          "y": 130,
+          "width": 790,
+          "height": 600
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Select the click.",
+      "eyebrow": "",
+      "detail": "Real Trace Viewer \u00b7 fictional test fixture",
+      "duration": 2.200000000000001,
+      "shot": "action",
+      "footage": "media/v3-playwright/recording.mp4",
+      "startFrom": 3.963,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "Open its trace and select the click.",
+        "asset": "media/v3-playwright/recording.mp4",
+        "mediaType": "video",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 465.75,
+              "height": 450
+            }
+          },
+          {
+            "frame": 65,
+            "target": {
+              "x": 0,
+              "y": 0,
+              "width": 450,
+              "height": 450
+            }
+          }
+        ],
+        "focus": {
+          "x": 0,
+          "y": 0,
+          "width": 450,
+          "height": 450
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "cursor"
+      }
+    },
+    {
+      "title": "Before the action.",
+      "eyebrow": "",
+      "detail": "Real Trace Viewer \u00b7 fictional test fixture",
+      "duration": 2.666666666666666,
+      "shot": "action",
+      "footage": "media/v3-playwright/before.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "Before shows the page before that action.",
+        "asset": "media/v3-playwright/before.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 817.65,
+              "height": 600
+            }
+          },
+          {
+            "frame": 79,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 790,
+              "height": 600
+            }
+          }
+        ],
+        "focus": {
+          "x": 400,
+          "y": 130,
+          "width": 790,
+          "height": 600
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "The missing address.",
+      "eyebrow": "",
+      "detail": "Real Trace Viewer \u00b7 fictional test fixture",
+      "duration": 2.200000000000001,
+      "shot": "result",
+      "footage": "media/v3-playwright/after.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "payoff",
+        "layout": "result",
+        "narration": "After reveals the missing address error.",
+        "asset": "media/v3-playwright/after.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 817.65,
+              "height": 600
+            }
+          },
+          {
+            "frame": 65,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 790,
+              "height": 600
+            }
+          }
+        ],
+        "focus": {
+          "x": 400,
+          "y": 130,
+          "width": 790,
+          "height": 600
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.85,
+        "tone": "satisfying",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Snapshots beat guesswork.",
+      "eyebrow": "",
+      "detail": "Real Trace Viewer \u00b7 fictional test fixture",
+      "duration": 4.166666666666664,
+      "shot": "action",
+      "footage": "media/v3-playwright/after.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "takeaway",
+        "layout": "detail",
+        "narration": "You can inspect snapshots instead of guessing from a failure message. Record",
+        "asset": "media/v3-playwright/after.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 817.65,
+              "height": 600
+            }
+          },
+          {
+            "frame": 124,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 790,
+              "height": 600
+            }
+          }
+        ],
+        "focus": {
+          "x": 400,
+          "y": 130,
+          "width": 790,
+          "height": 600
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Keep sensitive data out.",
+      "eyebrow": "",
+      "detail": "Real Trace Viewer \u00b7 fictional test fixture",
+      "duration": 3.900000000000002,
+      "shot": "action",
+      "footage": "media/v3-playwright/overview.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "takeaway",
+        "layout": "detail",
+        "narration": "traces in your own tests, and keep sensitive data out.",
+        "asset": "media/v3-playwright/overview.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 0,
+              "y": 80,
+              "width": 1242,
+              "height": 820
+            }
+          },
+          {
+            "frame": 116,
+            "target": {
+              "x": 0,
+              "y": 80,
+              "width": 1200,
+              "height": 820
+            }
+          }
+        ],
+        "focus": {
+          "x": 0,
+          "y": 80,
+          "width": 1200,
+          "height": 820
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "More developer tools.",
+      "eyebrow": "",
+      "detail": "Real Trace Viewer \u00b7 fictional test fixture",
+      "duration": 2.666666666666668,
+      "shot": "cta",
+      "footage": "media/v3-playwright/after.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "cta",
+        "layout": "detail",
+        "narration": "Subscribe for more developer tools.",
+        "asset": "media/v3-playwright/after.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 817.65,
+              "height": 600
+            }
+          },
+          {
+            "frame": 79,
+            "target": {
+              "x": 400,
+              "y": 130,
+              "width": 790,
+              "height": 600
+            }
+          }
+        ],
+        "focus": {
+          "x": 400,
+          "y": 130,
+          "width": 790,
+          "height": 600
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    }
+  ],
+  "creative": {
+    "version": 3,
+    "example": "Meet me on Mars.",
+    "encoded": "TWVldCBtZSBvbiBNYXJzLg==",
+    "bpm": 110,
+    "soundEvents": [
+      {
+        "event": "What happened after the click?",
+        "frame": 0,
+        "sound": "digital_pop",
+        "intensity": 0.28
+      },
+      {
+        "event": "Inspect the run afterward.",
+        "frame": 99,
+        "sound": "soft_whoosh",
+        "intensity": 0.28
+      },
+      {
+        "event": "A fictional checkout test.",
+        "frame": 212,
+        "sound": "soft_whoosh",
+        "intensity": 0.28
+      },
+      {
+        "event": "Select the click.",
+        "frame": 277,
+        "sound": "ui_click",
+        "intensity": 0.28
+      },
+      {
+        "event": "Before the action.",
+        "frame": 343,
+        "sound": "soft_whoosh",
+        "intensity": 0.28
+      },
+      {
+        "event": "The missing address.",
+        "frame": 423,
+        "sound": "digital_reveal",
+        "intensity": 0.55
+      },
+      {
+        "event": "Snapshots beat guesswork.",
+        "frame": 489,
+        "sound": "soft_whoosh",
+        "intensity": 0.28
+      },
+      {
+        "event": "Keep sensitive data out.",
+        "frame": 614,
+        "sound": "soft_whoosh",
+        "intensity": 0.28
+      },
+      {
+        "event": "More developer tools.",
+        "frame": 731,
+        "sound": "ending",
+        "intensity": 0.28
+      }
+    ],
+    "brand": "THE TOOL FILES",
+    "musicAsset": "media/v3-playwright/music.wav"
+  }
+}

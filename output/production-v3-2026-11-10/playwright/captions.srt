@@ -1,0 +1,83 @@
+1
+00:00:00,000 --> 00:00:01,510
+Your browser test clicked
+
+2
+00:00:01,510 --> 00:00:02,010
+the button.
+
+3
+00:00:02,010 --> 00:00:03,310
+What happened next?
+
+4
+00:00:03,310 --> 00:00:04,890
+Playwright can keep a trace,
+
+5
+00:00:04,890 --> 00:00:06,060
+so you can inspect
+
+6
+00:00:06,060 --> 00:00:07,070
+the run afterward.
+
+7
+00:00:07,070 --> 00:00:08,660
+Here is a fictional checkout
+
+8
+00:00:08,660 --> 00:00:09,240
+test.
+
+9
+00:00:09,240 --> 00:00:10,220
+Open its trace
+
+10
+00:00:10,220 --> 00:00:11,440
+and select the click.
+
+11
+00:00:11,440 --> 00:00:13,280
+Before shows the page before
+
+12
+00:00:13,280 --> 00:00:14,110
+that action.
+
+13
+00:00:14,110 --> 00:00:15,890
+After reveals the missing address
+
+14
+00:00:15,890 --> 00:00:16,300
+error.
+
+15
+00:00:16,300 --> 00:00:18,340
+You can inspect snapshots instead
+
+16
+00:00:18,340 --> 00:00:19,680
+of guessing from a failure
+
+17
+00:00:19,680 --> 00:00:20,460
+message.
+
+18
+00:00:20,460 --> 00:00:21,790
+Record traces in your own
+
+19
+00:00:21,790 --> 00:00:22,480
+tests,
+
+20
+00:00:22,480 --> 00:00:24,370
+and keep sensitive data out.
+
+21
+00:00:24,370 --> 00:00:26,770
+Subscribe for more developer tools.

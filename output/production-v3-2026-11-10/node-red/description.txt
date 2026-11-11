@@ -1,0 +1,1 @@
+Real local Node-RED 5.0.9 demonstration: Inject → Change → Debug. This example uses no Function node or custom code inside the flow. The editor runs on a local Node.js runtime; setup is required. Evergreen discovery, not a new launch claim. https://nodered.org/docs/user-guide/nodes

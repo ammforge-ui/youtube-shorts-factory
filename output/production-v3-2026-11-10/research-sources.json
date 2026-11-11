@@ -1,0 +1,655 @@
+{
+  "checkedAt": "2026-11-10T12:03:35.277Z",
+  "feeds": [
+    {
+      "url": "https://github.com/trending",
+      "file": "output/production-v3-2026-11-10/sources/source-0.txt",
+      "ok": true,
+      "checkedAt": "2026-11-10T12:03:35.276Z"
+    },
+    {
+      "url": "https://news.ycombinator.com/",
+      "ok": false,
+      "error": "Error: Command failed: curl -fsSL --max-time 15 https://news.ycombinator.com/\ncurl: (22) The requested URL returned error: 403\n",
+      "checkedAt": "2026-11-10T12:03:32.330Z"
+    },
+    {
+      "url": "https://www.producthunt.com/products?period=2026-11",
+      "ok": false,
+      "error": "Error: Command failed: curl -fsSL --max-time 15 https://www.producthunt.com/products?period=2026-11\ncurl: (22) The requested URL returned error: 403\n",
+      "checkedAt": "2026-11-10T12:03:32.330Z"
+    }
+  ],
+  "discoveries": [
+    {
+      "repository": "meta/astryx",
+      "source": "https://github.com/meta/astryx",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "anthropics/skills",
+      "source": "https://github.com/anthropics/skills",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "addyosmani/agent-skills",
+      "source": "https://github.com/addyosmani/agent-skills",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "anthropics/claude-quickstarts",
+      "source": "https://github.com/anthropics/claude-quickstarts",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "google-deepmind/mujoco",
+      "source": "https://github.com/google-deepmind/mujoco",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "we-promise/sure",
+      "source": "https://github.com/we-promise/sure",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "homeassistant-ai/ha-mcp",
+      "source": "https://github.com/homeassistant-ai/ha-mcp",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "vercel-labs/agent-browser",
+      "source": "https://github.com/vercel-labs/agent-browser",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "sherlock-project/sherlock",
+      "source": "https://github.com/sherlock-project/sherlock",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "tokio-rs/topcoat",
+      "source": "https://github.com/tokio-rs/topcoat",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "ranxianglei/billion-context",
+      "source": "https://github.com/ranxianglei/billion-context",
+      "status": "unverified; primary source and real demonstration required"
+    },
+    {
+      "repository": "mattpocock/skills",
+      "source": "https://github.com/mattpocock/skills",
+      "status": "unverified; primary source and real demonstration required"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Node-RED",
+      "website": "https://nodered.org/",
+      "source": "https://raw.githubusercontent.com/node-red/node-red.github.io/main/docs/user-guide/nodes.md",
+      "category": "no-code",
+      "date": "2026-06-09",
+      "what": "Visual event-driven programming",
+      "freeTier": "Free open-source local runtime",
+      "login": "No account for local demo",
+      "automation": "Local open-source operation permitted by package license",
+      "demo": "Actual Inject \u2192 Change \u2192 Debug run asserted",
+      "hook": "These three boxes run a tiny automation.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        5,
+        5,
+        4,
+        5,
+        1,
+        5,
+        4
+      ],
+      "penalty": 0,
+      "decision": "Selected: honest demonstrated evergreen fallback",
+      "score": 84,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://raw.githubusercontent.com/node-red/node-red.github.io/main/docs/user-guide/nodes.md",
+        "file": "output/production-v3-2026-11-10/sources/source-16.txt",
+        "ok": true,
+        "checkedAt": "2026-11-10T12:03:33.334Z"
+      }
+    },
+    {
+      "name": "Playwright Trace Viewer",
+      "website": "https://playwright.dev/",
+      "source": "https://raw.githubusercontent.com/microsoft/playwright/main/docs/src/trace-viewer-intro-js.md",
+      "category": "developer",
+      "date": null,
+      "what": "Inspect recorded browser actions and snapshots",
+      "freeTier": "Free Apache-2.0 package",
+      "login": "No account locally",
+      "automation": "Local open-source operation permitted by package license",
+      "demo": "Actual trace from fictional checkout fixture",
+      "hook": "What happened after the click?",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        5,
+        5,
+        4,
+        5,
+        1,
+        5,
+        4
+      ],
+      "penalty": 0,
+      "decision": "Selected: honest demonstrated evergreen fallback",
+      "score": 84,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://raw.githubusercontent.com/microsoft/playwright/main/docs/src/trace-viewer-intro-js.md",
+        "file": "output/production-v3-2026-11-10/sources/source-17.txt",
+        "ok": true,
+        "checkedAt": "2026-11-10T12:03:33.324Z"
+      }
+    },
+    {
+      "name": "CyberChef V3",
+      "website": "https://gchq.github.io/CyberChef/",
+      "source": "https://raw.githubusercontent.com/gchq/CyberChef/master/README.md",
+      "category": "developer",
+      "date": null,
+      "what": "Data transformation toolbox",
+      "freeTier": "Free Apache-2.0 release",
+      "login": "No account",
+      "automation": "Local open-source operation permitted by package license",
+      "demo": "Actual official release decodes the sample",
+      "hook": "This message looks secret.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        5,
+        5,
+        4,
+        5,
+        1,
+        5,
+        4
+      ],
+      "penalty": 0,
+      "decision": "Selected: honest demonstrated evergreen fallback",
+      "score": 84,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://raw.githubusercontent.com/gchq/CyberChef/master/README.md",
+        "file": "output/production-v3-2026-11-10/sources/source-18.txt",
+        "ok": true,
+        "checkedAt": "2026-11-10T12:03:33.491Z"
+      }
+    },
+    {
+      "name": "FlutterFlow",
+      "website": "https://www.flutterflow.io/",
+      "source": "https://community.flutterflow.io/announcements/post/two-ways-to-build-one-flutterflow-R1LnITgkRWtxoZO",
+      "category": "AI/no-code",
+      "date": "2026-11-04",
+      "what": "Native mobile app builder",
+      "freeTier": "Unverified in runtime",
+      "login": "Sign-in required",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "Blocked builder; no generated app verified",
+      "hook": "Describe a mobile app and inspect the actual result.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://community.flutterflow.io/announcements/post/two-ways-to-build-one-flutterflow-R1LnITgkRWtxoZO",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://community.flutterflow.io/announcements/post/two-ways-to-build-one-flutterflow-R1LnITgkRWtxoZO\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "Screen Studio",
+      "website": "https://screen.studio/",
+      "source": "https://screen.studio/4",
+      "category": "screen recording",
+      "date": null,
+      "what": "Polished screen recording",
+      "freeTier": "Export payment unverified",
+      "login": "macOS required",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "Linux environment cannot run macOS software",
+      "hook": "Ordinary recording versus an actual polished export.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://screen.studio/4",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://screen.studio/4\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "Wanaka Studio",
+      "website": "https://wanaka.app/",
+      "source": "https://wanaka.app/",
+      "category": "AI games",
+      "date": null,
+      "what": "AI-assisted 3D game creation",
+      "freeTier": "Start free claim; not tested",
+      "login": "Sign-in link on official site",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "Cloud domain blocked; no generation tested",
+      "hook": "Can an idea become a playable game?",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://wanaka.app/",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://wanaka.app/\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "Spacefast",
+      "website": "https://spacefast.com/",
+      "source": "https://spacefast.com/docs/quickstart/",
+      "category": "deployment",
+      "date": "2026-11-09",
+      "what": "Host AI-built sites",
+      "freeTier": "Unverified",
+      "login": "Unverified",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "Blocked domain; no deployment tested",
+      "hook": "An AI app needs a live URL.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://spacefast.com/docs/quickstart/",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://spacefast.com/docs/quickstart/\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "beacon.sh",
+      "website": "https://beacon.sh/",
+      "source": "https://www.producthunt.com/products?period=2026-11",
+      "category": "AI developer",
+      "date": null,
+      "what": "Agent memory listing",
+      "freeTier": "Unknown",
+      "login": "Unknown",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "Not functionally tested",
+      "hook": "Can agent memory survive another session?",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://www.producthunt.com/products?period=2026-11",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://www.producthunt.com/products?period=2026-11\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "Scalekit",
+      "website": "https://www.scalekit.com/",
+      "source": "https://www.producthunt.com/products?period=2026-11",
+      "category": "AI developer",
+      "date": null,
+      "what": "MCP gateway listing",
+      "freeTier": "Unknown",
+      "login": "Unknown",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "Not functionally tested",
+      "hook": "Where should agent permissions live?",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://www.producthunt.com/products?period=2026-11",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://www.producthunt.com/products?period=2026-11\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "Glasshand",
+      "website": "https://glasshand.com/",
+      "source": "https://www.producthunt.com/products?period=2026-11",
+      "category": "AI testing",
+      "date": null,
+      "what": "Device access for agents listing",
+      "freeTier": "Unknown",
+      "login": "Unknown",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "No real device access verified",
+      "hook": "Can an agent test on a real phone?",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://www.producthunt.com/products?period=2026-11",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://www.producthunt.com/products?period=2026-11\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "Tobira.ai",
+      "website": "https://tobira.ai/",
+      "source": "https://www.producthunt.com/products?period=2026-11",
+      "category": "AI agent",
+      "date": null,
+      "what": "Agent network listing",
+      "freeTier": "Unknown",
+      "login": "Unknown",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "No agent run verified",
+      "hook": "What would an agent find for you?",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://www.producthunt.com/products?period=2026-11",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://www.producthunt.com/products?period=2026-11\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "Teamily AI",
+      "website": "https://teamily.ai/",
+      "source": "https://www.producthunt.com/products?period=2026-11",
+      "category": "AI messaging",
+      "date": null,
+      "what": "Agent collaboration listing",
+      "freeTier": "Unknown",
+      "login": "Unknown",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "No account or demonstration",
+      "hook": "Can a shared conversation become a workflow?",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://www.producthunt.com/products?period=2026-11",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://www.producthunt.com/products?period=2026-11\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "UnleashX",
+      "website": "https://unleashx.ai/",
+      "source": "https://www.producthunt.com/products?period=2026-11",
+      "category": "AI automation",
+      "date": null,
+      "what": "Conversational automation listing",
+      "freeTier": "Unknown",
+      "login": "Unknown",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "No workflow tested",
+      "hook": "What happens after a conversation?",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://www.producthunt.com/products?period=2026-11",
+        "ok": false,
+        "error": "Error: Command failed: curl -fsSL --max-time 15 https://www.producthunt.com/products?period=2026-11\ncurl: (22) The requested URL returned error: 403\n",
+        "checkedAt": "2026-11-10T12:03:32.330Z"
+      }
+    },
+    {
+      "name": "Ollama",
+      "website": "https://ollama.com/",
+      "source": "https://github.com/ollama/ollama",
+      "category": "AI local",
+      "date": null,
+      "what": "Local language model runner",
+      "freeTier": "Open-source runtime; model terms vary",
+      "login": "Local runtime no login",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "Model download/capacity not verified",
+      "hook": "Run a small language model locally.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://github.com/ollama/ollama",
+        "file": "output/production-v3-2026-11-10/sources/source-13.txt",
+        "ok": true,
+        "checkedAt": "2026-11-10T12:03:35.210Z"
+      }
+    },
+    {
+      "name": "Squoosh",
+      "website": "https://squoosh.app/",
+      "source": "https://github.com/GoogleChromeLabs/squoosh",
+      "category": "image tool",
+      "date": null,
+      "what": "Image compression app",
+      "freeTier": "Open source",
+      "login": "No login locally",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "Build not tested this run",
+      "hook": "Shrink an image and inspect the difference.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://github.com/GoogleChromeLabs/squoosh",
+        "file": "output/production-v3-2026-11-10/sources/source-14.txt",
+        "ok": true,
+        "checkedAt": "2026-11-10T12:03:34.789Z"
+      }
+    },
+    {
+      "name": "Excalidraw",
+      "website": "https://excalidraw.com/",
+      "source": "https://github.com/excalidraw/excalidraw",
+      "category": "diagram tool",
+      "date": null,
+      "what": "Sketch-style collaborative diagrams",
+      "freeTier": "Open source local editor",
+      "login": "No login locally",
+      "automation": "Unknown; SaaS automation not authorized by inspected evidence",
+      "demo": "Capture not tested this run",
+      "hook": "A messy idea becomes a clear diagram.",
+      "audience": "Builders, developers and software-curious viewers",
+      "story": "Show a concrete problem, execute a real action, reveal result",
+      "metrics": [
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        0,
+        4
+      ],
+      "penalty": 25,
+      "decision": "Rejected or deferred: no verified accessible demonstration",
+      "score": 48,
+      "scoreBasis": "Subjective editorial scores, not trend statistics",
+      "retrieval": {
+        "url": "https://github.com/excalidraw/excalidraw",
+        "file": "output/production-v3-2026-11-10/sources/source-15.txt",
+        "ok": true,
+        "checkedAt": "2026-11-10T12:03:35.091Z"
+      }
+    }
+  ],
+  "selection": [
+    "CyberChef V3",
+    "Node-RED",
+    "Playwright Trace Viewer"
+  ],
+  "shortfall": "No accessible fresh AI service demo verified. Two evergreen fallback tools; no trending or recent-launch claim in their scripts.",
+  "webResearch": "Additional Product Hunt, official announcements, official docs, HN, directories, and YouTube attempt recorded in daily report. YouTube throttled.",
+  "automationPolicy": "Only locally installed open-source tools recorded. Third-party SaaS automation permission remains unknown and blocks selection."
+}

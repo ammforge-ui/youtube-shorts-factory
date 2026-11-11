@@ -5,10 +5,25 @@
   "fps": 30,
   "width": 1080,
   "height": 1920,
-  "durationRange": [25, 40],
+  "durationRange": [
+    25,
+    40
+  ],
   "uploadEnabled": false,
-  "topicQueue": ["data/cyberchef-v2.json"],
-  "supportedCaptureAdapters": ["cyberchef-base64", "cyberchef-base64-v2"],
+  "topicQueue": [
+    "data/cyberchef-v2.json"
+  ],
+  "supportedCaptureAdapters": [
+    "cyberchef-base64",
+    "cyberchef-base64-v2",
+    "cyberchef-v3",
+    "node-red",
+    "playwright"
+  ],
   "requireEditorialReview": true,
-  "qualityProfile": "premium-v2"
+  "qualityProfile": "premium-v3",
+  "reviewedTopicsFile": "data/production-v3.json",
+  "voiceConfig": "config/voice.json",
+  "voiceDirector": "HumanVoiceDirector",
+  "requireFinalWaveformAlignment": true
 }

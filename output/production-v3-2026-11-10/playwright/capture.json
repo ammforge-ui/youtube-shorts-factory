@@ -1,0 +1,51 @@
+{
+  "product": "playwright",
+  "viewport": {
+    "width": 1200,
+    "height": 1000
+  },
+  "shots": [
+    {
+      "id": "overview",
+      "time": 4.163,
+      "target": {
+        "x": 0,
+        "y": 0,
+        "width": 1200,
+        "height": 1000
+      }
+    },
+    {
+      "id": "click",
+      "time": 5.185,
+      "target": {
+        "x": 0,
+        "y": 0,
+        "width": 1200,
+        "height": 1000
+      }
+    },
+    {
+      "id": "before",
+      "time": 5.883,
+      "target": {
+        "x": 0,
+        "y": 0,
+        "width": 1200,
+        "height": 1000
+      }
+    },
+    {
+      "id": "after",
+      "time": 6.547,
+      "target": {
+        "x": 0,
+        "y": 0,
+        "width": 1200,
+        "height": 1000
+      }
+    }
+  ],
+  "verified": true,
+  "capturedAt": "2026-11-10T12:12:05.225Z"
+}

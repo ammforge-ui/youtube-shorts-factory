@@ -1,0 +1,210 @@
+{
+  "performance": {
+    "version": 1,
+    "pitchProcessing": false,
+    "phrases": [
+      {
+        "text": "Can AI build a playable three D game?",
+        "emotion": "curious",
+        "emphasis": [
+          "playable"
+        ],
+        "pauseAfterMs": 170,
+        "scene": "hook",
+        "rate": 0.99
+      },
+      {
+        "text": "I gave Codex a robot obstacle course:",
+        "emotion": "explanatory",
+        "emphasis": [
+          "Codex"
+        ],
+        "pauseAfterMs": 90,
+        "scene": "brief",
+        "rate": 0.98
+      },
+      {
+        "text": "moving platforms, glowing coins, and a finish portal.",
+        "emotion": "explanatory",
+        "emphasis": [
+          "glowing coins"
+        ],
+        "pauseAfterMs": 120,
+        "scene": "challenge",
+        "rate": 0.98
+      },
+      {
+        "text": "This is the local prototype it wrote.",
+        "emotion": "anticipation",
+        "emphasis": [
+          "prototype"
+        ],
+        "pauseAfterMs": 220,
+        "scene": "source",
+        "rate": 0.95
+      },
+      {
+        "text": "I tested the controls, collected the coins, then reached the portal.",
+        "emotion": "excited",
+        "emphasis": [
+          "reached"
+        ],
+        "pauseAfterMs": 120,
+        "scene": "payoff",
+        "rate": 1.05
+      },
+      {
+        "text": "It runs, but this took code fixes, and it is not a finished game.",
+        "emotion": "explanatory",
+        "emphasis": [
+          "code fixes"
+        ],
+        "pauseAfterMs": 140,
+        "scene": "limitation",
+        "rate": 0.98
+      },
+      {
+        "text": "Treat AI output as a starting point you still need to test.",
+        "emotion": "satisfied",
+        "emphasis": [
+          "test"
+        ],
+        "pauseAfterMs": 130,
+        "scene": "takeaway",
+        "rate": 0.98
+      },
+      {
+        "text": "Subscribe for more AI experiments.",
+        "emotion": "satisfied",
+        "emphasis": [],
+        "scene": "cta",
+        "rate": 0.98
+      }
+    ]
+  },
+  "measurements": [
+    {
+      "index": 0,
+      "text": "Can AI build a playable three D game?",
+      "emotion": "curious",
+      "rate": 0.99,
+      "emphasis": [
+        "playable"
+      ],
+      "pitchRatio": 1.0,
+      "start": 0.0,
+      "end": 2.4181859410430837,
+      "pauseAfterMs": 170.0,
+      "scene": "hook"
+    },
+    {
+      "index": 1,
+      "text": "I gave Codex a robot obstacle course:",
+      "emotion": "explanatory",
+      "rate": 0.98,
+      "emphasis": [
+        "Codex"
+      ],
+      "pitchRatio": 1.0,
+      "start": 2.588208616780045,
+      "end": 5.757732426303855,
+      "pauseAfterMs": 90.0,
+      "scene": "brief"
+    },
+    {
+      "index": 2,
+      "text": "moving platforms, glowing coins, and a finish portal.",
+      "emotion": "explanatory",
+      "rate": 0.98,
+      "emphasis": [
+        "glowing coins"
+      ],
+      "pitchRatio": 1.0,
+      "start": 5.847709750566894,
+      "end": 8.97936507936508,
+      "pauseAfterMs": 120.0,
+      "scene": "challenge"
+    },
+    {
+      "index": 3,
+      "text": "This is the local prototype it wrote.",
+      "emotion": "anticipation",
+      "rate": 0.95,
+      "emphasis": [
+        "prototype"
+      ],
+      "pitchRatio": 1.0,
+      "start": 9.099365079365079,
+      "end": 11.444716553287982,
+      "pauseAfterMs": 220.0,
+      "scene": "source"
+    },
+    {
+      "index": 4,
+      "text": "I tested the controls, collected the coins, then reached the portal.",
+      "emotion": "excited",
+      "rate": 1.05,
+      "emphasis": [
+        "reached"
+      ],
+      "pitchRatio": 1.0,
+      "start": 11.664716553287983,
+      "end": 15.507891156462586,
+      "pauseAfterMs": 120.0,
+      "scene": "payoff"
+    },
+    {
+      "index": 5,
+      "text": "It runs, but this took code fixes, and it is not a finished game.",
+      "emotion": "explanatory",
+      "rate": 0.98,
+      "emphasis": [
+        "code fixes"
+      ],
+      "pitchRatio": 1.0,
+      "start": 15.627891156462585,
+      "end": 19.911519274376417,
+      "pauseAfterMs": 140.0,
+      "scene": "limitation"
+    },
+    {
+      "index": 6,
+      "text": "Treat AI output as a starting point you still need to test.",
+      "emotion": "satisfied",
+      "rate": 0.98,
+      "emphasis": [
+        "test"
+      ],
+      "pitchRatio": 1.0,
+      "start": 20.051519274376417,
+      "end": 24.02589569160998,
+      "pauseAfterMs": 130.0,
+      "scene": "takeaway"
+    },
+    {
+      "index": 7,
+      "text": "Subscribe for more AI experiments.",
+      "emotion": "satisfied",
+      "rate": 0.98,
+      "emphasis": [],
+      "pitchRatio": 1.0,
+      "start": 24.155873015873016,
+      "end": 26.4378231292517,
+      "pauseAfterMs": 0,
+      "scene": "cta"
+    }
+  ],
+  "capabilities": {
+    "nativeRate": true,
+    "phraseSynthesis": true,
+    "speakerContinuity": "one model and speaker 0",
+    "nativeSSML": false,
+    "nativePitch": false,
+    "nativeEmotion": false,
+    "timestamps": "external acoustic alignment",
+    "pitchFallback": "Optional formant-preserving Rubber Band; conservative default OFF",
+    "emphasis": "0.9 dB smooth word envelope using phrase acoustic alignment"
+  },
+  "sha256": "6fc1696900dae2fc8cdb47b7cad0c2a12537bd90efd9d1b060524cf999f0520b",
+  "review": "Human listening pending. Mode labels direct measurable rate/pause settings, not native learned emotions."
+}

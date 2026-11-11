@@ -1,0 +1,665 @@
+{
+  "fiveHooks": [
+    {
+      "hook": "These three boxes run a tiny automation.",
+      "clarity": 5,
+      "curiosity": 5,
+      "honesty": true,
+      "visualPotential": 5,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 5,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 5
+    },
+    {
+      "hook": "Build a tiny automation without writing code.",
+      "clarity": 5,
+      "curiosity": 4,
+      "honesty": true,
+      "visualPotential": 4,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 4,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 4
+    },
+    {
+      "hook": "What happens when you connect these three boxes?",
+      "clarity": 5,
+      "curiosity": 4,
+      "honesty": true,
+      "visualPotential": 4,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 4,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 4
+    },
+    {
+      "hook": "One click sends a message through this flow.",
+      "clarity": 5,
+      "curiosity": 4,
+      "honesty": true,
+      "visualPotential": 4,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 4,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 4
+    },
+    {
+      "hook": "This greeting is a working automation.",
+      "clarity": 5,
+      "curiosity": 4,
+      "honesty": true,
+      "visualPotential": 4,
+      "assessment": "Subjective editorial comparison, not predicted analytics",
+      "specificity": 4,
+      "audienceRelevance": 5,
+      "immediatePayoffPotential": 4
+    }
+  ],
+  "selectedHook": "These three boxes run a tiny automation.",
+  "justification": "Shows the entire genuine working flow immediately and provides a simple causal question; no exaggerated automation claims.",
+  "format": "visual puzzle \u2192 explain the flow \u2192 repeatable payoff",
+  "finalScript": "These three boxes run a tiny automation. No code in this flow. The first sends a message. The middle changes it. The last shows the result. This is Node RED, a free visual programming tool. Open the Change node and set a greeting. Deploy the flow, then press the little button. Hello, builder! Press it again. Another message arrives. Start small, then explore the built in nodes. Subscribe for more useful software.",
+  "storyboard": [
+    {
+      "title": "Three boxes. One automation.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 4.1,
+      "shot": "action",
+      "footage": "media/v3-node-red/overview.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "hook",
+        "layout": "detail",
+        "narration": "These three boxes run a tiny automation. No code in this flow. The",
+        "asset": "media/v3-node-red/overview.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 220,
+              "y": 130,
+              "width": 672.75,
+              "height": 500
+            }
+          },
+          {
+            "frame": 122,
+            "target": {
+              "x": 220,
+              "y": 130,
+              "width": 650,
+              "height": 500
+            }
+          }
+        ],
+        "focus": {
+          "x": 220,
+          "y": 130,
+          "width": 650,
+          "height": 500
+        },
+        "cursor": [],
+        "typography": "hook",
+        "captionPlacement": "bottom",
+        "transition": "cut",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Send a message.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 1.833333333333334,
+      "shot": "action",
+      "footage": "media/v3-node-red/overview.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "first sends a message. The",
+        "asset": "media/v3-node-red/overview.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 220,
+              "y": 145,
+              "width": 279.45,
+              "height": 300
+            }
+          },
+          {
+            "frame": 54,
+            "target": {
+              "x": 220,
+              "y": 145,
+              "width": 270,
+              "height": 300
+            }
+          }
+        ],
+        "focus": {
+          "x": 220,
+          "y": 145,
+          "width": 270,
+          "height": 300
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Change the message.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 1.3999999999999995,
+      "shot": "action",
+      "footage": "media/v3-node-red/overview.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "middle changes it.",
+        "asset": "media/v3-node-red/overview.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 440,
+              "y": 145,
+              "width": 279.45,
+              "height": 300
+            }
+          },
+          {
+            "frame": 41,
+            "target": {
+              "x": 440,
+              "y": 145,
+              "width": 270,
+              "height": 300
+            }
+          }
+        ],
+        "focus": {
+          "x": 440,
+          "y": 145,
+          "width": 270,
+          "height": 300
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Inspect the result.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 1.7666666666666666,
+      "shot": "action",
+      "footage": "media/v3-node-red/overview.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "The last shows the result.",
+        "asset": "media/v3-node-red/overview.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 650,
+              "y": 145,
+              "width": 279.45,
+              "height": 300
+            }
+          },
+          {
+            "frame": 52,
+            "target": {
+              "x": 650,
+              "y": 145,
+              "width": 270,
+              "height": 300
+            }
+          }
+        ],
+        "focus": {
+          "x": 650,
+          "y": 145,
+          "width": 270,
+          "height": 300
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Meet Node-RED.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 3.5666666666666664,
+      "shot": "action",
+      "footage": "media/v3-node-red/overview.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "curiosity",
+        "layout": "detail",
+        "narration": "This is Node RED, a free visual programming tool. Open",
+        "asset": "media/v3-node-red/overview.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 220,
+              "y": 130,
+              "width": 672.75,
+              "height": 500
+            }
+          },
+          {
+            "frame": 106,
+            "target": {
+              "x": 220,
+              "y": 130,
+              "width": 650,
+              "height": 500
+            }
+          }
+        ],
+        "focus": {
+          "x": 220,
+          "y": 130,
+          "width": 650,
+          "height": 500
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Set a greeting.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 2.666666666666668,
+      "shot": "action",
+      "footage": "media/v3-node-red/rule.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "the Change node and set a greeting.",
+        "asset": "media/v3-node-red/rule.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 405,
+              "y": 170,
+              "width": 486.45,
+              "height": 600
+            }
+          },
+          {
+            "frame": 79,
+            "target": {
+              "x": 405,
+              "y": 170,
+              "width": 470,
+              "height": 600
+            }
+          }
+        ],
+        "focus": {
+          "x": 405,
+          "y": 170,
+          "width": 470,
+          "height": 600
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Deploy. Then click.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 3.0666666666666647,
+      "shot": "action",
+      "footage": "media/v3-node-red/recording.mp4",
+      "startFrom": 6.308,
+      "direction": {
+        "purpose": "demonstration",
+        "layout": "detail",
+        "narration": "Deploy the flow, then press the little button. Hello,",
+        "asset": "media/v3-node-red/recording.mp4",
+        "mediaType": "video",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 220,
+              "y": 130,
+              "width": 672.75,
+              "height": 500
+            }
+          },
+          {
+            "frame": 91,
+            "target": {
+              "x": 220,
+              "y": 130,
+              "width": 650,
+              "height": 500
+            }
+          }
+        ],
+        "focus": {
+          "x": 220,
+          "y": 130,
+          "width": 650,
+          "height": 500
+        },
+        "cursor": [
+          {
+            "frame": 18,
+            "x": 275,
+            "y": 185,
+            "click": true
+          }
+        ],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "cursor"
+      }
+    },
+    {
+      "title": "Hello, builder!",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 0.8666666666666671,
+      "shot": "result",
+      "footage": "media/v3-node-red/result.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "payoff",
+        "layout": "result",
+        "narration": "builder!",
+        "asset": "media/v3-node-red/result.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 895,
+              "y": 320,
+              "width": 310.5,
+              "height": 400
+            }
+          },
+          {
+            "frame": 25,
+            "target": {
+              "x": 895,
+              "y": 320,
+              "width": 300,
+              "height": 400
+            }
+          }
+        ],
+        "focus": {
+          "x": 895,
+          "y": 320,
+          "width": 300,
+          "height": 400
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.85,
+        "tone": "satisfying",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "Click again. Another message.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 2.6999999999999993,
+      "shot": "result",
+      "footage": "media/v3-node-red/recording.mp4",
+      "startFrom": 8.76,
+      "direction": {
+        "purpose": "payoff",
+        "layout": "result",
+        "narration": "Press it again. Another message arrives.",
+        "asset": "media/v3-node-red/recording.mp4",
+        "mediaType": "video",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 895,
+              "y": 320,
+              "width": 310.5,
+              "height": 400
+            }
+          },
+          {
+            "frame": 80,
+            "target": {
+              "x": 895,
+              "y": 320,
+              "width": 300,
+              "height": 400
+            }
+          }
+        ],
+        "focus": {
+          "x": 895,
+          "y": 320,
+          "width": 300,
+          "height": 400
+        },
+        "cursor": [
+          {
+            "frame": 18,
+            "x": 950,
+            "y": 375,
+            "click": true
+          }
+        ],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.85,
+        "tone": "satisfying",
+        "motion": "cursor"
+      }
+    },
+    {
+      "title": "Start with a tiny flow.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 3.200000000000003,
+      "shot": "action",
+      "footage": "media/v3-node-red/repeat.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "takeaway",
+        "layout": "detail",
+        "narration": "Start small, then explore the built in nodes. Subscribe",
+        "asset": "media/v3-node-red/repeat.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 220,
+              "y": 130,
+              "width": 672.75,
+              "height": 500
+            }
+          },
+          {
+            "frame": 95,
+            "target": {
+              "x": 220,
+              "y": 130,
+              "width": 650,
+              "height": 500
+            }
+          }
+        ],
+        "focus": {
+          "x": 220,
+          "y": 130,
+          "width": 650,
+          "height": 500
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    },
+    {
+      "title": "More tools worth knowing.",
+      "eyebrow": "",
+      "detail": "Local Node-RED \u00b7 real flow execution",
+      "duration": 2.833333333333332,
+      "shot": "cta",
+      "footage": "media/v3-node-red/repeat.png",
+      "startFrom": 0,
+      "direction": {
+        "purpose": "cta",
+        "layout": "detail",
+        "narration": "for more useful software.",
+        "asset": "media/v3-node-red/repeat.png",
+        "mediaType": "image",
+        "sourceWidth": 1200,
+        "sourceHeight": 1000,
+        "sourceFontPx": 20,
+        "camera": [
+          {
+            "frame": 0,
+            "target": {
+              "x": 895,
+              "y": 320,
+              "width": 310.5,
+              "height": 400
+            }
+          },
+          {
+            "frame": 84,
+            "target": {
+              "x": 895,
+              "y": 320,
+              "width": 300,
+              "height": 400
+            }
+          }
+        ],
+        "focus": {
+          "x": 895,
+          "y": 320,
+          "width": 300,
+          "height": 400
+        },
+        "cursor": [],
+        "typography": "caption",
+        "captionPlacement": "bottom",
+        "transition": "mask",
+        "musicIntensity": 0.55,
+        "tone": "clear",
+        "motion": "zoom-in"
+      }
+    }
+  ],
+  "demonstration": "Real local application with assertions in capture-v3.ts",
+  "musicMood": "Original playful electronic instrumental; speech ducking",
+  "cta": "for more useful software.",
+  "review": {
+    "promise": true,
+    "demonstration": true,
+    "payoff": true,
+    "takeaway": true,
+    "subscribe": true
+  },
+  "limits": [
+    "Local neural voice; perceptual audition pending.",
+    "Node-RED and Playwright are verified evergreen fallbacks, not freshly launched products."
+  ]
+}

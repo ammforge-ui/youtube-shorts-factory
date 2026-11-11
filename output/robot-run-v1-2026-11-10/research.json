@@ -1,0 +1,146 @@
+{
+  "checkedAt": "2026-11-10T13:15:49.482945+00:00",
+  "requestedTopic": "Wanaka Studio experiment",
+  "selectedTopic": "Codex-authored original robot obstacle course",
+  "replacementReason": "Wanaka app and studio both returned proxy HTTP 403; Rosebud and GDevelop also blocked. No account, credits, purchase or bypass attempted. Existing Codex session used for an original code experiment instead.",
+  "sources": [
+    {
+      "url": "https://wanaka.app/",
+      "type": "official product",
+      "verified": "Official marketing describes AI-assisted 3D creation. Actual application functionality not tested here."
+    },
+    {
+      "url": "https://www.producthunt.com/products/wanaka-studio",
+      "type": "launch listing",
+      "verified": "Listing present and marked launched this week. Exact November 4 date was supplied by user; not independently established from retrieved page."
+    },
+    {
+      "url": "https://rosebud.ai/",
+      "type": "official alternative",
+      "verified": "Official page describes prompt-based game creation; app not tested because proxy blocked access."
+    },
+    {
+      "url": "https://threejs.org/",
+      "type": "official library",
+      "verified": "Three.js is a 3D JavaScript library; installed MIT-licensed 0.180.0 used here, not latest-version claim."
+    }
+  ],
+  "accessProbes": [
+    {
+      "url": "https://wanaka.app/",
+      "checkedAt": "2026-11-10T13:00:21.976121+00:00",
+      "exitCode": 56,
+      "headers": "HTTP/1.1 403 Forbidden\ncontent-length: 16\ncontent-type: text/plain\ndate: Tue, 10 Nov 2026 13:00:21 GMT\nserver: envoy\nconnection: close\n\n",
+      "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (56) CONNECT tunnel failed, response 403\n"
+    },
+    {
+      "url": "https://studio.wanaka.app/",
+      "checkedAt": "2026-11-10T13:00:21.985935+00:00",
+      "exitCode": 56,
+      "headers": "HTTP/1.1 403 Forbidden\ncontent-length: 16\ncontent-type: text/plain\ndate: Tue, 10 Nov 2026 13:00:21 GMT\nserver: envoy\nconnection: close\n\n",
+      "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (56) CONNECT tunnel failed, response 403\n"
+    },
+    {
+      "url": "https://rosebud.ai/",
+      "checkedAt": "2026-11-10T13:00:21.994908+00:00",
+      "exitCode": 56,
+      "headers": "HTTP/1.1 403 Forbidden\ncontent-length: 16\ncontent-type: text/plain\ndate: Tue, 10 Nov 2026 13:00:21 GMT\nserver: envoy\nconnection: close\n\n",
+      "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (56) CONNECT tunnel failed, response 403\n"
+    },
+    {
+      "url": "https://gdevelop.io/",
+      "checkedAt": "2026-11-10T13:00:22.003270+00:00",
+      "exitCode": 56,
+      "headers": "HTTP/1.1 403 Forbidden\ncontent-length: 16\ncontent-type: text/plain\ndate: Tue, 10 Nov 2026 13:00:21 GMT\nserver: envoy\nconnection: close\n\n",
+      "error": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (56) CONNECT tunnel failed, response 403\n"
+    }
+  ],
+  "actualExperiment": {
+    "prompt": "Create a colorful 3D obstacle course where a small robot must jump over moving platforms, collect glowing coins, and reach a finish portal. Make it playful, visually appealing, and easy to understand.",
+    "implementation": "experiments/robot-run/index.html and game.js authored by this Codex assistant in this session, with iterative fixes",
+    "recording": "Real local browser; brief display and source inspection are labeled, with no fake AI generation progress",
+    "inputs": "Playwright W key held; browser keyboard events press Space at platform edges; no teleport or state mutation",
+    "result": {
+      "x": 0,
+      "y": 0.7746295799999967,
+      "z": -24.225440000000013,
+      "grounded": false,
+      "coins": 4,
+      "won": true,
+      "falls": 0,
+      "jumps": 5,
+      "time": 5.990688000000367,
+      "events": [
+        {
+          "event": "jump",
+          "time": 1.0242880000003725,
+          "z": -1.38
+        },
+        {
+          "event": "coin",
+          "time": 1.574288000000373,
+          "index": 1,
+          "z": -3.9099999999999997
+        },
+        {
+          "event": "jump",
+          "time": 2.074288000000373,
+          "z": -6.209999999999999
+        },
+        {
+          "event": "coin",
+          "time": 2.590988000000374,
+          "index": 2,
+          "z": -8.586820000000003
+        },
+        {
+          "event": "jump",
+          "time": 3.2074880000003745,
+          "z": -11.422720000000007
+        },
+        {
+          "event": "coin",
+          "time": 3.7241880000003746,
+          "index": 3,
+          "z": -13.799540000000007
+        },
+        {
+          "event": "jump",
+          "time": 4.240788000000374,
+          "z": -16.175900000000013
+        },
+        {
+          "event": "coin",
+          "time": 4.757388000000372,
+          "index": 4,
+          "z": -18.552260000000015
+        },
+        {
+          "event": "jump",
+          "time": 5.407288000000369,
+          "z": -21.541800000000013
+        },
+        {
+          "event": "finish",
+          "time": 5.990688000000367
+        }
+      ]
+    },
+    "freeTier": "No free-tier claim for Codex. Existing session used; no additional purchase.",
+    "assets": "Original procedural meshes, colors and lighting; no borrowed creator game."
+  },
+  "limits": [
+    "Not a Wanaka review or evidence of its capabilities.",
+    "No claim that this was generated in one attempt or without code changes.",
+    "No newly launched replacement product is claimed.",
+    "One scripted route tested; not exhaustive game QA."
+  ],
+  "browserAccessProbe": {
+    "checkedAt": "2026-11-10T13:17:35.243Z",
+    "url": "https://studio.wanaka.app/",
+    "inheritedProxyUsed": true,
+    "result": {
+      "error": "Error: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://studio.wanaka.app/\nCall log:\n\u001b[2m  - navigating to \"https://studio.wanaka.app/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    }
+  }
+}

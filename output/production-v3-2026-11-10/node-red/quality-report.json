@@ -1,0 +1,87 @@
+{
+  "sha256": "4740ee781545f5a0a95a48e0cc9ddb289d05313d2effa0e11b567e03a9d16d69",
+  "passed": true,
+  "technical": {
+    "resolution": true,
+    "fps": true,
+    "h264": true,
+    "aac": true,
+    "duration": true,
+    "fullDecode": true,
+    "noBlackGaps": true,
+    "noClipping": true,
+    "intendedMix": true,
+    "musicPresent": true,
+    "musicBalance": true,
+    "effectsPresent": true,
+    "layout": true,
+    "wordTiming": true,
+    "sceneCoverage": true,
+    "realCaptureAssertion": true,
+    "noEndingSilence": true
+  },
+  "media": {
+    "duration": 28.011,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "bytes": 5579312
+  },
+  "audio": {
+    "peakDbFS": -4.337176473228657,
+    "mixCorrelation": 0.9996875476247028,
+    "trailingSilenceSeconds": 0.18
+  },
+  "visualReview": {
+    "status": "passed-with-notes",
+    "reviewer": "Assistant encoded contact-sheet inspection",
+    "sha256": "4740ee781545f5a0a95a48e0cc9ddb289d05313d2effa0e11b567e03a9d16d69",
+    "inspected": [
+      "opening",
+      "first/middle/last node close-ups",
+      "rule dialog",
+      "real execution",
+      "greeting",
+      "repeated message",
+      "takeaway",
+      "CTA",
+      "ending"
+    ],
+    "findings": [
+      "All three nodes fit the genuine editor workspace.",
+      "Individual node camera targets make their roles legible.",
+      "Real Debug output reads Hello, builder! and another output appears after repetition.",
+      "Caption and title bounds pass and no black ending appears.",
+      "Imprecise synthetic click rings were removed from corrected action segments."
+    ],
+    "limitations": [
+      "Flow overview labels are intentionally smaller than individual close-ups.",
+      "This is a small greeting demonstration, not a production integration.",
+      "No human listening approval."
+    ]
+  },
+  "limitations": [
+    "Representative frames and geometry checks do not evaluate every animation frame.",
+    "Local neural voice and original procedural soundtrack require human listening review.",
+    "No viewer analytics or guaranteed viral potential."
+  ],
+  "contactSheetTimes": [
+    0,
+    1,
+    3,
+    4.7,
+    6.533,
+    7.933,
+    9.7,
+    13.267,
+    15.933,
+    19.0,
+    19.867,
+    22.567,
+    25.767,
+    27.011,
+    27.9
+  ]
+}

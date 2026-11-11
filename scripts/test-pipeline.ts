@@ -9,7 +9,7 @@ if (process.argv.includes("--legacy")) {
 } else {
   const { premiumPipeline } = await import("../src/services/premiumPipeline");
   await premiumPipeline(
-    "output/cyberchef-v2",
+    process.argv.find((x) => x.startsWith("--out="))?.slice(6) || `output/pipeline-check-${Date.now()}`,
     (process.argv.find((x) => x.startsWith("--template="))?.split("=")[1] ||
       "discovery") as "discovery" | "mobile" | "before-after",
     process.argv.includes("--reuse"),
